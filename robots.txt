@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://www.pavingways.com/sitemap.xml 
