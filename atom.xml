@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[PavingWays Limited]]></title>
-  <link href="http://www.pavingways.com/atom.xml" rel="self"/>
-  <link href="http://www.pavingways.com/"/>
-  <updated>2014-01-04T00:12:00+01:00</updated>
-  <id>http://www.pavingways.com/</id>
+  <link href="http://pavingways.github.io/atom.xml" rel="self"/>
+  <link href="http://pavingways.github.io/"/>
+  <updated>2014-01-04T00:22:03+01:00</updated>
+  <id>http://pavingways.github.io/</id>
   <author>
     <name><![CDATA[PavingWays Limited]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[PhoneGap Meetup #2 Retrospektive]]></title>
-    <link href="http://www.pavingways.com/phonegap-meetup-2-retrospektive_2431.html"/>
+    <link href="http://pavingways.github.io/phonegap-meetup-2-retrospektive_2431.html"/>
     <updated>2011-08-12T22:42:28+02:00</updated>
-    <id>http://www.pavingways.com/phonegap-meetup-2-retrospektive_2431</id>
+    <id>http://pavingways.github.io/phonegap-meetup-2-retrospektive_2431</id>
     <content type="html"><![CDATA[<p>Vergangenen Mittwoch hatten wir nun unser zweites <a href="http://www.phonegap.com/" title="PhoneGap">PhoneGap</a> und HTML5 Meetup. Auf der Agenda standen zwei Präsentationen: <a href="http://www.meetup.com/PhoneGap-HTML5-Meetup-Rhein-Main/"></a>PhoneGap 1.0 und Remote Debugging, außerdem hat sich <a href="https://twitter.com/#!/wpbasti" title="@wpbasti">@wpbasti</a> spontan zu einem Intro zu <a href="http://en.wikipedia.org/wiki/Programming_tool" title="Tooling">Tooling</a> im allgemeinen und <a href="https://github.com/wpbasti/jasy" title="Jasy">Jasy</a> im speziellen entschlossen.</p>
 
 <p>Nachdem ich mein Intro zu PhoneGap 1.0 mit Ausblick auf 2.0 und eine kurze XCode Demo mit dem <a href="http://joapp.com/" title="Jo App-Framework">Jo App-Framework</a> beendet hatte, hat uns Martin <a href="http://phonegap.github.com/weinre/">Weinre</a> und Remote Debugging gezeigt. Er hat uns außerdem die Idee zu seiner anstehenden Bachelor-Arbeit präsentiert. Dabei geht es um die Entwicklung eines PhoneGap-Polyfills um die Entwicklung von Apps im Browser zu erleichtern. Die Idee kam gut an und mögliche Parallelen zum <a href="http://ripple.tinyhippos.com/">Ripple Emulator</a> wurden kurz besprochen. Martin hat außerdem vor, ein Meetup für Mobile-Entwickler in Mannheim zu starten.</p>
@@ -32,18 +32,18 @@
   
   <entry>
     <title type="html"><![CDATA[PhoneGap/HTML5 Meetup #2]]></title>
-    <link href="http://www.pavingways.com/phonegaphtml5-meetup-2_2418.html"/>
+    <link href="http://pavingways.github.io/phonegaphtml5-meetup-2_2418.html"/>
     <updated>2011-08-04T14:49:22+02:00</updated>
-    <id>http://www.pavingways.com/phonegaphtml5-meetup-2_2418</id>
+    <id>http://pavingways.github.io/phonegaphtml5-meetup-2_2418</id>
     <content type="html"><![CDATA[<p>Unser <strong>2. Phonegap/HTML5 Meetup</strong> findet am 10. August im <a href="http://www.sternstunde-ffm.de/">Café Sternstunde</a>, Färberstraße 65 in Frankfurt/Main statt. Themen: PhoneGap 1.0 und Remote Debugging. Wir haben ein Séparée mit genug Platz und großem Fernseher für die Präsentationen. WLAN sollte es auch geben. Außerdem kann man auch was trinken und essen (Arabische Tapas z.B.) &ndash; gute Mischung aus Präsentationen und dem Casual-Teil ist also möglich! Anmeldung bitte über <a href="http://www.meetup.com/PhoneGap-HTML5-Meetup-Rhein-Main/events/27928361/" target="_blank">Meetup</a> oder <a href="https://www.xing.com/events/phonegap-html5-meetup-2-797984" target="_blank">Xing</a> oder <a href="http://www.facebook.com/event.php?eid=257455647599484" target="_blank">Facebook</a>! Bis nächste Woche!</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[HTML5/CSS3 Meetup April Recap (updated)]]></title>
-    <link href="http://www.pavingways.com/html5css3-meetup-april-recap_1647.html"/>
+    <link href="http://pavingways.github.io/html5css3-meetup-april-recap_1647.html"/>
     <updated>2010-04-26T01:52:07+02:00</updated>
-    <id>http://www.pavingways.com/html5css3-meetup-april-recap_1647</id>
+    <id>http://pavingways.github.io/html5css3-meetup-april-recap_1647</id>
     <content type="html"><![CDATA[<p>It has been a few days ago, but I still wanted to provide a little recap of our last HTML5/CSS3 meetup. We were set up for eight people this time but only had a turnout of five. It was still a nice evening at
 <a href="http://www.frollein-restaurant.de">Frollein in Sachsenhausen</a>. Additional to great food there was some HTML5 with <a href="http://www.modernizr.com">Modernizr</a> presented by <a href="http://twitter.com/jesseberlin">Jesse</a> and a lot of <a href="http://nodejs.org">Node.js</a>.</p>
 
@@ -68,9 +68,9 @@ There was incoming data from <a href="http://apiwiki.twitter.com/Streaming-API-D
   
   <entry>
     <title type="html"><![CDATA[Node.js is Important. An Introduction]]></title>
-    <link href="http://www.pavingways.com/nodejs-node-is-important-introduction_1618.html"/>
+    <link href="http://pavingways.github.io/nodejs-node-is-important-introduction_1618.html"/>
     <updated>2010-03-20T00:46:20+01:00</updated>
-    <id>http://www.pavingways.com/nodejs-node-is-important-introduction_1618</id>
+    <id>http://pavingways.github.io/nodejs-node-is-important-introduction_1618</id>
     <content type="html"><![CDATA[<p>Once in a while you come across a new technology and are just blown away by it. You feel that something like this should have been around much earlier and that it is (gonna be) a significant milestone, not just in your own live as a developer but in general. The last time this happened to me was when I dug a bit deeper into a project called <a href="http://nodejs.org/">node.js</a> or just &ldquo;node&rdquo; as the binary is called. In case you have not heard about this don&rsquo;t worry. However, if you are a developer, especially if you are working with JavaScript, then you should be concerned and maybe check your news sources, because it is a couple of months old already and it is drawing a lot of attention lately! If you&rsquo;re not a developer this might get a bit techy from here, but maybe you get something out of it after all&hellip;</p>
 
 <h3>What is node.js?</h3>
@@ -111,9 +111,9 @@ There was incoming data from <a href="http://apiwiki.twitter.com/Streaming-API-D
   
   <entry>
     <title type="html"><![CDATA[Mobile Widgets: the ubiquitous mobile web]]></title>
-    <link href="http://www.pavingways.com/mobile-widgets-the-ubiquitous-mobile-web_84.html"/>
+    <link href="http://pavingways.github.io/mobile-widgets-the-ubiquitous-mobile-web_84.html"/>
     <updated>2007-05-06T16:33:39+02:00</updated>
-    <id>http://www.pavingways.com/mobile-widgets-the-ubiquitous-mobile-web_84</id>
+    <id>http://pavingways.github.io/mobile-widgets-the-ubiquitous-mobile-web_84</id>
     <content type="html"><![CDATA[<p>
       <img src="http://www.pavingways.com/wp-content/uploads/nokia_widgets.JPG" alt="Nokia Mobile Widgets" title="Nokia Mobile Widgets" style="margin: 0pt 0pt 10px 10px; float: right" />On <a href="http://www.nokia.com/A4136001?newsid=1118790" title="Nokia Press Release about Mobile Widgets"><span>April 16, 2007</span> Nokia announced</a> their S60 platform would support widgets in subsequent releases. This means, using their WebKit based browser under the hood, newer phones (S60 3rd ed. with Feature Pack 2) will have support for those small applications, mostly serving not more than a single purpose (e.g. show the weather or an RSS feed) that are well known on the desktop since a couple of years now.
     </p>
@@ -197,9 +197,9 @@ There was incoming data from <a href="http://apiwiki.twitter.com/Streaming-API-D
   
   <entry>
     <title type="html"><![CDATA[Mobile AJAX application to test and demo]]></title>
-    <link href="http://www.pavingways.com/mobile-ajax-application-test-and-demo_69.html"/>
+    <link href="http://pavingways.github.io/mobile-ajax-application-test-and-demo_69.html"/>
     <updated>2007-01-04T17:37:24+01:00</updated>
-    <id>http://www.pavingways.com/mobile-ajax-application-test-and-demo_69</id>
+    <id>http://pavingways.github.io/mobile-ajax-application-test-and-demo_69</id>
     <content type="html"><![CDATA[<p>
       In <a href="http://www.pavingways.com/xml-2006-conference-boston-co-speaking_68.html">my presentation</a> at the <a href="http://2006.xmlconference.org/">XML 2006 conference in Boston </a>I tried to show that AJAX - as a technology in part based on XML - is a useful and promising tool to create web applications on mobile devices.
     </p>
@@ -244,9 +244,9 @@ There was incoming data from <a href="http://apiwiki.twitter.com/Streaming-API-D
   
   <entry>
     <title type="html"><![CDATA[Mobile 2.0 Event review]]></title>
-    <link href="http://www.pavingways.com/mobile2event-review_59.html"/>
+    <link href="http://pavingways.github.io/mobile2event-review_59.html"/>
     <updated>2006-11-09T10:35:01+01:00</updated>
-    <id>http://www.pavingways.com/mobile2event-review_59</id>
+    <id>http://pavingways.github.io/mobile2event-review_59</id>
     <content type="html"><![CDATA[<p>We kicked off our stay in San Francisco and the Silicon Valley with the <a href="http://www.mobile2event.com/">Mobile 2.0 event</a> organized by the folks that normally organize the Mobile Monday here in the Bay Area. There were around 300 people attending, the location was great as was the lunch and the free drinks afterwards. So what does Mobile 2.0 stand for? As Dan Appelquist described it, the concept or the idea behind this term is: &ldquo;mobile web connected apps on the mobile platform&rdquo;.</p>
 
 <p>The whole event, apart from the keynotes, was held in panel discussions with panelists also taking some time for presenting on their own. The most interesting topics for us obviously was everything related to the mobile web and to browser based applications of which there were not many to be seen. The highlights were the presentations and demos of:</p>
@@ -304,9 +304,9 @@ There was incoming data from <a href="http://apiwiki.twitter.com/Streaming-API-D
   
   <entry>
     <title type="html"><![CDATA[Mobile 2.0 Event in San Francisco - cu there!]]></title>
-    <link href="http://www.pavingways.com/mobile-20-event-in-san-francisco-well-be-there_58.html"/>
+    <link href="http://pavingways.github.io/mobile-20-event-in-san-francisco-well-be-there_58.html"/>
     <updated>2006-10-28T13:01:51+02:00</updated>
-    <id>http://www.pavingways.com/mobile-20-event-in-san-francisco-well-be-there_58</id>
+    <id>http://pavingways.github.io/mobile-20-event-in-san-francisco-well-be-there_58</id>
     <content type="html"><![CDATA[<p>
     <a href="http://www.mobile2event.com/"><img align="left" alt="Mobile 2.0 Event in San Francisco" id="image57" src="http://www.pavingways.com/wp-content/uploads/logo.png" /></a>The PavingWays team, will take part in a hot event that will take place in San Francisco on November 6, 2006. The &#8220;mobile2.0 conference&#8221; is a one-day event organized and hosted by Daniel Appelquist (<a href="http://mobilemonday.org.uk/">Mobile Monday London</a>), Mike Rowehl (<a href="http://www.mobilemonday.us/">Mobile Monday Silicon Valley</a>) and Gregory Gorman (<a href="http://www.opengroup.org/">The Open Group</a>).
   </p>
@@ -337,9 +337,9 @@ There was incoming data from <a href="http://apiwiki.twitter.com/Streaming-API-D
   
   <entry>
     <title type="html"><![CDATA[Detecting Mobile Browsers - Mobile Internet Explorer]]></title>
-    <link href="http://www.pavingways.com/detecting-mobile-browsers-mobile-intenet-explorer_56.html"/>
+    <link href="http://pavingways.github.io/detecting-mobile-browsers-mobile-intenet-explorer_56.html"/>
     <updated>2006-10-27T16:57:52+02:00</updated>
-    <id>http://www.pavingways.com/detecting-mobile-browsers-mobile-intenet-explorer_56</id>
+    <id>http://pavingways.github.io/detecting-mobile-browsers-mobile-intenet-explorer_56</id>
     <content type="html"><![CDATA[<p>A little while ago <a href="http://blogs.msdn.com/iemobile/default.aspx" title="Team IEMobile">Team IEMobile</a> posted an interesting article on <a href="http://blogs.msdn.com/iemobile/default.aspx" title="Team IEMobile Blog">their blog</a> about changes in the <a href="http://en.wikipedia.org/wiki/User_agent#Browsers">User-Agent string</a> that is sent to the web server when the browser requests a document. The browser of the Windows Mobile OS will undergo a rather radical change concerning this browser identification string that is often used by web developers to detect the browser in order to take advantage of it&rsquo;s unique features. Unfortunately the schema of the User-Agent string was not clear to many website creators in the past. Even the MSN website had problems of detecting the mobile IE correctly.</p>
 
 <p>The browser of current and older Windows Mobile versions sends two different User-Agent strings, depending on what platform the OS runs on:</p>
@@ -396,9 +396,9 @@ There was incoming data from <a href="http://apiwiki.twitter.com/Streaming-API-D
   
   <entry>
     <title type="html"><![CDATA[Tetris - most downloaded mobile game in the UK ]]></title>
-    <link href="http://www.pavingways.com/tetris-most-downloaded-mobile-game-in-the-uk_55.html"/>
+    <link href="http://pavingways.github.io/tetris-most-downloaded-mobile-game-in-the-uk_55.html"/>
     <updated>2006-09-25T04:08:08+02:00</updated>
-    <id>http://www.pavingways.com/tetris-most-downloaded-mobile-game-in-the-uk_55</id>
+    <id>http://pavingways.github.io/tetris-most-downloaded-mobile-game-in-the-uk_55</id>
     <content type="html"><![CDATA[<p>I found an interesting list of the most downloaded mobile games in the UK.</p>
 
 <p><strong>Top 10 mobile games downloaded in the UK in July:</strong></p>
@@ -423,9 +423,9 @@ There was incoming data from <a href="http://apiwiki.twitter.com/Streaming-API-D
   
   <entry>
     <title type="html"><![CDATA[Pocket Web from 1&1 - first (affordable) Mobile Flatrate in Germany]]></title>
-    <link href="http://www.pavingways.com/pocket-web-from-11-first-affordable-mobile-flatrate-in-germany_54.html"/>
+    <link href="http://pavingways.github.io/pocket-web-from-11-first-affordable-mobile-flatrate-in-germany_54.html"/>
     <updated>2006-09-20T17:06:50+02:00</updated>
-    <id>http://www.pavingways.com/pocket-web-from-11-first-affordable-mobile-flatrate-in-germany_54</id>
+    <id>http://pavingways.github.io/pocket-web-from-11-first-affordable-mobile-flatrate-in-germany_54</id>
     <content type="html"><![CDATA[<p>Today we received an interesting newsletter from 1&amp;1 Internet AG, a German ISP. 1&amp;1 now offers a <strong>Pocket Web Flat</strong> for <strong>9.99 EUR per month</strong> (powered by Vodafone). There are no time or volume limitations and no additional basic fee, the offer is valid until 30 September 2006.</p>
 
 <p>The service comes with a mobile handset that lacks the ability to make regular phonecalls, except if you are using a bluetooth headset (and pay from 0.29 EUR/Minute) and can therefore be best described as a PDA with phone abilities. However it supports push E-Mail and sports a webbrowser which is &ldquo;optimized for the mobile internet&rdquo;. It also has a calendar and a contact manager installed. There are no further information available about the platform or the software, so we will probably have to buy one of these to get more info.</p>
@@ -438,18 +438,18 @@ There was incoming data from <a href="http://apiwiki.twitter.com/Streaming-API-D
   
   <entry>
     <title type="html"><![CDATA[Pocket Web from 1&#038;1 - first (affordable) Mobile Flatrate in Germany]]></title>
-    <link href="http://www.pavingways.com/pocket-web-from-11-first-affordable-mobile-flatrate-in-germany-2_1377.html"/>
+    <link href="http://pavingways.github.io/pocket-web-from-11-first-affordable-mobile-flatrate-in-germany-2_1377.html"/>
     <updated>2006-09-20T17:06:50+02:00</updated>
-    <id>http://www.pavingways.com/pocket-web-from-11-first-affordable-mobile-flatrate-in-germany-2_1377</id>
+    <id>http://pavingways.github.io/pocket-web-from-11-first-affordable-mobile-flatrate-in-germany-2_1377</id>
     <content type="html"><![CDATA[<p>Today we received an interesting newsletter from 1&amp;1 Internet AG, a German ISP. 1&amp;1 now offers a <strong>Pocket Web Flat</strong> for <strong>9.99 EUR per month</strong> (powered by Vodafone). There are no time or volume limitations and no additional basic fee, the offer is valid until 30 September 2006. The service comes with a mobile handset that lacks the ability to make regular phonecalls, except if you are using a bluetooth headset (and pay from 0.29 EUR/Minute) and can therefore be best described as a PDA with phone abilities. However it supports push E-Mail and sports a webbrowser which is &ldquo;optimized for the mobile internet&rdquo;. It also has a calendar and a contact manager installed. There are no further information available about the platform or the software, so we will probably have to buy one of these to get more info. Probably this whole offer is Vodafone&rsquo;s way to get real-life data about people using the mobile internet and to figure out if they could offer a mobile flatrate within their own data plans. At the moment what you get from Vodafone for 9.95 a month is 30MB and that&rsquo;s not a lot and quite a difference to a real flatrate or other offers &ndash; BASE offers a mobile flatrate for 25.00 EUR / month, but only if you are a BASE customer which makes another 25.00 EUR / month for the voice service (also flat). So let&rsquo;s hope the test works well and we&rsquo;ll see the mobile flatrate available as regular data plans soon. For more information see <a target="_blank" href="http://pocketweb.1und1.de/xml/order;jsessionid=4B86FB640480932A30EA25A5D74423E0.TC172b?ac=OM.PW.PW263K05395T0935a"><a href="http://pocketweb.1und1.de">http://pocketweb.1und1.de</a></a></p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[The Market for Mobile Services - Status Quo]]></title>
-    <link href="http://www.pavingways.com/the-market-for-mobile-services-status-quo_49.html"/>
+    <link href="http://pavingways.github.io/the-market-for-mobile-services-status-quo_49.html"/>
     <updated>2006-09-15T17:13:33+02:00</updated>
-    <id>http://www.pavingways.com/the-market-for-mobile-services-status-quo_49</id>
+    <id>http://pavingways.github.io/the-market-for-mobile-services-status-quo_49</id>
     <content type="html"><![CDATA[<p><strong>What is the current level of usage and consumer interest for data services?</strong></p>
 
 <p><strong>What is important to consumers, both for mobile and voice services?</strong></p>
@@ -511,9 +511,9 @@ There was incoming data from <a href="http://apiwiki.twitter.com/Streaming-API-D
   
   <entry>
     <title type="html"><![CDATA[.mobi time frame]]></title>
-    <link href="http://www.pavingways.com/mobi-time-frame_32.html"/>
+    <link href="http://pavingways.github.io/mobi-time-frame_32.html"/>
     <updated>2006-09-13T19:26:22+02:00</updated>
-    <id>http://www.pavingways.com/mobi-time-frame_32</id>
+    <id>http://pavingways.github.io/mobi-time-frame_32</id>
     <content type="html"><![CDATA[<p><strong>Our</strong> <strong>hosting company (Schlund) informed us about the .mobi time frame: </strong> Sunrise Phase 2 (Trademark Sunrise) ================================= Start/End: 12 June &ndash; 22 September 2006 Duration: at least 2 years, after that yearly renewal</p>
 
 <p>Landrush Phase (Live Registration with increased pricing) ===================================== Start/End: 26 September &ndash; 10 October 2006 Deadline: 26 September 2006 Duration: at least 2 years, after that yearly renewal</p>
@@ -526,9 +526,9 @@ There was incoming data from <a href="http://apiwiki.twitter.com/Streaming-API-D
   
   <entry>
     <title type="html"><![CDATA[d.construct 2006 has started]]></title>
-    <link href="http://www.pavingways.com/dconstruct-2006-has-started_48.html"/>
+    <link href="http://pavingways.github.io/dconstruct-2006-has-started_48.html"/>
     <updated>2006-09-08T14:46:08+02:00</updated>
-    <id>http://www.pavingways.com/dconstruct-2006-has-started_48</id>
+    <id>http://pavingways.github.io/dconstruct-2006-has-started_48</id>
     <content type="html"><![CDATA[<p>Jeff Barr of Amazon has just finished his talk about all the APIs and web services of Amazon and Alexa. That means d.construct 2006 has officially started.</p>
 
 <p>For those who saw Jeff&rsquo;s presentations at e.g. Xtech earlier this year, there was not much new stuff to be heard, except maybe the <a href="http://docs.amazonwebservices.com/AmazonEC2/dg/2006-06-26/">EC2 service</a> of Amazon. The EC2 is sort of a root server providing on demand offered by Amazon for 0.20 $ per hour. This would mean you pay about 144 USD per month for a decent root server. Not really cheap, but since the service works on a on-demand basis and you only have to pay when you are actually using the server it might be an interesting alternative to renting a real server.</p>
@@ -539,9 +539,9 @@ There was incoming data from <a href="http://apiwiki.twitter.com/Streaming-API-D
   
   <entry>
     <title type="html"><![CDATA[China Mobile: World's Largest Operator]]></title>
-    <link href="http://www.pavingways.com/china-mobile-worlds-largest-operator_42.html"/>
+    <link href="http://pavingways.github.io/china-mobile-worlds-largest-operator_42.html"/>
     <updated>2006-08-21T18:37:01+02:00</updated>
-    <id>http://www.pavingways.com/china-mobile-worlds-largest-operator_42</id>
+    <id>http://pavingways.github.io/china-mobile-worlds-largest-operator_42</id>
     <content type="html"><![CDATA[<p>Today I read an interesting post on <a target="_blank" href="http://www.mobileburn.com/news.jsp?Id=2632"><a href="http://www.mobileburn.com">http://www.mobileburn.com</a></a>. China Mobile has outranked Vodafone as the world&rsquo;s largest mobile phone operator. It is really surprising, because Vodafone serves the worldwide market and China Mobile only the Chinese market. Latest figures indicate that China Mobile serves 200 million customers &ndash; Vodafone &ldquo;only&rdquo; 186.8 million.</p>
 
 <p>This just shows us how big the Chinese market is and how many opportunities it offers. Analysts are predicting that China Mobile will expand their business overseas in the next few years.</p>
@@ -552,9 +552,9 @@ There was incoming data from <a href="http://apiwiki.twitter.com/Streaming-API-D
   
   <entry>
     <title type="html"><![CDATA[MapQuest Mobile: Top Mobile Application in US]]></title>
-    <link href="http://www.pavingways.com/mapquest-mobile-the-top-mobile-application-in-the-us_38.html"/>
+    <link href="http://pavingways.github.io/mapquest-mobile-the-top-mobile-application-in-the-us_38.html"/>
     <updated>2006-08-21T18:20:24+02:00</updated>
-    <id>http://www.pavingways.com/mapquest-mobile-the-top-mobile-application-in-the-us_38</id>
+    <id>http://pavingways.github.io/mapquest-mobile-the-top-mobile-application-in-the-us_38</id>
     <content type="html"><![CDATA[<p>According to <a target="_blank" href="http://www.telephia.com/documents/Applications_release_v5_FINAL_7.5.06_001.pdf#search=%22Telephia%20Mobile%20Applications%20Report%2C%20Q1%202006%22">Telephia</a> <strong>MapQuest Mobile</strong> (21.9 %) was the top revenue-generating downloadable mobile application in the first quarter of 2006. In second position came <strong>The Weather Channel</strong> (5.7 %) and in third the <strong>Verizon Superpages 2.0</strong> (5.3 %). Two music applications, Music Choice and Sirius Music, rounded out the top five with revenue shares of 5 % and 4.8 %.</p>
 
 <p>&ldquo;Local maps/directions and up-to-date weather are well-suited to delivery via mobile phones because they are information needs characterized by immediacy, location-specificity, and time- sensitivity,&rdquo; said Kanishka Agarwal, Vice President of New Products, Telephia. &ldquo;Downloadable mobile applications present a significant opportunity for higher ARPU (Average Revenue Per User), with more than 3.3 million mobile consumers downloading these applications during the first quarter of the year.&rdquo;</p>
@@ -571,9 +571,9 @@ There was incoming data from <a href="http://apiwiki.twitter.com/Streaming-API-D
   
   <entry>
     <title type="html"><![CDATA[Nintendo DS Opera Browser available in Europe soon]]></title>
-    <link href="http://www.pavingways.com/nintendo-ds-opera-browser-available-in-europe-soon_35.html"/>
+    <link href="http://pavingways.github.io/nintendo-ds-opera-browser-available-in-europe-soon_35.html"/>
     <updated>2006-08-17T14:41:00+02:00</updated>
-    <id>http://www.pavingways.com/nintendo-ds-opera-browser-available-in-europe-soon_35</id>
+    <id>http://pavingways.github.io/nintendo-ds-opera-browser-available-in-europe-soon_35</id>
     <content type="html"><![CDATA[<p><img align="left" title="Nintendo DS browser powered by Opera" id="image36" alt="Nintendo DS browser powered by Opera" src="http://www.pavingways.com/wp-content/uploads/nintendo_ds_browser.thumbnail.jpg" />Nintendo has finally announced the launch of the Opera web browser for the DS on <strong>October 6, 2006</strong>. In Japan the browser powered by Opera is already available (since July 24, 2006).</p>
 
 <p>Taking advantage of the DS&#8217; built-in Wi-Fi capabilities the browser allows the user to<img align="right" alt="Nintendo DS cartridge" id="image37" title="Nintendo DS cartridge" src="http://www.pavingways.com/wp-content/uploads/nintendo-ds-with-cartridge.thumbnail.jpg" /> access the full internet, incl. webmail, online shops or secure bank websites. The browser will be sold as an optional DS card. Users simply insert the card into the Wi-Fi enabled Nintendo DS, connect to a network, and begin browsing on two screens. Users will also be able to apply an optional filter (provided by Astaro) that will block inappropriate content for underage surfers. The recommended retail price is around <strong>GBP 30 / 40 Euros</strong>.</p>
@@ -586,9 +586,9 @@ There was incoming data from <a href="http://apiwiki.twitter.com/Streaming-API-D
   
   <entry>
     <title type="html"><![CDATA[More mobile phones than residents]]></title>
-    <link href="http://www.pavingways.com/more-mobile-phones-than-residents_33.html"/>
+    <link href="http://pavingways.github.io/more-mobile-phones-than-residents_33.html"/>
     <updated>2006-08-17T04:14:40+02:00</updated>
-    <id>http://www.pavingways.com/more-mobile-phones-than-residents_33</id>
+    <id>http://pavingways.github.io/more-mobile-phones-than-residents_33</id>
     <content type="html"><![CDATA[<p>The number of mobile phone subscriptions in Germany has increased: For the first time there are <strong>more mobile phones than residents</strong>. 82.8 million mobile phones are currently registered. Most Germans have 2 or even 3 mobile phones. And the trend continues: in Italy there are also more mobile phones than people: 120 phones per 100 Italians.</p>
 
 <p>It would be interesting to know what kind of mobile phones people are using and how WAP 2.0 devices are distributed amongst the whole 83 million in Germany.</p>
@@ -599,9 +599,9 @@ There was incoming data from <a href="http://apiwiki.twitter.com/Streaming-API-D
   
   <entry>
     <title type="html"><![CDATA[Review: ONSPEED Mobile browser]]></title>
-    <link href="http://www.pavingways.com/review-onspeed-mobile_10.html"/>
+    <link href="http://pavingways.github.io/review-onspeed-mobile_10.html"/>
     <updated>2006-07-27T03:36:51+02:00</updated>
-    <id>http://www.pavingways.com/review-onspeed-mobile_10</id>
+    <id>http://pavingways.github.io/review-onspeed-mobile_10</id>
     <content type="html"><![CDATA[<p>Last month I was sitting in the tube in London and saw an ad about ONSPEED Mobile. I have never heard about ONSPEED Mobile. So I was interested and started researching.</p>
 
 <p>ONSPEED Mobile is a mobile web browser. There is a 14 day free trial, after that you have to pay GBP 19.99 per year. When you request web pages or images via the ONSPEED Mobile browser, it&rsquo;s sent directly to ONSPEED&rsquo;s servers where it is then reformated and compressed and then sent direct to your mobile phone. So, the website you visit is an optimised version for your mobile phone (sounds familiar?). The company promises to increase surfing speed by not less than (up to) 10 times and also to reduce the data traffic up to 75%.</p>

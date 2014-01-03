@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: prev | PavingWays Limited]]></title>
-  <link href="http://www.pavingways.com/categories/prev/atom.xml" rel="self"/>
-  <link href="http://www.pavingways.com/"/>
-  <updated>2014-01-04T00:12:00+01:00</updated>
-  <id>http://www.pavingways.com/</id>
+  <link href="http://pavingways.github.io/categories/prev/atom.xml" rel="self"/>
+  <link href="http://pavingways.github.io/"/>
+  <updated>2014-01-04T00:22:03+01:00</updated>
+  <id>http://pavingways.github.io/</id>
   <author>
     <name><![CDATA[PavingWays Limited]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[PhoneGap Meetup #2 Retrospektive]]></title>
-    <link href="http://www.pavingways.com/phonegap-meetup-2-retrospektive_2431.html"/>
+    <link href="http://pavingways.github.io/phonegap-meetup-2-retrospektive_2431.html"/>
     <updated>2011-08-12T22:42:28+02:00</updated>
-    <id>http://www.pavingways.com/phonegap-meetup-2-retrospektive_2431</id>
+    <id>http://pavingways.github.io/phonegap-meetup-2-retrospektive_2431</id>
     <content type="html"><![CDATA[<p>Vergangenen Mittwoch hatten wir nun unser zweites <a href="http://www.phonegap.com/" title="PhoneGap">PhoneGap</a> und HTML5 Meetup. Auf der Agenda standen zwei Präsentationen: <a href="http://www.meetup.com/PhoneGap-HTML5-Meetup-Rhein-Main/"></a>PhoneGap 1.0 und Remote Debugging, außerdem hat sich <a href="https://twitter.com/#!/wpbasti" title="@wpbasti">@wpbasti</a> spontan zu einem Intro zu <a href="http://en.wikipedia.org/wiki/Programming_tool" title="Tooling">Tooling</a> im allgemeinen und <a href="https://github.com/wpbasti/jasy" title="Jasy">Jasy</a> im speziellen entschlossen.</p>
 
 <p>Nachdem ich mein Intro zu PhoneGap 1.0 mit Ausblick auf 2.0 und eine kurze XCode Demo mit dem <a href="http://joapp.com/" title="Jo App-Framework">Jo App-Framework</a> beendet hatte, hat uns Martin <a href="http://phonegap.github.com/weinre/">Weinre</a> und Remote Debugging gezeigt. Er hat uns außerdem die Idee zu seiner anstehenden Bachelor-Arbeit präsentiert. Dabei geht es um die Entwicklung eines PhoneGap-Polyfills um die Entwicklung von Apps im Browser zu erleichtern. Die Idee kam gut an und mögliche Parallelen zum <a href="http://ripple.tinyhippos.com/">Ripple Emulator</a> wurden kurz besprochen. Martin hat außerdem vor, ein Meetup für Mobile-Entwickler in Mannheim zu starten.</p>
@@ -32,18 +32,18 @@
   
   <entry>
     <title type="html"><![CDATA[PhoneGap/HTML5 Meetup #2]]></title>
-    <link href="http://www.pavingways.com/phonegaphtml5-meetup-2_2418.html"/>
+    <link href="http://pavingways.github.io/phonegaphtml5-meetup-2_2418.html"/>
     <updated>2011-08-04T14:49:22+02:00</updated>
-    <id>http://www.pavingways.com/phonegaphtml5-meetup-2_2418</id>
+    <id>http://pavingways.github.io/phonegaphtml5-meetup-2_2418</id>
     <content type="html"><![CDATA[<p>Unser <strong>2. Phonegap/HTML5 Meetup</strong> findet am 10. August im <a href="http://www.sternstunde-ffm.de/">Café Sternstunde</a>, Färberstraße 65 in Frankfurt/Main statt. Themen: PhoneGap 1.0 und Remote Debugging. Wir haben ein Séparée mit genug Platz und großem Fernseher für die Präsentationen. WLAN sollte es auch geben. Außerdem kann man auch was trinken und essen (Arabische Tapas z.B.) &ndash; gute Mischung aus Präsentationen und dem Casual-Teil ist also möglich! Anmeldung bitte über <a href="http://www.meetup.com/PhoneGap-HTML5-Meetup-Rhein-Main/events/27928361/" target="_blank">Meetup</a> oder <a href="https://www.xing.com/events/phonegap-html5-meetup-2-797984" target="_blank">Xing</a> oder <a href="http://www.facebook.com/event.php?eid=257455647599484" target="_blank">Facebook</a>! Bis nächste Woche!</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[HTML5/CSS3 Meetup April Recap (updated)]]></title>
-    <link href="http://www.pavingways.com/html5css3-meetup-april-recap_1647.html"/>
+    <link href="http://pavingways.github.io/html5css3-meetup-april-recap_1647.html"/>
     <updated>2010-04-26T01:52:07+02:00</updated>
-    <id>http://www.pavingways.com/html5css3-meetup-april-recap_1647</id>
+    <id>http://pavingways.github.io/html5css3-meetup-april-recap_1647</id>
     <content type="html"><![CDATA[<p>It has been a few days ago, but I still wanted to provide a little recap of our last HTML5/CSS3 meetup. We were set up for eight people this time but only had a turnout of five. It was still a nice evening at
 <a href="http://www.frollein-restaurant.de">Frollein in Sachsenhausen</a>. Additional to great food there was some HTML5 with <a href="http://www.modernizr.com">Modernizr</a> presented by <a href="http://twitter.com/jesseberlin">Jesse</a> and a lot of <a href="http://nodejs.org">Node.js</a>.</p>
 
@@ -68,9 +68,9 @@ There was incoming data from <a href="http://apiwiki.twitter.com/Streaming-API-D
   
   <entry>
     <title type="html"><![CDATA[Node.js is Important. An Introduction]]></title>
-    <link href="http://www.pavingways.com/nodejs-node-is-important-introduction_1618.html"/>
+    <link href="http://pavingways.github.io/nodejs-node-is-important-introduction_1618.html"/>
     <updated>2010-03-20T00:46:20+01:00</updated>
-    <id>http://www.pavingways.com/nodejs-node-is-important-introduction_1618</id>
+    <id>http://pavingways.github.io/nodejs-node-is-important-introduction_1618</id>
     <content type="html"><![CDATA[<p>Once in a while you come across a new technology and are just blown away by it. You feel that something like this should have been around much earlier and that it is (gonna be) a significant milestone, not just in your own live as a developer but in general. The last time this happened to me was when I dug a bit deeper into a project called <a href="http://nodejs.org/">node.js</a> or just &ldquo;node&rdquo; as the binary is called. In case you have not heard about this don&rsquo;t worry. However, if you are a developer, especially if you are working with JavaScript, then you should be concerned and maybe check your news sources, because it is a couple of months old already and it is drawing a lot of attention lately! If you&rsquo;re not a developer this might get a bit techy from here, but maybe you get something out of it after all&hellip;</p>
 
 <h3>What is node.js?</h3>
@@ -111,9 +111,9 @@ There was incoming data from <a href="http://apiwiki.twitter.com/Streaming-API-D
   
   <entry>
     <title type="html"><![CDATA[Mobile Widgets: the ubiquitous mobile web]]></title>
-    <link href="http://www.pavingways.com/mobile-widgets-the-ubiquitous-mobile-web_84.html"/>
+    <link href="http://pavingways.github.io/mobile-widgets-the-ubiquitous-mobile-web_84.html"/>
     <updated>2007-05-06T16:33:39+02:00</updated>
-    <id>http://www.pavingways.com/mobile-widgets-the-ubiquitous-mobile-web_84</id>
+    <id>http://pavingways.github.io/mobile-widgets-the-ubiquitous-mobile-web_84</id>
     <content type="html"><![CDATA[<p>
       <img src="http://www.pavingways.com/wp-content/uploads/nokia_widgets.JPG" alt="Nokia Mobile Widgets" title="Nokia Mobile Widgets" style="margin: 0pt 0pt 10px 10px; float: right" />On <a href="http://www.nokia.com/A4136001?newsid=1118790" title="Nokia Press Release about Mobile Widgets"><span>April 16, 2007</span> Nokia announced</a> their S60 platform would support widgets in subsequent releases. This means, using their WebKit based browser under the hood, newer phones (S60 3rd ed. with Feature Pack 2) will have support for those small applications, mostly serving not more than a single purpose (e.g. show the weather or an RSS feed) that are well known on the desktop since a couple of years now.
     </p>
