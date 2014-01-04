@@ -12,7 +12,7 @@ $sidebar-pad-medium: 15px !default;
 $sidebar-pad-wide: 20px !default;
 $sidebar-width-wide: 300px !default;
 
-$indented-lists: false !default;
+$indented-lists: true !default;
 
 $header-font-size: 1em !default;
 $header-padding-top: 1.5em !default;
@@ -95,6 +95,7 @@ body {
 }
 
 aside.sidebar {
+  display: none;
   float: none;
   padding: 0 $pad-min 1px;
   background-color: lighten($sidebar-bg, 2);
@@ -171,8 +172,8 @@ body.sidebar-footer {
   #content { margin-right: $sidebar-width-wide; }
   #content {
     > div, > article {
-      padding-top: $pad-wide/2;
-      padding-bottom: $pad-wide/2;
+      padding-top: $pad-wide/11;
+      padding-bottom: $pad-wide/11;
     }
   }
   aside.sidebar {
