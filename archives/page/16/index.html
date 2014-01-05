@@ -1,0 +1,620 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title> - PavingWays JavaScript Applications</title>
+  <meta name="author" content="PavingWays Limited">
+
+  
+  <meta name="description" content="A little while ago Team IEMobile posted an interesting article on their blog about changes in the User-Agent string that is sent to the web server &hellip;">
+  
+
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://pavingways.github.io/archives/page/16/index.html">
+  <!--<link href="/favicon.png" rel="icon">-->
+  <link href="http://gravatar.com/userimage/336259/af37eb31524b5d5bee5e0f902fdb42fe.png
+?s=16" rel="shortcut icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="PavingWays" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+</head>
+
+<body   class="no-sidebar"  >
+  <header role="banner"><hgroup>
+  <h1><a href="/">PavingWays</a></h1>
+  
+    <h2>We build JavaScript applications</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<ul class="main-navigation">
+  <li><a href="/">About</a></li>
+  <li><a href="/projects/">Projects</a></li>
+  <li><a href="/blog/">Blog</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div class="blog-index">
+  
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/detecting-mobile-browsers-mobile-intenet-explorer.html">Detecting Mobile Browsers - Mobile Internet Explorer</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2006-10-27T00:00:00+02:00" pubdate data-updated="true"></time>
+        
+           | <a href="/detecting-mobile-browsers-mobile-intenet-explorer.html#disqus_thread"
+             data-disqus-identifier="http://pavingways.github.io/detecting-mobile-browsers-mobile-intenet-explorer.html">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content">A little while ago <a title="Team IEMobile" href="http://blogs.msdn.com/iemobile/default.aspx">Team IEMobile</a> posted an interesting article on <a title="Team IEMobile Blog" href="http://blogs.msdn.com/iemobile/default.aspx">their blog</a> about changes in the <a href="http://en.wikipedia.org/wiki/User_agent#Browsers">User-Agent string</a> that is sent to the web server when the browser requests a document.
+The browser of the Windows Mobile OS will undergo a rather radical change concerning this browser identification string that is often used by web developers to detect the browser in order to take advantage of it&#8217;s unique features. Unfortunately the schema of the User-Agent string was not clear to many website creators in the past. Even the MSN website had problems of detecting the mobile IE correctly.
+
+The browser of current and older Windows Mobile versions sends two different User-Agent strings, depending on what platform the OS runs on:
+<ul>
+	<li>Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC; 240x320)</li>
+	<li>Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; Smartphone; 176x220)</li>
+</ul>
+Unfortunately the User-Agent string may or may not contain certain parts, for example the resolution information or even the &#8220;MSIE 4.01&#8221;. Therefore the only sure shot you can have at detecting the older and current Mobile Internet Explorers correctly is by detecting both &#8221;<strong>Smartphone</strong>&#8221; or &#8221;<strong>PPC</strong>&#8221; and &#8221;<strong>Windows CE</strong>&#8221;.
+
+However this will change with the new version of the browser that comes out on new devices sporting the Windows Mobile 5.0 OS.
+For new devices the IE Mobile User-Agent string will look like this:
+
+</div>
+  
+  
+    <footer>
+      <a rel="full-article" href="/detecting-mobile-browsers-mobile-intenet-explorer.html">Read on &rarr;</a>
+    </footer>
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/tetris-most-downloaded-mobile-game-in-the-uk.html">Tetris - most downloaded mobile game in the UK</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2006-09-25T00:00:00+02:00" pubdate data-updated="true"></time>
+        
+           | <a href="/tetris-most-downloaded-mobile-game-in-the-uk.html#disqus_thread"
+             data-disqus-identifier="http://pavingways.github.io/tetris-most-downloaded-mobile-game-in-the-uk.html">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content">I found an interesting list of the most downloaded mobile games in the UK.
+
+<strong>Top 10 mobile games downloaded in the UK in July:</strong>
+
+1. Tetris - EA Mobile / Blue Lava Wireless
+2. Sonic the Hedgehog: Part One - Sega/Glu Mobile
+3. Tiger Woods PGA Tour 06 - EA Sports / EA Canada
+4. Worms - THQ / Kiloo
+5. My Dog - I-play / I-play
+6. Street Fighter II - Capcom / Capcom Mobile
+7. The Fast and The Furious: Tokyo - I-play / I-play
+8. The Sims 2 - EA Mobile / Ideaworks3D
+9. Ms Pac-Man - Namco Mobile / Namco Networks
+10. Blockbusters - Player X / Qbranch Wireless
+
+source: <a href="http://www.moconews.net/uk-top-10-mobile-games-july.html" target="_blank">http://www.moconews.net/uk-top-10-mobile-games-july.html</a>
+
+<strong>Top 10 mobile games downloaded in the UK in June:</strong>
+
+1. Tetris - EA
+2. Worms - THQ
+3. Sonic The Hedgehog - Sega/Glu Mobile
+4. FIFA World Cup Germany - EA
+5. The Sims 2 - EA
+6. Who Wants to be a Millionaire 2nd Ed - Glu Mobile
+7. Championship Manager 2006 - Eidos
+8. The Fast and the Furious: Tokyo Drift - I-play
+9. Block Breaker Deluxe - Gameloft
+10. Monopoly - Glu Mobile
+
+source: <a href="http://www.moconews.net/uk-top-10-mobile-games-june.html" target="_blank">http://www.moconews.net/uk-top-10-mobile-games-june.html</a>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/pocket-web-from-11-first-affordable-mobile-flatrate-in-germany-2.html">Pocket Web from 1&1 - first (affordable) Mobile Flatrate in Germany</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2006-09-20T00:00:00+02:00" pubdate data-updated="true"></time>
+        
+           | <a href="/pocket-web-from-11-first-affordable-mobile-flatrate-in-germany-2.html#disqus_thread"
+             data-disqus-identifier="http://pavingways.github.io/pocket-web-from-11-first-affordable-mobile-flatrate-in-germany-2.html">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content">Today we received an interesting newsletter from 1&1 Internet AG, a German ISP. 1&1 now offers a <strong>Pocket Web Flat</strong> for <strong>9.99 EUR per month</strong> (powered by Vodafone). There are no time or volume limitations and no additional basic fee, the offer is valid until 30 September 2006.
+
+The service comes with a mobile handset that lacks the ability to make regular phonecalls, except if you are using a bluetooth headset (and pay from 0.29 EUR/Minute) and can therefore be best described as a PDA with phone abilities. However it supports push E-Mail and sports a webbrowser which is &#8220;optimized for the mobile internet&#8221;. It also has a calendar and a contact manager installed. There are no further information available about the platform or the software, so we will probably have to buy one of these to get more info.
+
+Probably this whole offer is Vodafone&#8217;s way to get real-life data about people using the mobile internet and to figure out if they could offer a mobile flatrate within their own data plans. At the moment what you get from Vodafone for 9.95 a month is 30MB and that&#8217;s not a lot and quite a difference to a real flatrate or other offers - BASE offers a mobile flatrate for 25.00 EUR / month, but only if you are a BASE customer which makes another 25.00 EUR / month for   the voice service (also flat).
+
+So let&#8217;s hope the test works well and we&#8217;ll see the mobile flatrate available as regular data plans soon.
+For more information see <a target="_blank" href="http://pocketweb.1und1.de/xml/order;jsessionid=4B86FB640480932A30EA25A5D74423E0.TC172b?ac=OM.PW.PW263K05395T0935a">http://pocketweb.1und1.de</a>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/pocket-web-from-11-first-affordable-mobile-flatrate-in-germany.html">Pocket Web from 1&1 - first (affordable) Mobile Flatrate in Germany</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2006-09-20T00:00:00+02:00" pubdate data-updated="true"></time>
+        
+           | <a href="/pocket-web-from-11-first-affordable-mobile-flatrate-in-germany.html#disqus_thread"
+             data-disqus-identifier="http://pavingways.github.io/pocket-web-from-11-first-affordable-mobile-flatrate-in-germany.html">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content">Today we received an interesting newsletter from 1&1 Internet AG, a German ISP. 1&1 now offers a <strong>Pocket Web Flat</strong> for <strong>9.99 EUR per month</strong> (powered by Vodafone). There are no time or volume limitations and no additional basic fee, the offer is valid until 30 September 2006.
+
+The service comes with a mobile handset that lacks the ability to make regular phonecalls, except if you are using a bluetooth headset (and pay from 0.29 EUR/Minute) and can therefore be best described as a PDA with phone abilities. However it supports push E-Mail and sports a webbrowser which is &#8220;optimized for the mobile internet&#8221;. It also has a calendar and a contact manager installed. There are no further information available about the platform or the software, so we will probably have to buy one of these to get more info.
+
+Probably this whole offer is Vodafone&#8217;s way to get real-life data about people using the mobile internet and to figure out if they could offer a mobile flatrate within their own data plans. At the moment what you get from Vodafone for 9.95 a month is 30MB and that&#8217;s not a lot and quite a difference to a real flatrate or other offers - BASE offers a mobile flatrate for 25.00 EUR / month, but only if you are a BASE customer which makes another 25.00 EUR / month for the voice service (also flat).
+
+So let&#8217;s hope the test works well and we&#8217;ll see the mobile flatrate available as regular data plans soon.
+For more information see <a target="_blank" href="http://pocketweb.1und1.de/xml/order;jsessionid=4B86FB640480932A30EA25A5D74423E0.TC172b?ac=OM.PW.PW263K05395T0935a">http://pocketweb.1und1.de</a>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/the-market-for-mobile-services-status-quo.html">The Market for Mobile Services - Status Quo</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2006-09-15T00:00:00+02:00" pubdate data-updated="true"></time>
+        
+           | <a href="/the-market-for-mobile-services-status-quo.html#disqus_thread"
+             data-disqus-identifier="http://pavingways.github.io/the-market-for-mobile-services-status-quo.html">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><strong>What is the current level of usage and consumer interest for data services?</strong>
+
+<strong>What is important to consumers, both for mobile and voice services?</strong>
+
+<strong>What implications can be drawn from usage differences between segments, geographies or even between the distinct customer bases of operators and device manufacturers?</strong>
+
+These questions were examined in the <a target="_blank" href="http://www.atkearney.com/main.taf?p=5,3,1,121,1"><strong>2005 A.T.Kearney Mobinet study</strong></a>, which is an assessment of global consumer trends in mobile usage. By interviewing mobile users in 21 countries the company researched the degree to which consumers are adopting mobile data services.
+
+<strong>Mobile phones - only for making phone calls?</strong>
+
+Nearly 60% of the customers expect to use their mobile phone to make the majority of their calls over the next year. Only 4% of consumers expect to use VoIP for the majority of their calls next year. Alarmingly a significant number of consumers are not convinced that their mobile operator should offer anything more than basic voice service. The majority (80%) of the 65-year olds (or older) reject data services compared to 25% of the under 24-year olds. Probably one reason for this is, that older people are more afraid of new technologies/services.
+Another important aspect is the price. 70% of mobile phone users see the price as the primary factor in choosing operator.
+
+<strong>What is the current level of usage and consumer interest for data services?</strong>
+
+Because the penetration of data-enabled, multimedia phones has increased to 53%, more consumers across all age groups are adopting mobile data services. Most of them (56%) use it</div>
+  
+  
+    <footer>
+      <a rel="full-article" href="/the-market-for-mobile-services-status-quo.html">Read on &rarr;</a>
+    </footer>
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/mobi-time-frame.html">.mobi time frame</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2006-09-13T00:00:00+02:00" pubdate data-updated="true"></time>
+        
+           | <a href="/mobi-time-frame.html#disqus_thread"
+             data-disqus-identifier="http://pavingways.github.io/mobi-time-frame.html">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><strong>Our</strong><strong> hosting company (Schlund) informed us about the .mobi time frame:
+</strong>
+Sunrise Phase 2 (Trademark Sunrise)
+=================================
+Start/End: 12 June - 22 September 2006
+Duration: at least 2 years, after that yearly renewal
+
+Landrush Phase (Live Registration with increased pricing)
+=====================================
+Start/End: 26 September - 10 October 2006
+Deadline: 26 September 2006
+Duration: at least 2 years, after that yearly renewal
+
+Live Phase
+==========
+Deadline: 11 October 2006
+Duration: at least 2 years, after that yearly renewal
+
+For more information see<a href="http://www.pavingways.com/dotmobi-top-level-domain-for-mobile-devices_11.html"> our earlier post</a>.<a href="http://www.pavingways.com/dotmobi-top-level-domain-for-mobile-devices_11.html" />
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/dconstruct-2006-has-started.html">d.construct 2006 has started</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2006-09-08T00:00:00+02:00" pubdate data-updated="true"></time>
+        
+           | <a href="/dconstruct-2006-has-started.html#disqus_thread"
+             data-disqus-identifier="http://pavingways.github.io/dconstruct-2006-has-started.html">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content">Jeff Barr of Amazon has just finished his talk about all the APIs and web services of Amazon and Alexa. That means d.construct 2006 has officially started. 
+
+For those who saw Jeff&#8217;s presentations at e.g. Xtech earlier this year, there was not much new stuff to be heard, except maybe the <a href="http://docs.amazonwebservices.com/AmazonEC2/dg/2006-06-26/">EC2 service</a> of Amazon. The EC2 is sort of a root server providing on demand offered by Amazon for 0.20 $ per hour. This would mean you pay about 144 USD per month for a decent root server. Not really cheap, but since the service works on a on-demand basis and you only have to pay when you are actually using the server it might be an interesting alternative to renting a real server. 
+
+The service is in beta testing still and Jeff mentioned that it might be hard to get in right now, but he promised the situation will improve soon. Maybe we&#8217;ll give it a try.
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/mapquest-mobile-the-top-mobile-application-in-the-us.html">MapQuest Mobile: Top Mobile Application in US</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2006-08-21T00:00:00+02:00" pubdate data-updated="true"></time>
+        
+           | <a href="/mapquest-mobile-the-top-mobile-application-in-the-us.html#disqus_thread"
+             data-disqus-identifier="http://pavingways.github.io/mapquest-mobile-the-top-mobile-application-in-the-us.html">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content">According to <a target="_blank" href="http://www.telephia.com/documents/Applications_release_v5_FINAL_7.5.06_001.pdf#search=%22Telephia%20Mobile%20Applications%20Report%2C%20Q1%202006%22">Telephia</a> <strong>MapQuest Mobile</strong> (21.9 %) was the top revenue-generating downloadable mobile application in the first quarter of 2006. In second position came <strong>The Weather Channel</strong> (5.7 %) and in third the <strong>Verizon Superpages 2.0</strong> (5.3 %). Two music applications, Music Choice and Sirius Music, rounded out the top five with revenue shares of 5 % and 4.8 %.
+
+&#8220;Local maps/directions and up-to-date weather are well-suited to delivery via mobile phones because they are information needs characterized by immediacy, location-specificity, and time- sensitivity,&#8221; said Kanishka Agarwal, Vice President of New Products, Telephia. &#8220;Downloadable mobile applications present a significant opportunity for higher ARPU [Average Revenue Per User], with more than 3.3 million mobile consumers downloading these applications during the first quarter of the year.&#8221;
+
+<img alt="Top 10 Downloadable Mobile Applications by Total Revenue Share (U.S.)" id="image39" src="http://www.pavingways.com/wp-content/uploads/Telephia_Grafik1.jpg" />
+(Data does not include revenue for mobile TV and mobile game applications which is reported separately)
+
+Another interesting fact is, that maps/directions applications drive repeat purchase revenue, while entertainment applications claim highest revenue share for first-time purchases:
+
+<img alt="Top Downloadable Mobile Applications by Repeat Purchase Revenue Share (U.S.)" id="image40" src="http://www.pavingways.com/wp-content/uploads/Telephia_Grafik2.jpg" />
+Maps/Directions and Weather applications are leading in repeat purchases. In contrary,  nearly 30 % of first-time purchase revenues were driven by the Entertainment category, with streaming music mobile applications, Music Choice and Sirius Music, securing the highest new purchase revenue share at nearly 9 % and 8 %.
+
+Sources:
+<a target="_blank" href="http://www.cellular-news.com/story/18132.php">http://www.cellular-news.com</a>
+<a target="_blank" href="http://www.telephia.com/documents/Applications_release_v5_FINAL_7.5.06_001.pdf#search=%22Telephia%20Mobile%20Applications%20Report%2C%20Q1%202006%22">http://www.telephia.com</a>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/china-mobile-worlds-largest-operator.html">China Mobile: World&#8217;s Largest Operator</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2006-08-21T00:00:00+02:00" pubdate data-updated="true"></time>
+        
+           | <a href="/china-mobile-worlds-largest-operator.html#disqus_thread"
+             data-disqus-identifier="http://pavingways.github.io/china-mobile-worlds-largest-operator.html">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content">Today I read an interesting post on <a target="_blank" href="http://www.mobileburn.com/news.jsp?Id=2632">http://www.mobileburn.com</a>. China Mobile has outranked Vodafone as the world&#8217;s largest mobile phone operator. It is really surprising, because Vodafone serves the worldwide market and China Mobile only the Chinese market. Latest figures indicate that China Mobile serves 200 million customers - Vodafone &#8220;only&#8221; 186.8 million.
+
+This just shows us how big the Chinese market is and how many opportunities it offers. Analysts are predicting that China Mobile will expand their business overseas in the next few years.
+
+Source:
+<a target="_blank" href="http://www.mobileburn.com/news.jsp?Id=2632">http://www.mobileburn.com</a>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/nintendo-ds-opera-browser-available-in-europe-soon.html">Nintendo DS Opera Browser available in Europe soon</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2006-08-17T00:00:00+02:00" pubdate data-updated="true"></time>
+        
+           | <a href="/nintendo-ds-opera-browser-available-in-europe-soon.html#disqus_thread"
+             data-disqus-identifier="http://pavingways.github.io/nintendo-ds-opera-browser-available-in-europe-soon.html">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><img align="left" title="Nintendo DS browser powered by Opera" id="image36" alt="Nintendo DS browser powered by Opera" src="http://www.pavingways.com/wp-content/uploads/nintendo_ds_browser.thumbnail.jpg" />Nintendo has finally announced the launch of the Opera web browser for the DS on<strong> October 6, 2006</strong>. In Japan the browser powered by Opera is already available (since July 24, 2006).
+
+Taking advantage of the DS&#8217; built-in Wi-Fi capabilities the browser allows the user to<img align="right" alt="Nintendo DS cartridge" id="image37" title="Nintendo DS cartridge" src="http://www.pavingways.com/wp-content/uploads/nintendo-ds-with-cartridge.thumbnail.jpg" /> access the full internet, incl. webmail, online shops or secure bank websites. The browser will be sold as an optional DS card. Users simply insert the card into the Wi-Fi enabled Nintendo DS, connect to a network, and begin browsing on two screens. Users will also be able to apply an optional filter (provided by Astaro) that will block inappropriate content for underage surfers. The recommended retail price is around<strong> GBP 30 / 40 Euros</strong>.
+
+Take a look at the video review: <a target="_blank" href="http://www.gizmodo.com/gadgets/wireless/nintendo-ds-browser-review-189791.php">http://www.gizmodo.com</a>
+or check out &#8220;Tips & Tricks&#8221; how to use the DS browser: <a target="_blank" href="http://www.opera.com/products/devices/nintendo/tips/">http://www.opera.com</a>
+
+Sources:
+<a target="_blank" href="http://www.nintendo-europe.com/NOE/en/GB/news/article.do?elementId=nMH0y4086Q7Tql4uc_Q55u-Jgkvntfpa">http://www.nintendo-europe.com</a>
+<a target="_blank" href="http://www.opera.com/pressreleases/en/2006/08/08c/">http://www.opera.com</a>
+</div>
+  
+  
+
+
+    </article>
+  
+  <div class="pagination">
+    
+      <a class="prev" href="/archives/page/17/">&larr; Older</a>
+    
+    <a href="/blog/archives">Blog Archives</a>
+    
+    <a class="next" href="/archives/page/15/">Newer &rarr;</a>
+    
+  </div>
+</div>
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2014 - PavingWays Limited -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'pavingways-blog';
+      
+        
+        var disqus_script = 'count.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

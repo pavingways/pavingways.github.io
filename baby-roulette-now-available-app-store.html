@@ -1,0 +1,214 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Baby Roulette now in App Store - some insights... - PavingWays JavaScript Applications</title>
+  <meta name="author" content="PavingWays Limited">
+
+  
+  <meta name="description" content="Today our first iPhone game called &#8221;Baby Roulette&#8221; was published on the Apple App Store. The whole submission process was really fast. &hellip;">
+  
+
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://pavingways.github.io/baby-roulette-now-available-app-store.html">
+  <!--<link href="/favicon.png" rel="icon">-->
+  <link href="http://gravatar.com/userimage/336259/af37eb31524b5d5bee5e0f902fdb42fe.png
+?s=16" rel="shortcut icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="PavingWays" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+</head>
+
+<body   class="no-sidebar"  >
+  <header role="banner"><hgroup>
+  <h1><a href="/">PavingWays</a></h1>
+  
+    <h2>We build JavaScript applications</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<ul class="main-navigation">
+  <li><a href="/">About</a></li>
+  <li><a href="/projects/">Projects</a></li>
+  <li><a href="/blog/">Blog</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Baby Roulette now in App Store - some insights...</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2010-03-17T00:00:00+01:00" pubdate data-updated="true"></time>
+        
+           | <a href="#disqus_thread"
+             data-disqus-identifier="http://pavingways.github.io">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><a href="http://bit.ly/babyroulette"><img class="size-medium wp-image-1262 alignleft" style="margin: 1px 5px;" title="ladebildschirm" src="http://www.pavingways.com/wp-content/uploads/ladebildschirm-200x300.jpg" alt="" width="200" height="300" /></a> Today our <strong>first iPhone game</strong> called &#8221;<strong><a href="http://www.pavingways.com/games/babyroulette/">Baby Roulette</a></strong>&#8221; was <a href="http://bit.ly/babyroulette">published on the Apple App Store</a>. The whole submission process was really fast. We submitted our app to Apple on Sunday afternoon, it went into review on Monday noon and today (Wednesday) morning it was published on the iTunes Application Store.
+
+The game is very very simple, so maybe that&#8217;s one of the factors for a speedy release&#8230;
+
+<strong>Why did we build an app like this?</strong>
+
+Baby Roulette is a really simple and fun game for kids (mostly) to learn animal sounds. Our main intention for building this game is to get a simple and nice looking game quickly in as many App Stores as possible starting with Apple. Our next targets will be the <a href="http://store.ovi.com/">Ovi Store</a> , <a href="http://www.android.com/market/">Android Market</a> and <a href="http://www.vodafone360.com/en/web/home/index">Vodafone 360</a>, which is still running the &#8221;<a href="http://widget.developer.vodafone.com/appstar">Vodafone 360 App Star Competition</a>&#8221;.
+
+We mainly want to gain insights about different application stores regarding users, downloads, major downloading countries, devices and of course we want to practically go through the whole process of building an application/game and releasing and actually selling it on different app stores. This will help us to enlighten our clients and of course we are also blogging about it. So here are some first facts&#8230;
+
+<!--more-->
+
+<strong>What did we want to build?</strong>
+
+Our goal was to create a game or something to play with that would employ 2 major components for any game: animation and sound. We have a spinning arrow as an animation and we are playing sounds when the arrow spins and whenever the arrow stops (plays the animal&#8217;s voice). The game concept itself has been around for ages of course, there are similar offers on the app store but it was simple enough to implement it quickly (a few days).
+
+Another main goal was to go international - that&#8217;s the reason we left out playing the typical, but localized &#8220;The pig says&#8230;&#8221; voice acting before the (international) animal sound. There is also no text except the title - however &#8220;Baby&#8221; and &#8220;Roulette&#8221; are both terms recognizable in a lot of languages even if they use a different alphabet.
+
+<strong>How did we build it?</strong>
+
+<a href="http://phonegap.com/">Phonegap</a> - make sure you know about this application framework! It enables developers to write their application using web technologies - namely HTML, CSS and JavaScript - and then wrap it into a native application. The cool thing is, phonegap targets not only the iPhone, but all other major platforms, such as Android or BlackBerry and it provides access to device functionalities, such as the accelerometer or GPS location by extending the JavaScript API.
+
+Originally the plan was not to use phonegap. The plan was to build a simple UIwebView application in Objective-C, the iPhone&#8217;s native programming language.<strong> The main application would then also have been written in HTML/CSS and JavaScript</strong>. This is essential to us as we see ourselves as a mobile web development company, not as iPhone or Android developers. We strongly believe that creating native applications is just an <strong><a href="http://www.bothsidesofthetable.com/2010/02/17/app-is-crap-why-apple-is-bad-for-your-health/">interim solution</a></strong> - the web will take over as the main application platform just as it did on the desktop. It&#8217;s just a matter of time, <a href="http://www.whatwg.org/specs/web-apps/current-work/">HTML5</a> guys!
+
+Unfortunately the mobile version of Safari does not play sound in the browser, but opens up the fullscreen audio player. The &lt;audio&gt; tag of HTML5 is also not available (yet), so no sound and we went with phonegap. This means carrying a little overhead, but also brings the advantage of simpler portability to other platforms and we are very happy with this decision.
+
+<strong>Problems so far</strong>
+
+One major problem occurred as we were in the early stages of developing the web app: The spinning arrow used to be a &lt;canvas&gt; element that loads an image and is then rotated. As this rotation was scripted and angles were dynamically calculated, movement of the arrow was very smooth and without any obvious stepping. Also there was only one image - the arrow. Unfortunately this seems to result in heavy CPU load for anything below 3GS devices, so on an iPhone 3G the frame rate dropped notably.
+
+Our solution was to go back to good old sprite animations. So now the arrow is just a &lt;div&gt; with a background sprite containing 60 versions of the arrow in 6 degree steps. The script now still calculates the current angle of the arrow as it spins, but now instead of rotating the image we are sliding the background image through the div so the matching version of the arrow is visible. This works, is fast enough on a 3G and it&#8217;s a proven technology. Too bad there&#8217;s no real HTML5 in there for now.
+
+<strong>Next steps
+</strong>
+
+We&#8217;ll release Baby Roulette for as many platforms as possible trying to keep porting efforts as low as possible and we&#8217;ll surely gain many insights as we do this. We are also  already working on other games, of course. These will all be web based and cross-platform, but next time interaction and multi-player functionality will be our main topics. Maybe we will target grownups next time too :)
+
+In the meantime we&#8217;ll keep you up-to-date on porting to and releasing on different platforms and we hope you have fun playing <a href="http://itunes.apple.com/de/app/baby-roulette/id361958476?mt=8">Baby Roulette</a> with your kids or on your own!
+
+<a href="http://bit.ly/babyroulette"><img class="alignleft size-medium wp-image-1268" title="Baby Roulette on the App Store" src="http://www.pavingways.com/wp-content/uploads/appstore_button1.png" alt="" width="140" height="47" /></a>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">PavingWays Limited</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2010-03-17T00:00:00+01:00" pubdate data-updated="true"></time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/categories/mobile-applications/'>Mobile Applications</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/html5css3-meetup-march-recap.html" title="Previous Post: HTML5/CSS3 Meetup March Recap">&laquo; HTML5/CSS3 Meetup March Recap</a>
+      
+      
+        <a class="basic-alignment right" href="/nodejs-node-is-important-introduction.html" title="Next Post: Node.js is Important. An Introduction">Node.js is Important. An Introduction &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2014 - PavingWays Limited -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'pavingways-blog';
+      
+        
+        var disqus_script = 'count.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

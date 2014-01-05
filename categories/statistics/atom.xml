@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Statistics | PavingWays]]></title>
+  <link href="http://pavingways.github.io/categories/statistics/atom.xml" rel="self"/>
+  <link href="http://pavingways.github.io/"/>
+  <updated>2014-01-05T21:13:03+01:00</updated>
+  <id>http://pavingways.github.io/</id>
+  <author>
+    <name><![CDATA[PavingWays Limited]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Smart Phone Sales up 30 % in Q4, 2009]]></title>
+    <link href="http://pavingways.github.io/smart-phone-sales-up-30-in-q4-2009-2.html"/>
+    <updated>2010-02-10T00:00:00+01:00</updated>
+    <id>http://pavingways.github.io/smart-phone-sales-up-30-in-q4-2009-2</id>
+    <content type="html"><![CDATA[<p>Some interesting stats about smart phone sales&hellip;</p>
+
+<p>Worldwide sales of smart phones grew <strong>30 percent</strong> in the fourth quarter of 2009 to <strong>53 million phones</strong>, according to researcher <a href="http://www.strategyanalytics.com/">Strategy Analytics</a>.</p>
+
+<p>Nokia led market volumes, ahead of Research in Motion (RIM) and Apple, and shipped 20.8 million smart phones during the fourth quarter &ndash; up 38% from one year ago.</p>
+
+<p><a href="http://www.pavingways.com/wp-content/uploads/strategic-analytics-q4-2009-111.jpg"><img class="size-full wp-image-1180 alignleft" title="strategic-analytics-q4-2009-11" src="http://www.pavingways.com/wp-content/uploads/strategic-analytics-q4-2009-111.jpg" alt="" width="500" height="189" /></a></p>
+
+<!--more-->
+
+
+<p><a href="http://www.pavingways.com/wp-content/uploads/strategic-analytics-q4-2009-221.jpg"><img class="size-full wp-image-1183 alignleft" title="strategic-analytics-q4-2009-22" src="http://www.pavingways.com/wp-content/uploads/strategic-analytics-q4-2009-221.jpg" alt="" width="500" height="198" /></a></p>
+
+<p>I also found  an interesting chart from ComScore about <strong>U.S. smartphone platform share</strong>, or installed base &mdash; representing both existing devices and new sales during each period, not just new sales. (Source: <a href="http://www.businessinsider.com/chart-of-the-day-windows-mobile-apple-blackberry-share-2010-2">businessinsider.com</a> &ndash; please check out the comments there &ndash; really interesting discussion is going on there)</p>
+
+<p><a href="http://www.pavingways.com/wp-content/uploads/smartphone-platform-share1.gif"><img class="alignleft size-full wp-image-1228" title="smartphone-platform-share" src="http://www.pavingways.com/wp-content/uploads/smartphone-platform-share1.gif" alt="" /></a></p>
+
+<p><strong>Sources:</strong>
+<a href="http://en.c114.net/578/a481454.html">c114.net</a>
+<a href="http://www.areamobile.de/news/14154-studie-smartphone-verkaufszahlen-im-vierten-quartal-2009-weltweit-um-30-prozent-gestiegen">areamobile.de</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Ovi Store Publishing - First Insights]]></title>
+    <link href="http://pavingways.github.io/ovi-store-publishing-first-insights.html"/>
+    <updated>2009-07-14T00:00:00+02:00</updated>
+    <id>http://pavingways.github.io/ovi-store-publishing-first-insights</id>
+    <content type="html"><![CDATA[<p>We have been eagerly awaiting download stats for <a href="http://www.pavingways.com/panda-route-widget-now-available-in-ovi-store_680.html">Panda Route, our travel planner widget</a>, ever since it passed QA and was published in the Nokia Ovi store.</p>
+
+<p>By the end of last week Nokia finally launched its reporting tool for the <a href="https://publish.ovi.com/login">Ovi store</a>. Now publishers can measure their application&rsquo;s success (or failure). The tool is pretty basic, yet very useful. It shows you the amount of downloads and/or purchases &ndash; sorted by devices and countries &ndash; and your estimated revenue. I am sure there will be <a href="http://discussion.forum.nokia.com/forum/showthread.php?t=173406">more reporting options coming out soon</a>.</p>
+
+<p>The process of publishing on Ovi is pretty straightforward: you create a new content item, upload a file (the widget package in our case), then you define which devices the content is compatible with and submit it to Nokia&rsquo;s Quality Assurance department. After about a week or so your content will have passed (or failed) QA and goes public after a few more days. A couple of days later you can then see statistics about your content item &ndash; download numbers being the most interesting ones for us (our widget is free), but of course also gained revenue etc.<!--more--></p>
+
+<p>The first look at our stats made us smile. We did not expect much, since <a href="http://www.pavingways.com/panda-route-widget-now-available-in-ovi-store_680.html">our widget was launched not even two weeks ago</a> and it is only available for the new Nokia N97. Since launch we are seeing a constant download rate of about 30 to 40 each day and we&rsquo;ll hit the 1000-mark soon.</p>
+
+<p>Most downloads we had came out of Italy (almost 50 % off all)  followed by UK, Germany, Spain, USA and France, we also see downloads from other places such as China.</p>
+
+<p>We still have have two weeks of premium placement available that we won at the <a href="http://www.pavingways.com/successful-at-nokia-hackathon-in-monaco_479.html">Nokia Hackathon</a>, so it will be interesting to see if this placement will boost the number of downloads significantly.</p>
+
+<p>From our experience so far it is worth to take a look at the Ovi store and think about publishing your content there. A blog post about our widget development and which tools Nokia offers to developers is coming soon.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Nokia Developer Summit 2009 Wrap up - Day 1]]></title>
+    <link href="http://pavingways.github.io/nokia-developer-summit-2009-wrap-up-day-1.html"/>
+    <updated>2009-05-01T00:00:00+02:00</updated>
+    <id>http://pavingways.github.io/nokia-developer-summit-2009-wrap-up-day-1</id>
+    <content type="html"><![CDATA[<p>On Tuesday the <strong><a href="http://events.nokia.com/developersummit/">Nokia Developer Summit</a></strong> started. The conference was opened by <a href="http://events.nokia.com/developersummit/speakers.htm#taylor">Rob Taylor</a>, Head of Forum Nokia. At the beginning he showed us a demo of a coming service (powered by <a href="http://qik.com/">qik</a>) where consumers will be able to share videos live from their mobile devices.</p>
+
+<p>The topic of this conference was mainly Nokia&rsquo;s <strong><a href="http://store.ovi.com/">Ovi Store</a>,</strong> which will launch this month. 500 people were at the event, mainly developers from all over the world, but also bloggers, press, analysts, students etc.</p>
+
+<p><a href="http://www.pavingways.com/wp-content/uploads/nokia1.png"><img class="alignnone size-medium wp-image-520" title="nokia1" src="http://www.pavingways.com/wp-content/uploads/nokia1-300x251.png" alt="" width="300" height="251" /></a></p>
+
+<!--more-->
+
+
+<p>A very important topic was the WRT (Web Runtime) technology. Why? Because with WRT web developers can now start developing applications for Nokia devices by using CSS, HTML, AJAX or JavaScript. That way developers can dramatically reduce their development costs &ndash; according to Nokia by 75% compared to native apps. However you have to keep in mind that WRT applications by design have limited access to device capabilities and are targeting more widget-like applications than full featured ones.</p>
+
+<p><a href="http://www.pavingways.com/wp-content/uploads/nokia21.jpg"><img class="alignleft size-medium wp-image-524" style="margin-left: 4px; margin-right: 4px;" title="nokia21" src="http://www.pavingways.com/wp-content/uploads/nokia21-166x300.jpg" alt="" width="133" height="240" /></a>The keynote about &ldquo;<a href="http://events.nokia.com/developersummit/assets/pdf/NDS09_2804_presentation_Ojanpera.pdf">Developing for the Era of Social Location</a>&rdquo; was held by <a href="http://events.nokia.com/developersummit/speakers.htm#ojanpera">Tero Ojanpera</a> (Executive Vice President, Services, Nokia). He underlined the importance of the relationship between Nokia and the developers. Nowadays consumers are demanding lots of applications for their mobile devices. For Nokia, who wants to provide the channel to those consumers, it is important that many developers create applications in order to offer a wide variety. WRT should greatly help in that regard &ndash; it sure did for us.</p>
+
+<p>Tero Ojanpera also talked about the Ovi Store where services like <a href="http://maps.ovi.com">maps</a>, music, messages, games and media will be connected. The Ovi Store can be seen as a platform where all those services are combined and connected together and they will be enhanced with location and people-related information, also called <strong>social location</strong>. Basically you will get access to different content and services depending on your network and on your current location.</p>
+
+<p>Talking about maps Nokia is currently holding a competition called &ldquo;Apps on Maps&rdquo;. If you are interested in participating by creating an application for Nokia maps, please visit <a href="http://www.callingallinnovators.com/apps_on_maps.aspx">callingallinnovators.com/apps_on_maps.aspx</a>.</p>
+
+<p>On Tuesday Nokia also released their<strong> <a href="http://forum.nokia.com/N97_SDK">N97 Beta SDK</a></strong>, which will be shipped next month. Since we were attending the Hackathon, we had a chance to work with the still unreleased  <a href="http://www.forum.nokia.com/devices/N97">Nokia N97</a>. It is a great phone and a very important and useful feature of it is the <strong>Home Screen View</strong>. Applications can use it to show  live information on your phone screen even if the phone idles. The data is updated automatically on your phone screen, which is a great feature and it works pretty well (especially for our <a href="http://www.pavingways.com/successful-at-nokia-hackathon-in-monaco_479.html">&ldquo;Panda Route&rdquo; Travel Planner widget</a>). Imagine, now you can get immediately informed by having breaking news, latest twitter feeds, etc. on your mobile without having to interact with it.</p>
+
+<p>Very impressive demos were shown by Itay Katz (CEO of <a href="http://www.eyesight-tech.com/default.aspx">eyeSight</a>). He introduced EyePlay and showed us a demo of an mp3 player. Just by waving your hand from left to right above the phone (without touching it) you can switch from one music track to the next. By placing your hand above the phone you can start the player:</p>
+
+<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="560" height="340" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="allowFullScreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="src" value="http://www.youtube.com/v/Itrhk2klYqg&amp;hl=de&amp;fs=1" /><param name="allowfullscreen" value="true" /><embed type="application/x-shockwave-flash" width="560" height="340" src="http://www.youtube.com/v/Itrhk2klYqg&amp;hl=de&amp;fs=1" allowscriptaccess="always" allowfullscreen="true"></embed></object>
+
+
+<p>EyeCall &ndash;   a mobile phone call control application:</p>
+
+<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="560" height="340" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="allowFullScreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="src" value="http://www.youtube.com/v/VyABX2M73y8&amp;hl=de&amp;fs=1" /><param name="allowfullscreen" value="true" /><embed type="application/x-shockwave-flash" width="560" height="340" src="http://www.youtube.com/v/VyABX2M73y8&amp;hl=de&amp;fs=1" allowscriptaccess="always" allowfullscreen="true"></embed></object>
+
+
+<p>Nokia also announced that mobile billing (through credit card or the operators) will be available from the beginning in the Ovi store and they try to enable as many payment ways as possible.</p>
+
+<p>After a short coffee break <a href="http://events.nokia.com/developersummit/speakers.htm#williams">Lee Williams</a>, Executive Director of <a href="http://www.symbian.org/">Symbian Foundation</a>, a non-profit organisation that is building an open source software platform based on Symbian OS, today&rsquo;s most widely used open operating system for mobile phones, talked about the &ldquo;<strong>Evolution of Open Mobile Platforms</strong>&rdquo;. He gave an interesting overview about the <a href="http://blog.symbian.org/">Symbian foundation</a>. You can find his whole presentation <a href="http://events.nokia.com/developersummit/assets/pdf/NDS09_2804_presentation_Williams.pdf">here</a>.</p>
+
+<p><a href="http://www.pavingways.com/wp-content/uploads/nokia31.jpg"><img class="alignnone size-full wp-image-533" title="nokia31" src="http://www.pavingways.com/wp-content/uploads/nokia31.jpg" alt="" width="500" height="378" /></a></p>
+
+<p>After Lee Williams' presentation it was <a href="http://events.nokia.com/developersummit/speakers.htm#faith">John Faith</a>&rsquo;s turn (Vice President &amp; General Manager of Mobile Operations) from <a href="http://www.myspace.com/">MySpace</a> to talk about &ldquo;<a href="http://events.nokia.com/developersummit/assets/pdf/NDS09_2804_presentation_Faith.pdf">Mobile Internet Futures</a>&rdquo;. He showed us the first mobile version of Myspace:</p>
+
+<p><a href="http://www.pavingways.com/wp-content/uploads/nokia41.jpg"><img class="alignnone size-full wp-image-537" title="nokia41" src="http://www.pavingways.com/wp-content/uploads/nokia41.jpg" alt="" width="499" height="281" /></a></p>
+
+<p>In 2008, MySpace had a 450% growth in mobile usage and their mobile web traffic has passed 7 billion page views/month. What are the users doing on MySpace mobile:</p>
+
+<p><a href="http://www.pavingways.com/wp-content/uploads/nokia5.jpg"><img class="alignnone size-full wp-image-538" title="nokia5" src="http://www.pavingways.com/wp-content/uploads/nokia5.jpg" alt="" width="500" height="248" /></a></p>
+
+<p>An interesting fact is the trend towards smart phones. MySpace' statistics show that many users visiting MySpace mobile use smart phones.</p>
+
+<p>After a lunch break and a short visit in the <a href="http://events.nokia.com/developersummit/experience_lounge.htm">Experience Lounge</a>, where you could discover services from Nokia and Forum Nokia developers, I decided to attend the &ldquo;Business Stream: Ready, Set, Sell!&rdquo; sessions (instead of the &ldquo;Technology Stream: Mobilizing the Internet&rdquo; sessions). The first <a href="http://events.nokia.com/developersummit/assets/pdf/NDS09_2804_presentation_John.pdf">presentations</a> were mostly about the Ovi Store and that mobile media is going/becoming mainstream.</p>
+
+<p><a href="http://www.pavingways.com/wp-content/uploads/ovi11.png"><img class="alignnone size-full wp-image-544" title="ovi11" src="http://www.pavingways.com/wp-content/uploads/ovi11.png" alt="" width="500" height="303" /></a></p>
+
+<p><a href="http://www.pavingways.com/wp-content/uploads/ovi2.png"><img class="alignnone size-full wp-image-545" title="ovi2" src="http://www.pavingways.com/wp-content/uploads/ovi2.png" alt="" width="500" height="306" /></a></p>
+
+<p><a href="http://www.pavingways.com/wp-content/uploads/ovi3.png"><img class="alignnone size-full wp-image-546" title="ovi3" src="http://www.pavingways.com/wp-content/uploads/ovi3.png" alt="" width="500" height="276" /></a></p>
+
+<p>Please check out <a href="http://events.nokia.com/developersummit/assets/pdf/NDS09_2804_presentation_John.pdf">Eric John&rsquo;s presentation</a> for more information about the Ovi Store.</p>
+
+<p>Also worth mentioning is Nokia&rsquo;s Developer Program:</p>
+
+<p><a href="http://www.pavingways.com/wp-content/uploads/nokia7.png"><img class="alignnone size-full wp-image-548" title="nokia7" src="http://www.pavingways.com/wp-content/uploads/nokia7.png" alt="" width="499" height="277" /></a></p>
+
+<p>Another interesting presentation was held by <a href="http://events.nokia.com/developersummit/speakers.htm#brittain">David Brittain</a>, Vice President, Technology, <a href="http://www.glu.com/">glu Mobile</a>. The topic was &ldquo;<strong>glu mobile: Driving Mobile Gaming</strong>&rdquo;. David talked about the obstacles for mobile development a couple of years ago and what have changed today:</p>
+
+<p><a href="http://www.pavingways.com/wp-content/uploads/glu1.jpg"><img class="alignnone size-full wp-image-549" title="glu1" src="http://www.pavingways.com/wp-content/uploads/glu1.jpg" alt="" width="500" height="276" /></a></p>
+
+<p><a href="http://www.pavingways.com/wp-content/uploads/glu21.jpg"><img class="alignnone size-full wp-image-551" title="glu21" src="http://www.pavingways.com/wp-content/uploads/glu21.jpg" alt="" width="500" height="217" /></a></p>
+
+<p>The last presentation held by <a href="http://events.nokia.com/developersummit/speakers.htm#glagow">Steve Glagow</a>, Vice President and Head of Orange Partner, Orange, was about &ldquo;<strong>Developer Benefits of Operators</strong>&rdquo;. Orange Partner is a program for 3rd party developers. Orange helps them to create and distribute their products and services. There are many ways of support from Orange, such as through online &amp; physical events, newsletters, one-to-one contact, developer centers worldwide, forums, blogs etc. Orange is offering three free membership levels:</p>
+
+<ul>
+    <li><strong>member:</strong> general information and support with no NDA</li>
+    <li><strong>premium member:</strong> one-to-one support with an NDA</li>
+    <li><strong>contracted partner:</strong> for suppliers of Orange</li>
+</ul>
+
+
+<p>In 2009 Orange is mainly focusing on</p>
+
+<ul>
+    <li><strong><a href="http://www.orangepartner.com/site/enuk/access_orange_apis/what_others_have_done/p_what_others_have_done.jsp">API initiative</a> </strong>to integrate Orange API's into developers applications</li>
+    <li><strong><a href="http://www.orangepartner.com/site/enuk/innovation/p_innovation.jsp">Open Innovation</a>:</strong> to identify and qualify innovative business opportunities and "connect" them inside Orange</li>
+    <li><strong><a href="http://www.orangepartner.com/site/enuk/mobile/application_shop/p_application_shop.jsp">Application Shop</a></strong> to distribute downloadable mobile applications</li>
+</ul>
+
+
+<p>More information about the whole Orange Partner program for 3rd party developers can be found on <a href="http://www.orangepartner.com/">Orange&rsquo;s website</a>.</p>
+
+<p>After all the presentations the fun part started. Nokia had organized a dinner party at the Mone Carlo Beach Club. It was a great event at a great place with good music, delicious food and drinks. I am very glad that we didn&rsquo;t miss it, especially because of the Synchronous Swimming show.</p>
+
+<p><img class="reflect" src="http://farm4.static.flickr.com/3356/3504825989_f6805a5414.jpg?v=0" alt="Pool by you." width="450" height="299" /><img class="reflect" src="http://farm4.static.flickr.com/3400/3505634448_1e70626126.jpg?v=0" alt="Band by you." width="450" height="299" /><img class="reflect" src="http://farm4.static.flickr.com/3409/3505635106_d84e30f088.jpg?v=0" alt="OVI Pool by you." width="450" height="299" /></p>
+
+<p>Great party, thanks Nokia!</p>
+
+<p><strong>Sources:</strong>
+<a href="http://store.ovi.com/">Ovi Store</a>
+<a href="http://www.forum.nokia.com/devices/N97">Nokia N97</a>
+<a href="http://www.callingallinnovators.com/">Calling All Innovators
+</a><a href="http://www.eyesight-tech.com/default.aspx">eyeSight</a>
+<a href="http://www.symbian.org/">Symbian Foundation
+</a><a href="http://www.myspace.com/">MySpace
+</a><a href="http://www.glu.com/">glu Mobile</a>
+<a href="http://www.orangepartner.com/site/enuk/home/p_home.jsp">Orange Partner</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA["State of the Mobile Web" 2009: Mobile Web is booming in developing countries]]></title>
+    <link href="http://pavingways.github.io/state-of-the-mobile-web-2009-mobile-web-is-booming-in-developing-countries.html"/>
+    <updated>2009-03-01T00:00:00+01:00</updated>
+    <id>http://pavingways.github.io/state-of-the-mobile-web-2009-mobile-web-is-booming-in-developing-countries</id>
+    <content type="html"><![CDATA[<p>Recently, <a href="http://www.opera.com/">Opera</a> released its new <a href="http://www.opera.com/smw/2009/01/"><strong>&ldquo;State of the Mobile Web 2009&rdquo;</strong></a> report and revealed that they had one of their largest monthly increases ever in January 2009. Opera Mini now has <strong>more than 20 million users</strong>. Those users viewed approximately <strong>7.6 billion pages in January</strong>. Page views and data transfers increased <strong>18% month-over-month</strong>. That means, not only more people are using the mobile web, but they also use it more often.</p>
+
+<p>The mobile Web usage is booming in developing countries. Among the top 35 countries using the browser, Armenia, Nigeria and Egypt showed the most growth between January 2008 and January 2009 in terms of unique users. The most significant growth (2800%) was in Armenia (a country with 3 million residents). On average Armenians surfed 669 pages per user in January and that is far more than it is in other countries.</p>
+
+<p>&ldquo;Looking back on a full year of mobile Web growth, it is easy to see why mobile devices will become the primary device for Web usage in most of the world,&rdquo; said Jon von Tetzchner, Opera&rsquo;s CEO, in a statement. &ldquo;Developing countries may lead the way due to the sheer prevalence of mobile devices versus PCs, but the solid growth rates in developed countries such as the United States, the United Kingdom and Germany, show the entire world is moving in this direction.&rdquo;</p>
+
+<!--more-->
+
+
+<p><strong>Here are some more highlights from the report:</strong>
+(You can compare these results with the previous <a href="http://www.pavingways.com/opera-releases-state-of-the-mobile-web_171.html">&ldquo;State of the Mobile Web&rdquo; from 2008</a>)</p>
+
+<p><a href="http://www.pavingways.com/wp-content/uploads/state_mobile_web_2009_highlights.jpg"><img class="alignnone size-full wp-image-282" title="state_mobile_web_2009_highlights" src="http://www.pavingways.com/wp-content/uploads/state_mobile_web_2009_highlights.jpg" alt="" width="499" height="183" /></a></p>
+
+<p><a href="http://www.pavingways.com/wp-content/uploads/state_mobile_web_2009_pages.jpg"><img class="alignnone size-full wp-image-283" title="state_mobile_web_2009_pages" src="http://www.pavingways.com/wp-content/uploads/state_mobile_web_2009_pages.jpg" alt="" width="500" height="325" /></a></p>
+
+<p><a href="http://www.pavingways.com/wp-content/uploads/state_mobile_web_2009_users.jpg"><img class="alignnone size-full wp-image-285" title="state_mobile_web_2009_users" src="http://www.pavingways.com/wp-content/uploads/state_mobile_web_2009_users.jpg" alt="" width="499" height="254" /></a></p>
+
+<p>You can find more information and the whole report here:
+<a href="http://www.opera.com/smw/2009/01/"><a href="http://www.opera.com/smw/2009/01/">http://www.opera.com/smw/2009/01/</a></a></p>
+
+<p><strong>Source:</strong>
+<a href="http://www.opera.com/smw/2009/01/">opera.com</a>
+<a href="http://www.fiercemobilecontent.com/story/opera-mobile-web-views-grow-18-month-over-month/2009-02-25">fiercemobilecontent.com</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[The Mobile Internet Has Arrived]]></title>
+    <link href="http://pavingways.github.io/the-mobile-internet-has-arrived.html"/>
+    <updated>2009-02-17T00:00:00+01:00</updated>
+    <id>http://pavingways.github.io/the-mobile-internet-has-arrived</id>
+    <content type="html"><![CDATA[<p>During February 16-19, Barcelona again has become the &ldquo;capital&rdquo; for the whole mobile industry with the <a href="http://www.mobileworldcongress.com/"><strong>Mobile World Congress</strong></a> taking place. Despite the global economic crisis and declining mobile phone sales (for the first time ever since 2001), the mobile industry expects global growth due to new devices and services. This optimistic outlook is also proven by the sales figures of smart phones. In 2008 almost 160 million smart phones were sold worldwide. This year as much as 190 million smart phones could be sold.</p>
+
+<p><a href="http://www.tellabs.com/news/2009/index.cfm/nr/53.cfm">A survey by analyst Nielsen and Tellabs</a>, based on more than 50,000 mobile users in the UK, France, Italy, Germany, Spain and the US, shows that <strong>there will be an dramatic increase in the use of mobile data services </strong>(such as mobile internet, email, photo uploading and MMS) <strong>over the next two years with a significant ramp up in the next 12 months</strong>. 71 per cent of consumers anticipate the daily usage of services such as mobile internet and more than half of the approximately 200 million mobile data users in those countries expect to increase use in the next two years.</p>
+
+<p>According to the study, <strong>about 49% of US respondents said they were planning to surf the mobile web more in the next year, compared to 34% of those in Europe</strong>. Preferences of US and Europe users differ (see the following picture below). In Europe, Italy tends to be the leading adopter across all services, while Germany shows comparatively low adoption rates.<a href="http://www.pavingways.com/wp-content/uploads/nielsen_tellabs1.png">
+</a></p>
+
+<p><a href="http://www.pavingways.com/wp-content/uploads/nielsen_tellabs1.png"><img class="size-full wp-image-263 alignleft" title="nielsen_tellabs1" src="http://www.pavingways.com/wp-content/uploads/nielsen_tellabs1.png" alt="" width="499" height="122" /></a></p>
+
+<p>(Source: <a href="http://www.tellabs.com/news/2009/index.cfm/nr/53.cfm"><a href="http://www.tellabs.com/news/2009/index.cfm/nr/53.cfm">http://www.tellabs.com/news/2009/index.cfm/nr/53.cfm</a></a>)</p>
+
+<!--more-->
+
+
+<p>I know that these are &ldquo;only&rdquo; statistical data. But I am convinced that <strong>the mobile internet has finally arrived</strong> and will be more and more integrated in our daily life in the future.There are tons of new devices available, all with web browsers and web access built in &ndash; starting with the Apple iPhone, Google&rsquo;s G1 Android phone, basically any other new smart phone, but also gaming consoles such as the Nintendo DSi and even digital photo cameras such as Sony&rsquo;s DSC-G3.</p>
+
+<p>Nowadays there are plenty of opportunities to provide new or advanced services to mobile phone users. You can even provide your service through many of the existing and emerging App Stores, which solves a major issue that existed for mobile application developers until today. <a href="http://www.apple.com/de/iphone/appstore/">Apple</a> has paved the way and many companies like <a href="http://www.pavingways.com/rim-to-launch-blackberry-application-storefront-and-blackberry-application-center_218.html">RIM/BlackBerry</a>, <a href="http://www.informationweek.com/news/mobility/smart_phones/showArticle.jhtml?articleID=214303120&amp;subSection=News">Microsoft</a> and <a href="http://www.fastcompany.com/blog/kit-eaton/technomix/can-nokias-own-ovi-cellphone-app-store-compete-apples">Nokia</a> are following with their own App Stores.</p>
+
+<p>I admit that there are still a lot of challenges, such as confusing mobile phone plans, unclear and high costs for data usage especially while roaming abroad or speed and quality of mobile networks. <strong>The potential of the mobile web will not be fully realized until users are able to access data where and when they want &ndash; ubiquitously and painless.
+</strong></p>
+
+<p>Pat Dolan, VP and general manager, EMEA, at Tellabs, and Jeff Hermann, VP mobile media at Nielsen Online, also mentioned another quiet important point in their study mentioned above:</p>
+
+<p>Dolan said: &ldquo;People are willing to spend more on mobile data services. [&hellip;] This largely stems from whether end-users view data services<strong> as a convenience</strong> or as a <strong>source of entertainment</strong>&rdquo;, Hermann explained. &ldquo;<strong>Convenience really drives a lot of usage of certain types of services. If something is viewed as a utility, consumers are willing to pay for it</strong>,&rdquo; he said. &ldquo;Whereas entertainment, that&rsquo;s more of a discretionary spend. While <strong>entertainment-based services need more time to develop</strong>, <strong>usefulness is what drives adoption</strong>&rdquo;.
+Dolan also mentioned: &ldquo;Usefulness also proves sticky. Once people start using these services, they can&rsquo;t do without them, and that will continue to snowball&rdquo;.</p>
+
+<p>All in all we&rsquo;re looking at a bright future in mobile web and we as PavingWays hope to start providing services of our own very soon.</p>
+
+<p><strong>Sources:</strong>
+<a href="http://www.totaltele.com/view.aspx?ID=443259)"><a href="http://www.totaltele.com/view.aspx?ID=443259">http://www.totaltele.com/view.aspx?ID=443259</a>)
+</a><a href="http://www.telecoms.com/itmgcontent/tcoms/news/articles/20017619024.html">
+<a href="http://www.telecoms.com/itmgcontent/tcoms/news/articles/20017619024.html">http://www.telecoms.com/itmgcontent/tcoms/news/articles/20017619024.html</a></a></p>
+
+<p><a href="http://www.ftd.de/technik/it_telekommunikation/:HANDY-MESSE-GESAMT-ROUNDUP-Mobilfunk-Branche-zuversichtlich-trotz-Krise/475215.html"><a href="http://www.ftd.de/technik/it_telekommunikation/:HANDY-MESSE-GESAMT-ROUNDUP-Mobilfunk-Branche-zuversichtlich-trotz-Krise/475215.html">http://www.ftd.de/technik/it_telekommunikation/:HANDY-MESSE-GESAMT-ROUNDUP-Mobilfunk-Branche-zuversichtlich-trotz-Krise/475215.html</a></a></p>
+]]></content>
+  </entry>
+  
+</feed>

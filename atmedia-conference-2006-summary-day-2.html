@@ -1,0 +1,247 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>@media conference 2006 summary - day 2 - PavingWays JavaScript Applications</title>
+  <meta name="author" content="PavingWays Limited">
+
+  
+  <meta name="description" content="This is continued from the post about day 1. Panel: Cameron Adams, Peter-Paul Koch (PPK), Stuart Langridge, Dan Webb, and Simon Willison - JavaScript &hellip;">
+  
+
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://pavingways.github.io/atmedia-conference-2006-summary-day-2.html">
+  <!--<link href="/favicon.png" rel="icon">-->
+  <link href="http://gravatar.com/userimage/336259/af37eb31524b5d5bee5e0f902fdb42fe.png
+?s=16" rel="shortcut icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="PavingWays" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+</head>
+
+<body   class="no-sidebar"  >
+  <header role="banner"><hgroup>
+  <h1><a href="/">PavingWays</a></h1>
+  
+    <h2>We build JavaScript applications</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<ul class="main-navigation">
+  <li><a href="/">About</a></li>
+  <li><a href="/projects/">Projects</a></li>
+  <li><a href="/blog/">Blog</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">@media conference 2006 summary - day 2</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2006-06-26T00:00:00+02:00" pubdate data-updated="true"></time>
+        
+           | <a href="#disqus_thread"
+             data-disqus-identifier="http://pavingways.github.io">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content">This is continued from <a href="http://www.pavingways.com/atmedia-conference-2006-summary-day-1_13.html">the post about day 1</a>.
+
+<strong>Panel: Cameron Adams, Peter-Paul Koch (PPK), Stuart Langridge, Dan Webb, and Simon Willison - JavaScript libraries: friend or foe?</strong>
+This JavaScript experts panel discussed some advantages and drawbacks in the field of JavaScript libraries, such as the <a title="Dojo toolkit homepage" href="http://dojotoolkit.org/">Dojo toolkit</a> or the <a title="Yahoo User Interface Library homepage" href="http://developer.yahoo.com/yui/">Yahoo User Interface Library</a>. These libraries offer a common programming interface for JavaScript and especially AJAX, to overcome cross-browser issues and can thus greatly increase productivity. <!--more-->One of the main problems pointed out by <a title="PPK's homepage" href="http://www.quirksmode.org/">PPK</a> was the size of these libraries, which can vary widely from 5kB to more than 100kB - a problem that is especially important on mobile devices.
+The panel ended with a collection of things that make libraries desirable. Amongst those were:
+<ul>
+	<li>small size</li>
+	<li>the ability to choose your own components</li>
+	<li>good documentation</li>
+	<li>a strong community</li>
+</ul>
+&#8230;things that would most probably also be applicable for any library for mobile browsers - especially in this order.
+
+<strong>Dan Cederholm - Bulletproof Webdesign</strong>
+This talk was unexpectedly stuffed with a lot of mobile-related ideas. Making a website bulletproof means making it work in a lot of (unexpected) environments. These environments can be things like screens with small resolutions or browsers with images, CSS and/or JavaScript  turned off.
+
+Many of the workarounds presented by Dan were simple techniques, such as applying a background color to an area with a background image in order to make the font on this area still readable if images in the browser are turned off. But still these things have to be kept in mind, especially in the mobile area, where you will find a lot of different environments - a lot more than in the area of desktop PCs.
+
+<strong>Cameron Moll - Mobile Web Design</strong>
+This talk was entirely focussed on mobile devices, it was also Cameron&#8217;s first time he did a talk (on his own) in Europe - and he did a very good job! These were the key facts presented by him:
+<ul>
+	<li><strong>mobile devices are widely spread</strong>:</li>
+<ul>
+	<li>almost everybody in the audience did browse the web with a mobile device (only 4 people of those were delighted by the experience though)</li>
+	<li>by 2009 3 billion people will own a mobile phone, thats almost half of the entire (<a title="calculate the expected world population" href="http://www.ibiblio.org/lunarbin/worldpop">expected</a>) world population by then</li>
+	<li>there are more mobile phones than there are PCs, even more than landline phones</li>
+</ul>
+	<li><strong>the mobile web is diverse and different:
+</strong></li>
+<ul>
+	<li>a small poll asking 400 people revealed: 159 unique handsets, 19 handsets, 44 countries, 12 carriers</li>
+	<li>mobile phones supported WML, XHTML(-MP/-BASIC), inconsistent standards, plethora of agents, XHTML/CSS support is highly iconsistent</li>
+	<li>the question must not be &#8220;how do i do a website similarly on a mobile phone?&#8221;, but it should be asked without the &#8220;similarly&#8221;</li>
+	<li>&#8220;mobile&#8221; means &#8220;mobility&#8221;, so the whole experience changes</li>
+</ul>
+	<li><strong>mobile web development fundamentals</strong>:</li>
+<ul>
+	<li>most devices are WAP 2.0 (= XHTML-MP, not WML) but are backwards compatible</li>
+	<li>testing to some extend can be done in a desktop browser</li>
+	<li>test need to be done on target devices, not in emulators</li>
+	<li>Cameron put up some <a href="http://www.cameronmoll.com/mobile">mobile test pages on his site</a> <a href="http://www.cameronmoll.com/mobile">
+</a></li>
+</ul>
+	<li><strong>mobile web development methodologies</strong>:</li>
+<ul>
+	<li>there are several ways:</li>
+<ul>
+	<li>do nothing (such as craigslist - no images anyways) or strip images and styling</li>
+</ul>
+<ul>
+	<li>use handheld stylesheets (the poster child of the mobile web)</li>
+</ul>
+<ul>
+	<li>create a mobile specific page (double the work)</li>
+</ul>
+	<li>decide between mobilizing or miniaturizing</li>
+<ul>
+	<li>miniaturizing means to keep the content and miniaturize the look and feel</li>
+	<li>mobilizing also involves the creation of a mobile-specific version</li>
+</ul>
+	<li>the creation of a mobile-specific version was promoted as being the better way in many cases, because most webservices (Cameron used <a title="Craigslist homepage" href="http://sfbay.craigslist.org/">craigslist.com</a> as an example) just have different use cases on a mobile phone than on the desktop (other functions will be needed there)</li>
+</ul>
+	<li><strong>guidelines for mobile web development</strong>:</li>
+<ul>
+	<li>the W3C mobile web best practices contain things such as considering access keys, short URIs, text equivalents for images and 120px as the baseline width</li>
+</ul>
+</ul>
+Cameron closed his presentation by speaking about mobile web ideology and pointed out that the mobile web needs to be desirable, dependable and disciplined. We need an array of thought leaders and there is a stong need for user agent consistency. He also expressed his wish for a mobile device wiki, where developers can collectively collect their findings and experiences on different mobile devices.
+
+After his talk I approached him and explained my idea of a collectively-created mobile browser support chart - he liked it :) Too bad I missed him later that day at the social event.
+
+<strong>Final words</strong>
+@media 2006 was a big success in general and an inspiring event for me. As usual on events like this, I met many interesting people and I am looking forward to next year. The next event of this kind for me will be <a title="d.construct 2006" href="http://2006.dconstruct.org/">d.construct 2006</a> in Brighton, England.
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">PavingWays Limited</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2006-06-26T00:00:00+02:00" pubdate data-updated="true"></time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/categories/conferences-slash-events/'>Conferences/Events</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/atmedia-conference-2006-summary-day-1.html" title="Previous Post: @media conference 2006 summary - day 1">&laquo; @media conference 2006 summary - day 1</a>
+      
+      
+        <a class="basic-alignment right" href="/dotmobi-switch-on-web-browsing-guides.html" title="Next Post: dotMobi Switch On! Web Browsing Guides">dotMobi Switch On! Web Browsing Guides &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2014 - PavingWays Limited -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'pavingways-blog';
+      
+        
+        var disqus_script = 'count.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

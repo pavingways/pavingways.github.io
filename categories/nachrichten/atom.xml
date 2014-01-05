@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Nachrichten | PavingWays]]></title>
+  <link href="http://pavingways.github.io/categories/nachrichten/atom.xml" rel="self"/>
+  <link href="http://pavingways.github.io/"/>
+  <updated>2014-01-05T21:13:03+01:00</updated>
+  <id>http://pavingways.github.io/</id>
+  <author>
+    <name><![CDATA[PavingWays Limited]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[PhoneGap Meetup #2 Retrospektive]]></title>
+    <link href="http://pavingways.github.io/phonegap-meetup-2-retrospektive.html"/>
+    <updated>2011-08-12T00:00:00+02:00</updated>
+    <id>http://pavingways.github.io/phonegap-meetup-2-retrospektive</id>
+    <content type="html"><![CDATA[<p>Vergangenen Mittwoch hatten wir nun unser zweites <a href="http://www.phonegap.com/" title="PhoneGap">PhoneGap</a> und HTML5 Meetup. Auf der Agenda standen zwei Präsentationen: <a href="http://www.meetup.com/PhoneGap-HTML5-Meetup-Rhein-Main/"></a>PhoneGap 1.0 und Remote Debugging, außerdem hat sich <a href="https://twitter.com/#!/wpbasti" title="@wpbasti">@wpbasti</a> spontan zu einem Intro zu <a href="http://en.wikipedia.org/wiki/Programming_tool" title="Tooling">Tooling</a> im allgemeinen und <a href="https://github.com/wpbasti/jasy" title="Jasy">Jasy</a> im speziellen entschlossen.</p>
+
+<p>Nachdem ich mein Intro zu PhoneGap 1.0 mit Ausblick auf 2.0 und eine kurze XCode Demo mit dem <a href="http://joapp.com/" title="Jo App-Framework">Jo App-Framework</a> beendet hatte, hat uns Martin <a href="http://phonegap.github.com/weinre/">Weinre</a> und Remote Debugging gezeigt. Er hat uns außerdem die Idee zu seiner anstehenden Bachelor-Arbeit präsentiert. Dabei geht es um die Entwicklung eines PhoneGap-Polyfills um die Entwicklung von Apps im Browser zu erleichtern. Die Idee kam gut an und mögliche Parallelen zum <a href="http://ripple.tinyhippos.com/">Ripple Emulator</a> wurden kurz besprochen. Martin hat außerdem vor, ein Meetup für Mobile-Entwickler in Mannheim zu starten.</p>
+
+<p>Unser kleiner Bereich im <a href="http://www.sternstunde-ffm.de/">Sternstunde</a> war mit den 9 Teilnehmern, davon einige neue, ganz gut ausgelastet und es gab leckere arabische Tapas. Leider war es etwas lauter als erhofft, da parallel das Spiel Deutschland : Brasilien lief. Wir haben uns dennoch gut unterhalten und ich denke, es war für jeden etwas interessantes dabei.</p>
+
+<p>Unser Teilnehmer <a href="https://twitter.com/#!/wltrd">Walter</a> hat uns noch darauf hingewiesen, dass er mit <a href="https://twitter.com/#!/ppk">@ppk</a> im September einen Mobilism-Workshop in Frankfurt organisiert. Der geplante Termin ist der 28. und 29. September 2011. Mehr Infos dazu gibt&rsquo;s auf der <a href="http://mobilism.nl/workshops/frankfurt-sept-2011">Mobilism Website</a>.</p>
+
+<p>Das nächste Meetup folgt in ein paar Wochen und wird natürlich auch auf <a href="http://www.meetup.com/PhoneGap-HTML5-Meetup-Rhein-Main/">unserer Meetup.com Seite</a> bekannt gegeben &ndash; ich freue mich schon drauf!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[PhoneGap/HTML5 Meetup #2]]></title>
+    <link href="http://pavingways.github.io/phonegaphtml5-meetup-2.html"/>
+    <updated>2011-08-04T00:00:00+02:00</updated>
+    <id>http://pavingways.github.io/phonegaphtml5-meetup-2</id>
+    <content type="html"><![CDATA[<p>Unser <strong>2. Phonegap/HTML5 Meetup</strong> findet am 10. August im <a href="http://www.sternstunde-ffm.de/">Café Sternstunde</a>, Färberstraße 65 in Frankfurt/Main statt.
+Themen: PhoneGap 1.0 und Remote Debugging.</p>
+
+<p>Wir haben ein Séparée mit genug Platz und großem Fernseher für die Präsentationen. WLAN sollte es auch geben.</p>
+
+<p>Außerdem kann man auch was trinken und essen (Arabische Tapas z.B.) &ndash; gute Mischung aus Präsentationen und dem Casual-Teil ist also möglich!</p>
+
+<p>Anmeldung bitte über <a href="http://www.meetup.com/PhoneGap-HTML5-Meetup-Rhein-Main/events/27928361/" target="_blank">Meetup</a> oder <a href="https://www.xing.com/events/phonegap-html5-meetup-2-797984" target="_blank">Xing</a> oder <a href="http://www.facebook.com/event.php?eid=257455647599484" target="_blank">Facebook</a>!
+Bis nächste Woche!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[UPDATE: PhoneGap/HTML5 Meetup #1 / Kick-Off]]></title>
+    <link href="http://pavingways.github.io/phonegaphtml5-meetup-1-kick-off.html"/>
+    <updated>2011-05-23T00:00:00+02:00</updated>
+    <id>http://pavingways.github.io/phonegaphtml5-meetup-1-kick-off</id>
+    <content type="html"><![CDATA[<p><strong>UPDATE:</strong></p>
+
+<p>Wir treffen uns am Do, den 26. Mai um 19:00 Uhr in der</p>
+
+<p>Affentor-Schänke
+Neuer Wall 9
+60594 Frankfurt
+<a href="http://www.affentor-schaenke.de/">www.affentor-schaenke.de</a></p>
+
+<hr />
+
+<p>Dies ist eine kurze Erinnerung an das erste Treffen der PhoneGap und HTML5 Meetup Gruppe diesen Donnerstag in Frankfurt am Main.</p>
+
+<p>Wir wollen die Meetup-Gruppe, die früher mal nur die HTML5 Meetup-Gruppe war, neu starten und einen großen Fokus auf PhoneGap und mobile Entwicklung legen. Wir werden bei der Organisation von Nitobi unterstützt und bekommen auf die Art hoffentlich auch ein paar top-aktuelle Insights in das PhoneGap Projekt.</p>
+
+<p>Kommen kann jeder, der an den Themen interessiert ist &ndash; Präsentationen und Demos jeglicher Art sind auch immer gern gesehen. Zu Bedenken ist, dass wir das Ganze in Form eines formlosen Stammtisches durchführen und es keinen Beamer gibt ;), dafür gibt&rsquo;s Bier bzw. Ebbelwoi &ndash; angepeilt wird diesmal eine Ebbelwoi-Wirtschaft (genaue Location folgt morgen).</p>
+
+<p>Falls Du noch teilnehmen willst, dann Trage Dich bitte auf einer der folgenden Seiten ein:</p>
+
+<p><a href="http://www.meetup.com/PhoneGap-HTML5-Meetup-Rhein-Main/events/17122119/">Meetup.com</a></p>
+
+<p><a href="https://www.xing.com/events/phonegap-html5-meetup-1-767564">Xing.com</a></p>
+
+<p><a href="http://www.facebook.com/event.php?eid=154019697996436">Facebook</a></p>
+
+<p>&nbsp;</p>
+]]></content>
+  </entry>
+  
+</feed>
