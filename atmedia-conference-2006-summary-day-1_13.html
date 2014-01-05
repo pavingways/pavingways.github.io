@@ -1,0 +1,198 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>@media conference 2006 summary - day 1 - PavingWays JavaScript Applications</title>
+  <meta name="author" content="PavingWays Limited">
+
+  
+  <meta name="description" content="The PavingWays team was in London from June 15th to 16th to attend the @media conference 2006. @media basically is a web design conference (&#8220; &hellip;">
+  
+
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://pavingways.github.io/atmedia-conference-2006-summary-day-1_13.html">
+  <!--<link href="/favicon.png" rel="icon">-->
+  <link href="http://gravatar.com/userimage/336259/af37eb31524b5d5bee5e0f902fdb42fe.png
+?s=16" rel="shortcut icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="PavingWays" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+</head>
+
+<body   class="no-sidebar"  >
+  <header role="banner"><hgroup>
+  <h1><a href="/">PavingWays</a></h1>
+  
+    <h2>We build JavaScript applications</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<ul class="main-navigation">
+  <li><a href="/">About</a></li>
+  <li><a href="/projects/">Projects</a></li>
+  <li><a href="/blog/">Blog</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">@media conference 2006 summary - day 1</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2006-06-26T00:00:00+02:00" pubdate data-updated="true"></time>
+        
+           | <a href="#disqus_thread"
+             data-disqus-identifier="http://pavingways.github.io">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content">The PavingWays team was in London from June 15th to 16th to attend the <a href="http://www.vivabit.com/atmedia2006/">@media conference 2006</a>. @media basically is a web design conference (&#8220;Europe&#8217;s foremost professional web design conference&#8221;), so most of the talks and panels were less technical and focussed mainly on design issues. However, some speakers also talked about things like DOM scripting or bug fixing, so there was some technological input as well.
+
+Since we try to keep the focus on (mobile) devices here, let&#8217;s look at the things that were said at @media that are relevant to us:
+<!--more-->
+<strong>Keynote: Eric Meyer -  On CSS</strong>
+The conference kicked off with a keynote by Eric Meyer, who is well-kown as one of the founders of the &#8220;CSS movement&#8221; and since evangelist for CSS.
+
+He talked about the long development of CSS and about lots of issues that had to be overcome in order to make CSS as successful as it is today.
+
+Apart from the well known problems we are facing today in everyday development of Websites, such as browser incompatibility and browsers not supporting the standards completely, he pointed out an interesting milestone in the CSS history that was marked by the development of the Internet Explorer 5 on the Mac platform. Tantek Çelik, then employed at Microsoft and nowadays CEO of Technorati, was credited for creating the first browser that was supporting CSS at a level it was useful for Website layouts and it became the first browser that could be used to actually develop and test real things in CSS. Looking at the mobile world we are facing similar problems, but we might already have a decent browser to support our development and testing needs, namely <a title="Opera mobile" href="http://www.opera.com/products/mobile/">Opera</a>.
+Similar to the IE5 back in the days, that was only available on a Mac, the Opera mobile browser is also not available on all mobile devices. Still it runs on all major PC platforms and at least development of mobile web applications can be done very conveniently (using the mobile view in Opera&#8217;s settings). Also support of the CSS and XHTML standards is and has always been superior in Opera, so compared to the IE 5 from back then we are in an even better position. Too bad only a tiny amount of all phones actually runs Opera also only a small amount (probably) supports the standards.
+
+Eric Meyer also pointed out that during the last two years CSS (and XHTML) has moved into fields other than the internet, namely it is used in things like the <a title="Apple Dashboard Widgets" href="http://www.apple.com/macosx/features/dashboard/">Mac OS X dashboard widgets</a> (and most other widget engines as well) or even into real desktop applications, such as the <a title="Adium IM client" href="http://www.adiumx.com/">Adium IM client</a>, where it is used to create different themes.
+
+<strong>Dave Shea - Typography on the Web</strong>
+Dave, the creator of the famous <a href="http://www.csszengarden.com/">CSS Zen garden</a>, talked about good and bad fonts and especially expressed his resentment against &#8220;Comic Sans&#8221;. This was supported by displaying bad examples of the use of this font in public, such as the use on a Canadian toll station.
+<div style="padding: 5px 0pt 5px 10px; float: right"><a title="Dave Shea speaking at atmedia" class="imagelink" href="http://www.pavingways.com/wp-content/uploads/CIMG2697_b.jpg"><img alt="Dave Shea speaking at atmedia" id="image14" src="http://www.pavingways.com/wp-content/uploads/CIMG2697_b.thumbnail.jpg" /></a></div>
+Interesting for the mobile field was his remark about fonts and that developers/designers should consider if a font they want to use can be displayed on mobile devices. I personally want to add that it therefore should be made sure there is an appropriate alternative in the CSS definition to fall back to, if a font should not be available on a device (which will be the case many times). Dave also mentioned that the famous Verdana font was originally created to have a crisp looking font in any size, before things like antialiasing and subpixel-rendering were available - things we will probably need to explore in the field of mobile devices.
+
+<strong>Jeremy Keith - DOM scripting to plug holes in CSS</strong>
+While not talking about mobile devices at all, Jeremy presented some nice techniques to overcome CSS shortcomings of modern web browsers. One example of this is using multiple background images on DIVs, which can be done with a little JavaScript. I think hacks like this will be important on mobile devices, since browsers in this field are even more constrained than those on desktop PCs. However, if JavaScript will be a practical solution can be doubted, because this is one of the technologies in those browsers that is (probably) least supported.
+Jeremy also does not miss an opportunity to promote his <a title="Hijax by Jeremy Keith" href="http://domscripting.com/blog/display/41">Hijax technique</a>, which unobtrusively adds AJAX and JavaScript in general to otherwise still functioning websites - a very interesting method in the mobile field, because clients not supporting JavaScript at all can still use the &#8220;low-fi&#8221; version of the website or application.
+
+<a href="http://www.pavingways.com/atmedia-conference-2006-summary-day-2_15.html">&#8230;this post is continued here</a>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">PavingWays Limited</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2006-06-26T00:00:00+02:00" pubdate data-updated="true"></time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/categories/conferences-slash-events/'>Conferences/Events</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/here-we-go_8.html" title="Previous Post: Here we go">&laquo; Here we go</a>
+      
+      
+        <a class="basic-alignment right" href="/atmedia-conference-2006-summary-day-2_15.html" title="Next Post: @media conference 2006 summary - day 2">@media conference 2006 summary - day 2 &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2014 - PavingWays Limited -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'pavingways-blog';
+      
+        
+        var disqus_script = 'count.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Others | PavingWays]]></title>
   <link href="http://pavingways.github.io/categories/others/atom.xml" rel="self"/>
   <link href="http://pavingways.github.io/"/>
-  <updated>2014-01-05T21:13:03+01:00</updated>
+  <updated>2014-01-05T21:56:03+01:00</updated>
   <id>http://pavingways.github.io/</id>
   <author>
     <name><![CDATA[PavingWays Limited]]></name>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Happy Easter!]]></title>
-    <link href="http://pavingways.github.io/happy-easter.html"/>
+    <link href="http://pavingways.github.io/happy-easter_1626.html"/>
     <updated>2010-04-02T00:00:00+02:00</updated>
-    <id>http://pavingways.github.io/happy-easter</id>
+    <id>http://pavingways.github.io/happy-easter_1626</id>
     <content type="html"><![CDATA[<p><a href="http://www.pavingways.com/wp-content/uploads/ostern_email_english1.jpg"><img class="alignnone size-full wp-image-1309" title="ostern_email_english" src="http://www.pavingways.com/wp-content/uploads/ostern_email_english1.jpg" alt="" width="500" height="226" /></a></p>
 
 <p><strong>We wish all our readers an enjoyable and a wonderful Easter time!</strong></p>
@@ -26,9 +26,9 @@
   
   <entry>
     <title type="html"><![CDATA[Book: Mobile Web Design by Cameron Moll]]></title>
-    <link href="http://pavingways.github.io/book-mobile-web-design-by-cameron-moll.html"/>
+    <link href="http://pavingways.github.io/book-mobile-web-design-by-cameron-moll_136.html"/>
     <updated>2007-09-16T00:00:00+02:00</updated>
-    <id>http://pavingways.github.io/book-mobile-web-design-by-cameron-moll</id>
+    <id>http://pavingways.github.io/book-mobile-web-design-by-cameron-moll_136</id>
     <content type="html"><![CDATA[<p><a HREF="http://www.mobilewebbook.com/"><img SRC="http://www.mobilewebbook.com/images/snaps/1.jpg" ALT="image of book cover" STYLE="margin: 0pt 0pt 10px 10px; float: right" /></a>I met <a HREF="http://www.cameronmoll.com/">Cameron</a> after his first conference talk in Europe at the <a HREF="http://www.vivabit.com/atmedia2006/">@media conference</a> in London in June 2006. He was talking about the same thing there &ndash; Mobile Web Design &ndash; and I really liked his presentation. Since then we both kept on doing research in the mobile area and Cameron just released his first book and it&rsquo;s a great one!</p>
 
 <p>Early chapters entitled &ldquo;Mobile Web Fundamentals&rdquo; give a great amount of background information on the mobile web market and usage, the concept of being &ldquo;mobile&rdquo; (it&rsquo;s not the device, but the user that&rsquo;s mobile) and on the fundamental limitations in this area (screen size, input methods, carriers etc.).</p>
@@ -47,9 +47,9 @@
   
   <entry>
     <title type="html"><![CDATA[Book: "Bulletproof Ajax" by Jeremy Keith]]></title>
-    <link href="http://pavingways.github.io/book-bulletproof-ajax-by-jeremy-keith.html"/>
+    <link href="http://pavingways.github.io/book-bulletproof-ajax-by-jeremy-keith_135.html"/>
     <updated>2007-09-15T00:00:00+02:00</updated>
-    <id>http://pavingways.github.io/book-bulletproof-ajax-by-jeremy-keith</id>
+    <id>http://pavingways.github.io/book-bulletproof-ajax-by-jeremy-keith_135</id>
     <content type="html"><![CDATA[<p><a href="http://www.bulletproofajax.com/"><img src="http://www.bulletproofajax.com/images/cover_small.gif" alt="image of book cover" style="margin: 0pt 0pt 10px 10px; float: right" /></a>I want to recommend a book by <a href="http://adactio.com/">Jeremy Keith</a>, called &ldquo;<a href="http://www.amazon.com/exec/obidos/ASIN/0321472667/wohnflydasreg-21/">Bulletproof Ajax</a>&rdquo;. I recommend it for several reasons. First of all, the book is an excellent introduction to Ajax programming in general and everybody starting to write JavaScript code to do Ajax should read it before touching any of the libraries out there.
 Secondly the book is especially suited to anybody who is interested in writing Ajax powered apps on mobile devices and constrained browsers. After all the book is all about making JavaScript code bulletproof and that&rsquo;s exactly what you need to do if you are facing browser constraints, flaky implementations of JavaScript engines and a hugely fragment environment overall.</p>
 
@@ -61,9 +61,9 @@ Secondly the book is especially suited to anybody who is interested in writing A
   
   <entry>
     <title type="html"><![CDATA[Time for an Anti-Social Network?!]]></title>
-    <link href="http://pavingways.github.io/time-for-an-anti-social-network.html"/>
+    <link href="http://pavingways.github.io/time-for-an-anti-social-network_130.html"/>
     <updated>2007-09-13T00:00:00+02:00</updated>
-    <id>http://pavingways.github.io/time-for-an-anti-social-network</id>
+    <id>http://pavingways.github.io/time-for-an-anti-social-network_130</id>
     <content type="html"><![CDATA[<p>If you can&rsquo;t hear words like &ldquo;Facebook&rdquo;, &ldquo;social&rdquo;, &ldquo;networking&rdquo;, &ldquo;friends&rdquo; or &ldquo;community&rdquo; anymore, then maybe you should have a look at the antisocial networking site <a href="http://www.bugroff.net"><strong>Bugroff</strong></a>.</p>
 
 <p><a href="http://www.pavingways.com/wp-content/uploads/bugroff.jpg" title="bugroff.jpg"><img src="http://www.pavingways.com/wp-content/uploads/bugroff.jpg" alt="bugroff.jpg" /></a></p>
@@ -76,9 +76,9 @@ Secondly the book is especially suited to anybody who is interested in writing A
   
   <entry>
     <title type="html"><![CDATA[Server Down, Mails Bounce]]></title>
-    <link href="http://pavingways.github.io/server-down-mails-bounce.html"/>
+    <link href="http://pavingways.github.io/server-down-mails-bounce_123.html"/>
     <updated>2007-08-30T00:00:00+02:00</updated>
-    <id>http://pavingways.github.io/server-down-mails-bounce</id>
+    <id>http://pavingways.github.io/server-down-mails-bounce_123</id>
     <content type="html"><![CDATA[<p>Just a quick note to anybody who wants to reach our email addresses at PavingWays &ndash; they might be bouncing back due to a server crash earlier. We&rsquo;re in the process of transferring the site to a new host and DNS and MX entries are still interfering with the old and new server settings.</p>
 
 <p>So best way to reach us is by calling or sending a mail to my gmail address (if you have it ;) ).</p>

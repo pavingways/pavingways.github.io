@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Mobile Ajax | PavingWays]]></title>
   <link href="http://pavingways.github.io/categories/mobile-ajax/atom.xml" rel="self"/>
   <link href="http://pavingways.github.io/"/>
-  <updated>2014-01-05T21:13:03+01:00</updated>
+  <updated>2014-01-05T21:56:03+01:00</updated>
   <id>http://pavingways.github.io/</id>
   <author>
     <name><![CDATA[PavingWays Limited]]></name>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Attending Nokia Developer Summit 2009]]></title>
-    <link href="http://pavingways.github.io/attending-nokia-developer-summit-2009.html"/>
+    <link href="http://pavingways.github.io/attending-nokia-developer-summit-2009_293.html"/>
     <updated>2009-04-09T00:00:00+02:00</updated>
-    <id>http://pavingways.github.io/attending-nokia-developer-summit-2009</id>
+    <id>http://pavingways.github.io/attending-nokia-developer-summit-2009_293</id>
     <content type="html"><![CDATA[<p>We&rsquo;ll be going to Monaco by the end of April to attend the <a href="http://www.developersummit2009.com/"><strong>Nokia Developer Summit 2009</strong></a>.<a href="http://2009.nseries.com/specs.aspx"><img class="alignright size-full wp-image-295" title="nokia_n97" src="http://www.pavingways.com/wp-content/uploads/nokia_n971.jpg" alt="" width="207" height="157" /></a></p>
 
 <p>During this summit <strong>in Monte Carlo on 28-29 April</strong>, Nokia is holding a <a href="http://2009.nseries.com/competition/about.aspx">&ldquo;<strong>N97 24-hour Hackathon</strong>&rdquo; competition</a>. I am one of 10 developers selected by <a href="http://www.forum.nokia.com/">Forum Nokia</a> who is gonna hack together a Web Runtime (WRT) widget for the home screen of the <a href="http://2009.nseries.com/specs.aspx">new Nokia N97</a>.</p>
@@ -39,9 +39,9 @@ Forum Nokia</a></p>
   
   <entry>
     <title type="html"><![CDATA[BlackBerry Browser Can Accesses GPS Location]]></title>
-    <link href="http://pavingways.github.io/blackberry-browser-can-accesses-gps-location.html"/>
+    <link href="http://pavingways.github.io/blackberry-browser-can-accesses-gps-location_192.html"/>
     <updated>2008-07-20T00:00:00+02:00</updated>
-    <id>http://pavingways.github.io/blackberry-browser-can-accesses-gps-location</id>
+    <id>http://pavingways.github.io/blackberry-browser-can-accesses-gps-location_192</id>
     <content type="html"><![CDATA[<p>We&rsquo;ve been monitoring the mobile browser market pretty closely during the last couple of years, especially in regard to Mobile Ajax and how it could help to create new and powerful web applications for mobile phones.</p>
 
 <p>Mobile Ajax is a lot of things and it always depends on the individual&rsquo;s definition what is really meant, but one thing that is a pretty common aspect of Mobile Ajax is the ability that it might at some point be used as a gateway or API to connect the web browser on the phone with the device hardware, such as the GPS system thereby giving access to the device&rsquo;s position within a mobile web application.</p>
@@ -61,18 +61,18 @@ Forum Nokia</a></p>
   
   <entry>
     <title type="html"><![CDATA[Article on dev.opera.com]]></title>
-    <link href="http://pavingways.github.io/article-on-devoperacom.html"/>
+    <link href="http://pavingways.github.io/article-on-devoperacom_155.html"/>
     <updated>2008-01-18T00:00:00+01:00</updated>
-    <id>http://pavingways.github.io/article-on-devoperacom</id>
+    <id>http://pavingways.github.io/article-on-devoperacom_155</id>
     <content type="html"><![CDATA[<p>I recently wrote an <a href="http://dev.opera.com/articles/view/mobile-ajax-and-the-frost-ajax-library/">article for dev.opera.com</a> about Mobile Ajax and how the Frost Library can deal with that. There is a lot of introductory stuff in there and it might will be the longest and most comprehensive article I have been writing on the topic, there&rsquo;s even code snippets in there. So it might be a good read for anybody interested in the topic of Mobile Ajax.Thanks to David and Chris from Opera for making that happen and giving me the opportunity.You can read the <a href="http://dev.opera.com/articles/view/mobile-ajax-and-the-frost-ajax-library/">article at dev.opera.com</a>.</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Mobile Ajax Wokshop Mountain View 09/28/2007]]></title>
-    <link href="http://pavingways.github.io/mobile-ajax-wokshop-mountain-view-09282007.html"/>
+    <link href="http://pavingways.github.io/mobile-ajax-wokshop-mountain-view-09282007_144.html"/>
     <updated>2007-10-02T00:00:00+02:00</updated>
-    <id>http://pavingways.github.io/mobile-ajax-wokshop-mountain-view-09282007</id>
+    <id>http://pavingways.github.io/mobile-ajax-wokshop-mountain-view-09282007_144</id>
     <content type="html"><![CDATA[<p>I was attending the <a HREF="http://www.w3.org/2007/09/28-mobile-ajax-minutes.html">Mobile Ajax Workshop</a> at the Microsoft Campus in Mountain View. The whole workshop was very interesting and I met many interesting people from Japan, Korea, USA, UK, India and companies such as <a HREF="http://www.nttdocomo.com/">NTT DoCoMo</a>, <a HREF="http://nhncorp.com/">NHN</a>, <a HREF="http://vodafon.co.uk/">Vodfone</a>, <a HREF="http://www.aplixcorp.com/en/index.html">Aplix</a>, <a HREF="http://www.motorola.com/">Motorola</a>, <a HREF="http://www.sitepen.com/">SitePen</a>, <a HREF="http://nec.com/">NEC</a> and many more.</p>
 
 <p>The event, being a workshop not a conference, was structured a bit different from what I experienced until now. There were different moderated discussions around topics related to Mobile Ajax.   These discussions were conducted in the form of panel discussions, where up to 4 panelists came up on &ldquo;stage&rdquo; and held a 5-minute introduction about their <a HREF="http://www.w3.org/2007/06/mobile-ajax/papers/">position papers</a> that were handed in before the event. I was up in a panel about &ldquo;one web&rdquo; with Alan from AOL, Dave from Google and Goro from DoCoMo. Honestly, it   felt a bit strange being in a panel with people from these major players, but it was cool and my presentation went ok too.</p>
@@ -98,9 +98,9 @@ Forum Nokia</a></p>
   
   <entry>
     <title type="html"><![CDATA[Book: "Bulletproof Ajax" by Jeremy Keith]]></title>
-    <link href="http://pavingways.github.io/book-bulletproof-ajax-by-jeremy-keith.html"/>
+    <link href="http://pavingways.github.io/book-bulletproof-ajax-by-jeremy-keith_135.html"/>
     <updated>2007-09-15T00:00:00+02:00</updated>
-    <id>http://pavingways.github.io/book-bulletproof-ajax-by-jeremy-keith</id>
+    <id>http://pavingways.github.io/book-bulletproof-ajax-by-jeremy-keith_135</id>
     <content type="html"><![CDATA[<p><a href="http://www.bulletproofajax.com/"><img src="http://www.bulletproofajax.com/images/cover_small.gif" alt="image of book cover" style="margin: 0pt 0pt 10px 10px; float: right" /></a>I want to recommend a book by <a href="http://adactio.com/">Jeremy Keith</a>, called &ldquo;<a href="http://www.amazon.com/exec/obidos/ASIN/0321472667/wohnflydasreg-21/">Bulletproof Ajax</a>&rdquo;. I recommend it for several reasons. First of all, the book is an excellent introduction to Ajax programming in general and everybody starting to write JavaScript code to do Ajax should read it before touching any of the libraries out there.
 Secondly the book is especially suited to anybody who is interested in writing Ajax powered apps on mobile devices and constrained browsers. After all the book is all about making JavaScript code bulletproof and that&rsquo;s exactly what you need to do if you are facing browser constraints, flaky implementations of JavaScript engines and a hugely fragment environment overall.</p>
 

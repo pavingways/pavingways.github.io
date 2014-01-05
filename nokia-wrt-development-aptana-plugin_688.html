@@ -1,0 +1,201 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Hands-On Nokia WRT Development with Aptana - PavingWays JavaScript Applications</title>
+  <meta name="author" content="PavingWays Limited">
+
+  
+  <meta name="description" content="Back in April we were invited to participate in the Nokia WRT Widget Hackathon in Monaco. The event took place during the Nokia Developer Summit and &hellip;">
+  
+
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://pavingways.github.io/nokia-wrt-development-aptana-plugin_688.html">
+  <!--<link href="/favicon.png" rel="icon">-->
+  <link href="http://gravatar.com/userimage/336259/af37eb31524b5d5bee5e0f902fdb42fe.png
+?s=16" rel="shortcut icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="PavingWays" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+</head>
+
+<body   class="no-sidebar"  >
+  <header role="banner"><hgroup>
+  <h1><a href="/">PavingWays</a></h1>
+  
+    <h2>We build JavaScript applications</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<ul class="main-navigation">
+  <li><a href="/">About</a></li>
+  <li><a href="/projects/">Projects</a></li>
+  <li><a href="/blog/">Blog</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Hands-On Nokia WRT Development with Aptana</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2009-09-14T00:00:00+02:00" pubdate data-updated="true"></time>
+        
+           | <a href="#disqus_thread"
+             data-disqus-identifier="http://pavingways.github.io">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content">Back in April we were invited to participate in the <a href="http://www.pavingways.com/nokia-developer-summit-2009-wrap-up-day-1_517.html">Nokia WRT Widget Hackathon in Monaco</a>. The event took place during the <a href="http://events.nokia.com/developersummit/">Nokia Developer Summit</a> and it was all about hacking a WRT widget together within 24 hours. 12 teams from around the world implemented widget ideas nominated in beforehand by the Nokia community. We chose to work on the travel planner idea because it relates pretty well to one of our upcoming services called <a href="http://pandaroute.com/">Panda Route - a travel diary service</a>.
+
+With this article I want to provide some basic insights on Nokia WRT widgets, how they work and how to implement and deploy them to handsets.
+
+WRT stands for <a href="http://www.forum.nokia.com/Technology_Topics/Web_Technologies/Web_Runtime/">Web runtime</a> and it enables you to create small applications, namely widgets, entirely built on HTML, CSS and JavaScript. Widgets are packaged and then deployed and installed on the device alongside native applications where the run in a chrome-less web browser, the web runtime environment.<!--more-->
+
+The most basic widget consists of not more than a HTML file and a widget description file that defines some settings for the runtime and tells it where the widget&#8217;s entry point is. Of course you would normally add images, a CSS file and some JavaScript that handles all the logic and enables you to access device specific capabilities, such as calendar entries or the messaging application. Nokia offers a WRT JavaScript library to render message boxes and buttons, we used <a href="http://jquery.com/">jQuery</a> for our widget, so this is definitely possible too.
+
+Widget files are then packaged into a .wgz file which really is just a renamed ZIP file. If you then send this .wgz file to a compatible device, it will detect that this is a widget and ask you to install it as an application.
+
+The basic work flow to develop such a widget would be like this:
+<ol>
+	<li>write HTML/CSS/JavaScript in an editor, add images</li>
+	<li>create the XML widget description file, namely Info.plist</li>
+	<li>test your widget in a web browser</li>
+	<li>ZIP it all into a package and rename it to .wgz</li>
+	<li>send it to the device via bluetooth or upload it to a web server and download it via the device&#8217;s web browser</li>
+	<li>now your widget installs in the device&#8217;s applications menu and can be used</li>
+</ol>
+While this is feasible you might have noticed that this work flow has its flaws, especially when it comes to testing and deploying your widget.
+
+Therefore we were happy that Nokia joined forces with <a href="http://aptana.com/">Aptana</a> and created a <a href="http://aptana.com/nokia">WRT plugin for Aptana Studio</a> that helps you to speed up this work flow and actually enables you to write and deploy a widget in such a short time that on-device testing becomes possible.
+Additional to code completion, syntax highlighting and all the other nice features Aptana Studio has to offer, you can very easily create, preview, package and even deploy your widget right out of the IDE to your device.
+
+We were using the windows version of Aptana Studio during the hackathon, but are usually working on Macs - it works there just as easily: You can switch to the preview pane while editing the widget&#8217;s HTML file and choose from a collection of compatible Nokia phones defined by screen sizes. This gives you a more or less rough idea how the widget will look like on the device. Then you can right-click on the widget project and choose to package the whole thing into a .wgz file. Another right-click option is to deploy the widget to a device via bluetooth. This is the best feature because you can directly test your work on a real device this way. You can also deploy to Nokia&#8217;s device emulator which however only runs on windows.
+
+Bottom line is if you have some experience with web development and want to get into developing widgets for Nokia, we can only recommend to <a href="http://www.forum.nokia.com/Technology_Topics/Web_Technologies/Web_Runtime/QuickStart.xhtml">read some documentation</a>, get <a href="http://aptana.com/">Aptana Studio</a> and the <a href="http://aptana.com/nokia">WRT plugin</a> and get going in no time. Oh and don&#8217;t forget to publish your widget on <a href="https://store.ovi.com/">Nokia&#8217;s brand new OVI store</a> to make it accessible to millions of users and maybe even make a buck or two by selling it there.
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">PavingWays Limited</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2009-09-14T00:00:00+02:00" pubdate data-updated="true"></time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/categories/mobile-widgets/'>Mobile Widgets</a>, <a class='category' href='/categories/reviews/'>Reviews</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/upcoming-mobile-events_900.html" title="Previous Post: Upcoming Mobile Events">&laquo; Upcoming Mobile Events</a>
+      
+      
+        <a class="basic-alignment right" href="/speaking-at-over-the-air-london-sept-25-26_920.html" title="Next Post: Speaking at Over The Air, London, Sept. 25-26">Speaking at Over The Air, London, Sept. 25-26 &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2014 - PavingWays Limited -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'pavingways-blog';
+      
+        
+        var disqus_script = 'count.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

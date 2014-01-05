@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Reviews | PavingWays]]></title>
   <link href="http://pavingways.github.io/categories/reviews/atom.xml" rel="self"/>
   <link href="http://pavingways.github.io/"/>
-  <updated>2014-01-05T21:13:03+01:00</updated>
+  <updated>2014-01-05T21:56:03+01:00</updated>
   <id>http://pavingways.github.io/</id>
   <author>
     <name><![CDATA[PavingWays Limited]]></name>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Hands-On Nokia WRT Development with Aptana]]></title>
-    <link href="http://pavingways.github.io/nokia-wrt-development-aptana-plugin.html"/>
+    <link href="http://pavingways.github.io/nokia-wrt-development-aptana-plugin_688.html"/>
     <updated>2009-09-14T00:00:00+02:00</updated>
-    <id>http://pavingways.github.io/nokia-wrt-development-aptana-plugin</id>
+    <id>http://pavingways.github.io/nokia-wrt-development-aptana-plugin_688</id>
     <content type="html"><![CDATA[<p>Back in April we were invited to participate in the <a href="http://www.pavingways.com/nokia-developer-summit-2009-wrap-up-day-1_517.html">Nokia WRT Widget Hackathon in Monaco</a>. The event took place during the <a href="http://events.nokia.com/developersummit/">Nokia Developer Summit</a> and it was all about hacking a WRT widget together within 24 hours. 12 teams from around the world implemented widget ideas nominated in beforehand by the Nokia community. We chose to work on the travel planner idea because it relates pretty well to one of our upcoming services called <a href="http://pandaroute.com/">Panda Route &ndash; a travel diary service</a>.</p>
 
 <p>With this article I want to provide some basic insights on Nokia WRT widgets, how they work and how to implement and deploy them to handsets.</p>
@@ -53,9 +53,9 @@ Additional to code completion, syntax highlighting and all the other nice featur
   
   <entry>
     <title type="html"><![CDATA[Book: Mobile Web Design by Cameron Moll]]></title>
-    <link href="http://pavingways.github.io/book-mobile-web-design-by-cameron-moll.html"/>
+    <link href="http://pavingways.github.io/book-mobile-web-design-by-cameron-moll_136.html"/>
     <updated>2007-09-16T00:00:00+02:00</updated>
-    <id>http://pavingways.github.io/book-mobile-web-design-by-cameron-moll</id>
+    <id>http://pavingways.github.io/book-mobile-web-design-by-cameron-moll_136</id>
     <content type="html"><![CDATA[<p><a HREF="http://www.mobilewebbook.com/"><img SRC="http://www.mobilewebbook.com/images/snaps/1.jpg" ALT="image of book cover" STYLE="margin: 0pt 0pt 10px 10px; float: right" /></a>I met <a HREF="http://www.cameronmoll.com/">Cameron</a> after his first conference talk in Europe at the <a HREF="http://www.vivabit.com/atmedia2006/">@media conference</a> in London in June 2006. He was talking about the same thing there &ndash; Mobile Web Design &ndash; and I really liked his presentation. Since then we both kept on doing research in the mobile area and Cameron just released his first book and it&rsquo;s a great one!</p>
 
 <p>Early chapters entitled &ldquo;Mobile Web Fundamentals&rdquo; give a great amount of background information on the mobile web market and usage, the concept of being &ldquo;mobile&rdquo; (it&rsquo;s not the device, but the user that&rsquo;s mobile) and on the fundamental limitations in this area (screen size, input methods, carriers etc.).</p>
@@ -74,9 +74,9 @@ Additional to code completion, syntax highlighting and all the other nice featur
   
   <entry>
     <title type="html"><![CDATA[Book: "Bulletproof Ajax" by Jeremy Keith]]></title>
-    <link href="http://pavingways.github.io/book-bulletproof-ajax-by-jeremy-keith.html"/>
+    <link href="http://pavingways.github.io/book-bulletproof-ajax-by-jeremy-keith_135.html"/>
     <updated>2007-09-15T00:00:00+02:00</updated>
-    <id>http://pavingways.github.io/book-bulletproof-ajax-by-jeremy-keith</id>
+    <id>http://pavingways.github.io/book-bulletproof-ajax-by-jeremy-keith_135</id>
     <content type="html"><![CDATA[<p><a href="http://www.bulletproofajax.com/"><img src="http://www.bulletproofajax.com/images/cover_small.gif" alt="image of book cover" style="margin: 0pt 0pt 10px 10px; float: right" /></a>I want to recommend a book by <a href="http://adactio.com/">Jeremy Keith</a>, called &ldquo;<a href="http://www.amazon.com/exec/obidos/ASIN/0321472667/wohnflydasreg-21/">Bulletproof Ajax</a>&rdquo;. I recommend it for several reasons. First of all, the book is an excellent introduction to Ajax programming in general and everybody starting to write JavaScript code to do Ajax should read it before touching any of the libraries out there.
 Secondly the book is especially suited to anybody who is interested in writing Ajax powered apps on mobile devices and constrained browsers. After all the book is all about making JavaScript code bulletproof and that&rsquo;s exactly what you need to do if you are facing browser constraints, flaky implementations of JavaScript engines and a hugely fragment environment overall.</p>
 
@@ -88,9 +88,9 @@ Secondly the book is especially suited to anybody who is interested in writing A
   
   <entry>
     <title type="html"><![CDATA[Webmontag, Munich 02/12/2007]]></title>
-    <link href="http://pavingways.github.io/webmontag-munich-02122007.html"/>
+    <link href="http://pavingways.github.io/webmontag-munich-02122007_74.html"/>
     <updated>2007-02-14T00:00:00+01:00</updated>
-    <id>http://pavingways.github.io/webmontag-munich-02122007</id>
+    <id>http://pavingways.github.io/webmontag-munich-02122007_74</id>
     <content type="html"><![CDATA[<p><img id="image75" alt="webmontag_logo.jpg" style="float: right; width: 150px; margin-left: 5px" src="http://www.pavingways.com/wp-content/uploads/webmontag_logo.jpg" />A week after our visit to <a href="http://www.pavingways.com/mobile-monday-munich-02052007_72.html">Mobile Monday</a> we attended the <a href="http://webmontag.de/doku.php?id=muenchen&DokuWiki=7cc4cb5a995f972dca7ec8295515104a">Webmontag in Munich</a>. Webmontag is a great platform to meet interesting people from the web business. Organized by <a href="https://www.xing.com/profile/Martin_Szugat">Martin Szugat</a> and taking place at the <a href="http://www.amiando.com/">amiando</a> office the event was quite the opposite from the Mobile Monday because of its very relaxed atmosphere and start-up minded people attending.</p>
 
 <!--more-->
@@ -118,9 +118,9 @@ All in all it was a great evening, very social and a great opportunity to meet n
   
   <entry>
     <title type="html"><![CDATA[Mobile Monday, Munich 02/05/2007]]></title>
-    <link href="http://pavingways.github.io/mobile-monday-munich-02052007.html"/>
+    <link href="http://pavingways.github.io/mobile-monday-munich-02052007_72.html"/>
     <updated>2007-02-10T00:00:00+01:00</updated>
-    <id>http://pavingways.github.io/mobile-monday-munich-02052007</id>
+    <id>http://pavingways.github.io/mobile-monday-munich-02052007_72</id>
     <content type="html"><![CDATA[<p><img style="float: right; width: 150px; margin-left: 5px" alt="MobileMonday" title="MobileMonday" src="http://www.mobilemonday.net/mm/img/logo_mm.gif" />We have been at this week&rsquo;s MobileMonday in Munich, Germany. Being the first &ldquo;real&rdquo; MobileMonday for us, except the <a href="http://www.pavingways.com/mobile-20-event-in-san-francisco-well-be-there_58.html">Mobile 2.0 Event</a> in San Francisco last November, and being the first MobileMonday in Munich at all it has been a premiere in many ways. The overall topic of the evening was &ldquo;Next Generation Mobile Internet&rdquo; and it sounded like the perfect topic for PavingWays.</p>
 
 <p>Here&rsquo;s a quick review of the event from our perspective.</p>

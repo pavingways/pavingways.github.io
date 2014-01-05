@@ -4,7 +4,7 @@
   <title><![CDATA[Category: de | PavingWays]]></title>
   <link href="http://pavingways.github.io/categories/de/atom.xml" rel="self"/>
   <link href="http://pavingways.github.io/"/>
-  <updated>2014-01-05T21:13:03+01:00</updated>
+  <updated>2014-01-05T21:56:03+01:00</updated>
   <id>http://pavingways.github.io/</id>
   <author>
     <name><![CDATA[PavingWays Limited]]></name>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[PhoneGap Meetup #2 Retrospektive]]></title>
-    <link href="http://pavingways.github.io/phonegap-meetup-2-retrospektive.html"/>
+    <link href="http://pavingways.github.io/phonegap-meetup-2-retrospektive_2431.html"/>
     <updated>2011-08-12T00:00:00+02:00</updated>
-    <id>http://pavingways.github.io/phonegap-meetup-2-retrospektive</id>
+    <id>http://pavingways.github.io/phonegap-meetup-2-retrospektive_2431</id>
     <content type="html"><![CDATA[<p>Vergangenen Mittwoch hatten wir nun unser zweites <a href="http://www.phonegap.com/" title="PhoneGap">PhoneGap</a> und HTML5 Meetup. Auf der Agenda standen zwei Präsentationen: <a href="http://www.meetup.com/PhoneGap-HTML5-Meetup-Rhein-Main/"></a>PhoneGap 1.0 und Remote Debugging, außerdem hat sich <a href="https://twitter.com/#!/wpbasti" title="@wpbasti">@wpbasti</a> spontan zu einem Intro zu <a href="http://en.wikipedia.org/wiki/Programming_tool" title="Tooling">Tooling</a> im allgemeinen und <a href="https://github.com/wpbasti/jasy" title="Jasy">Jasy</a> im speziellen entschlossen.</p>
 
 <p>Nachdem ich mein Intro zu PhoneGap 1.0 mit Ausblick auf 2.0 und eine kurze XCode Demo mit dem <a href="http://joapp.com/" title="Jo App-Framework">Jo App-Framework</a> beendet hatte, hat uns Martin <a href="http://phonegap.github.com/weinre/">Weinre</a> und Remote Debugging gezeigt. Er hat uns außerdem die Idee zu seiner anstehenden Bachelor-Arbeit präsentiert. Dabei geht es um die Entwicklung eines PhoneGap-Polyfills um die Entwicklung von Apps im Browser zu erleichtern. Die Idee kam gut an und mögliche Parallelen zum <a href="http://ripple.tinyhippos.com/">Ripple Emulator</a> wurden kurz besprochen. Martin hat außerdem vor, ein Meetup für Mobile-Entwickler in Mannheim zu starten.</p>
@@ -32,9 +32,9 @@
   
   <entry>
     <title type="html"><![CDATA[PhoneGap/HTML5 Meetup #2]]></title>
-    <link href="http://pavingways.github.io/phonegaphtml5-meetup-2.html"/>
+    <link href="http://pavingways.github.io/phonegaphtml5-meetup-2_2418.html"/>
     <updated>2011-08-04T00:00:00+02:00</updated>
-    <id>http://pavingways.github.io/phonegaphtml5-meetup-2</id>
+    <id>http://pavingways.github.io/phonegaphtml5-meetup-2_2418</id>
     <content type="html"><![CDATA[<p>Unser <strong>2. Phonegap/HTML5 Meetup</strong> findet am 10. August im <a href="http://www.sternstunde-ffm.de/">Café Sternstunde</a>, Färberstraße 65 in Frankfurt/Main statt.
 Themen: PhoneGap 1.0 und Remote Debugging.</p>
 
@@ -49,9 +49,9 @@ Bis nächste Woche!</p>
   
   <entry>
     <title type="html"><![CDATA[Apple startet B2B App Store in den USA]]></title>
-    <link href="http://pavingways.github.io/apple-startet-b2b-app-store-in-den-usa.html"/>
+    <link href="http://pavingways.github.io/apple-startet-b2b-app-store-in-den-usa_2413.html"/>
     <updated>2011-07-26T00:00:00+02:00</updated>
-    <id>http://pavingways.github.io/apple-startet-b2b-app-store-in-den-usa</id>
+    <id>http://pavingways.github.io/apple-startet-b2b-app-store-in-den-usa_2413</id>
     <content type="html"><![CDATA[<p>Mit seinem <strong><a href="http://www.apple.com/business/vpp/">Volume Purchase Program</a></strong> bietet Apple Geschäftskunden die Möglichkeit an, Volumenlizenzen für Apps zu erwerben. Unternehmen können nun <a href="http://images.apple.com/business/docs/ASVPP_Business_Guide_US.pdf">über ein zentrales Konto</a> einzelne Apps in großer Stückzahl über eine einzelne Rechnung kaufen. Anschließend erhält der Käufer Gutscheine, die er  an seine Mitarbeiter verteilen kann, so dass diese die App wie gewohnt über den App Store herunterladen können.</p>
 
 <h3>Maßgeschneiderte B2B Apps</h3>
@@ -67,9 +67,9 @@ Bis nächste Woche!</p>
   
   <entry>
     <title type="html"><![CDATA[QR-Codes als Marketinginstrument]]></title>
-    <link href="http://pavingways.github.io/qr-codes-als-marketinginstrument.html"/>
+    <link href="http://pavingways.github.io/qr-codes-als-marketinginstrument_2379.html"/>
     <updated>2011-07-05T00:00:00+02:00</updated>
-    <id>http://pavingways.github.io/qr-codes-als-marketinginstrument</id>
+    <id>http://pavingways.github.io/qr-codes-als-marketinginstrument_2379</id>
     <content type="html"><![CDATA[<p>Eine Studie von <a href="http://www.i-nigma.com/pr26.html">3GVision</a> zeigt, dass die Nutzung von mobilen Barcodes weltweit ansteigt. Neben den USA führen auch europäische Länder wie Deutschland, Italien und England den Trend an.</p>
 
 <p>Mittlerweile haben viele Firmen damit begonnen, QR-Codes (&ldquo;Quick Response Codes&rdquo;) in ihre Marketingkampagnen zu integrieren. Meist werden diese auf Produktverpackungen, in Magazinen oder auf Plakaten eingesetzt. Nachdem der QR-Code eingescannt wurde, erhält der Konsument weiterführende Produktinformationen, Coupons oder auch virtuelle Güter wie Musik, Videos und Spiele.</p>
@@ -87,9 +87,9 @@ Bis nächste Woche!</p>
   
   <entry>
     <title type="html"><![CDATA[UPDATE: PhoneGap/HTML5 Meetup #1 / Kick-Off]]></title>
-    <link href="http://pavingways.github.io/phonegaphtml5-meetup-1-kick-off.html"/>
+    <link href="http://pavingways.github.io/phonegaphtml5-meetup-1-kick-off_2308.html"/>
     <updated>2011-05-23T00:00:00+02:00</updated>
-    <id>http://pavingways.github.io/phonegaphtml5-meetup-1-kick-off</id>
+    <id>http://pavingways.github.io/phonegaphtml5-meetup-1-kick-off_2308</id>
     <content type="html"><![CDATA[<p><strong>UPDATE:</strong></p>
 
 <p>Wir treffen uns am Do, den 26. Mai um 19:00 Uhr in der</p>

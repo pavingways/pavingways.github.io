@@ -1,0 +1,242 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Node.js is Important. An Introduction - PavingWays JavaScript Applications</title>
+  <meta name="author" content="PavingWays Limited">
+
+  
+  <meta name="description" content="Once in a while you come across a new technology and are just blown away by it. You feel that something like this should have been around much &hellip;">
+  
+
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://pavingways.github.io/nodejs-node-is-important-introduction_1618.html">
+  <!--<link href="/favicon.png" rel="icon">-->
+  <link href="http://gravatar.com/userimage/336259/af37eb31524b5d5bee5e0f902fdb42fe.png
+?s=16" rel="shortcut icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="PavingWays" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+</head>
+
+<body   class="no-sidebar"  >
+  <header role="banner"><hgroup>
+  <h1><a href="/">PavingWays</a></h1>
+  
+    <h2>We build JavaScript applications</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<ul class="main-navigation">
+  <li><a href="/">About</a></li>
+  <li><a href="/projects/">Projects</a></li>
+  <li><a href="/blog/">Blog</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Node.js is Important. An Introduction</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2010-03-19T00:00:00+01:00" pubdate data-updated="true"></time>
+        
+           | <a href="#disqus_thread"
+             data-disqus-identifier="http://pavingways.github.io">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content">Once in a while you come across a new technology and are just blown away by it. You feel that something like this should have been around much earlier and that it is (gonna be) a significant milestone, not just in your own live as a developer but in general.
+
+The last time this happened to me was when I dug a bit deeper into a project called <a href="http://nodejs.org/">node.js</a> or just &#8220;node&#8221; as the binary is called. In case you have not heard about this don&#8217;t worry. However, if you are a developer, especially if you are working with JavaScript, then you should be concerned and maybe check your news sources, because it is a couple of months old already and it is drawing a lot of attention lately! If you&#8217;re not a developer this might get a bit techy from here, but maybe you get something out of it after all&#8230;
+<h3>What is node.js?</h3>
+It&#8217;s actually not too easy to explain, but basically node.js is an:
+<ul>
+	<li>open-source</li>
+	<li>low-level</li>
+	<li>evented</li>
+	<li><a href="http://en.wikipedia.org/wiki/Asynchronous_I/O">non-blocking</a></li>
+	<li><a href="http://en.wikipedia.org/wiki/Event_loop">event loop</a> based</li>
+	<li><a href="http://en.wikipedia.org/wiki/Server-side_JavaScript">SSJS</a> runtime environment</li>
+</ul>
+It is written in C and JavaScript, it contains the <a href="http://en.wikipedia.org/wiki/V8_(JavaScript_engine)">V8 JavaScript engine</a>, a <a href="http://commonjs.org/">CommonJS</a> module system and it helps you to implement highly <a href="http://en.wikipedia.org/wiki/Concurrency_(computer_science)">concurrent web servers</a> by handling I/O very efficiently, namely in a <a href="http://www.kegel.com/dkftpbench/nonblocking.html">non-blocking</a> way. Support for TCP, DNS and HTTP is included and many HTTP features are supported that are important for <a href="http://en.wikipedia.org/wiki/Comet_(programming)">Comet</a>-style web applications - things like hanging requests.
+
+Node.js itself is a program that will have to be compiled and installed on your machine. Then you can use JavaScript to write programs that use the API of node.js and that are executed through the node binary as simple as this: &#8220;node yourprogram.js&#8221;.
+Due to the included V8 you have the complete JavaScript API available, it&#8217;s just that you are not running your JavaScript program inside of a browser context, but as a program within the node.js environment. Node extends the JS API by several things like access to the file system and such. All of this is what <a href="http://en.wikipedia.org/wiki/Server-side_JavaScript">server-side JavaScript</a> is all about.
+<h3>What is Special about node.js?</h3>
+There are other implementations for this kind of stuff, but what <a href="http://tinyclouds.org/">Ryan Dahl</a> <a href="http://github.com/ry/node">et al</a> do differently with node.js is to use <strong>JavaScript</strong> as the main programming language and the strict paradigm of exclusively working with callbacks and<strong> non-blocking I/O</strong>. This means that basically any function you are executing in a node.js program does work in the background after calling, executing a <strong>callback function</strong> once it is done. This enables the program itself to continue and not to block any resources while it is waiting for the function to finish whatever it does.
+<h3>A Practical Example: The Web Server</h3>
+Ok, this is a bit dry and mind-bending maybe, but it all makes a lot of sense: Think about <a href="http://www.kegel.com/c10k.html">thousands of internet users entering the URL of your website</a> causing their web browsers to hit your web server at the same time (maybe they fire Ajax requests too). Each of these requests would cause a <strong>thread</strong> in your regular web server (= Apache) to spawn that executes a script (PHP maybe) which does DB queries and such before finally returning the response to the browser. Here we have 2 things to look at: memory usage and blocking I/O.
+
+Each of these threads uses memory. Many threads use a lot of memory. Thousands of users would cause thousands of threads to use a lot of memory&#8230;you see where this is going&#8230;you will run out of memory soon and your page or service will not respond anymore.
+Blocking I/O is the cause for that problem: each one of these threads does things like DB access which takes some time to finish. This is normal because the DB tables might be huge and queries might take long to find the result you are looking for.
+Now the script on your web server would usually execute a DB query, <strong>then wait until it gets a result</strong> from the DB server and then continue. While the DB server fetches your data your whole script is blocked. It does not continue to run until the result has come back and it is using memory and other resources while waiting. If this happens <strong>several thousand times at once </strong>this blocks a lot of resources and your server goes into a memory dry spell.
+
+If it would be possible to get rid of all these threads and to put them all into a big pool this would solve some memory issues. If it on top of that would be possible to continue doing other tasks while waiting for DB queries this would surely help performance to increase - and that&#8217;s what node.js does.
+<h3>Event Loop to the Rescue</h3>
+A node-based server will pool all incoming connections and the underlying node framework can do things like <strong>hanging these connections</strong> to a &#8220;waiting&#8221; state while allowing the server to continue working on creating the response. The <strong>event loop and the callback paradigm</strong> in node.js is used to execute a DB query, but not wait for a response blocking a lot of resources. Rather a callback is attached to the DB result and node.js goes on with other tasks (saving CPU cycles). For the browser on the other side this results simply in a &#8220;waiting for response&#8221; situation, same as for the threaded server.
+
+So, whenever the result from the DB comes back, node.js is executing whatever callback function was attached to the querying function and once the request is ready it will get the related connection from the pool, end its &#8220;waiting&#8221; state and return it to the browser. This is causing way less memory usage and allows for much faster response times.
+
+This is just a tiny bit of the whole story, so make sure you <a href="http://s3.amazonaws.com/four.livejournal/20091117/jsconf.pdf">get into</a> this!
+<h3>But Why is this Important?</h3>
+Well, Ajax and Comet-driven web applications are generating heavy load on web servers, especially if you look at chat applications or multiplayer browser games where there are <strong>many concurrent connections</strong> and small response times are essential. Here lays the strength of node.js.
+
+In the past to me it felt like we had reached a time where the traditional way to implement our web servers  would not fit to the demands that we had on the client-side during the last months. <a href="http://cometdaily.com/2007/12/11/the-future-of-comet-part-1-comet-today/">Comet and Ajax-Push is a big hack</a>, <a href="http://dev.w3.org/html5/websockets/">HTML5 Web Sockets</a> are knocking at our door and we want to do things like <a href="http://www.google.com/search?q=data+streaming+realtime+web">real time data streaming</a>.
+
+Node.js can fill this need. Sure, it takes some time of getting used to for developers that have been working with &#8220;traditional&#8221; Ajax paradigms for the past years. It also seems like we would walk into a time where regular websites and Ajax driven web applications would get their own servers. But it surely feels like we would finally have a toolkit which solves many of our newly developed needs and which brings the web as a whole a big step further. It might well be the best thing since sliced bread.
+
+On top of that it is now possible to write a simple web server and basically all the server side logic in JavaScript, which is great if you are working with JavaScript on the client side as well.
+
+To close this I can just encourage anybody working with Ajax or Comet or even just JavaScript in any way <a href="http://s3.amazonaws.com/four.livejournal/20091117/jsconf.pdf">to look into node.js</a> - it helped me to understand web server issues in more detail and I will be working with this and see where it goes. As it seems some <a href="http://wiki.github.com/ry/node/">others are working with this already too</a> and even Simon Willison <a href="http://simonwillison.net/2009/Nov/23/node/">was excited</a> after Ryan Dahl gave a good introduction to node.js at <a href="http://jsconf.eu/2009/">last year&#8217;s JSConf</a>:
+
+<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="400" height="250" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="src" value="http://blip.tv/play/AYGylE4C" /><param name="allowfullscreen" value="true" /><embed type="application/x-shockwave-flash" width="400" height="250" src="http://blip.tv/play/AYGylE4C" allowfullscreen="true"></embed></object>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">PavingWays Limited</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2010-03-19T00:00:00+01:00" pubdate data-updated="true"></time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/categories/mobile-web/'>Mobile Web</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/baby-roulette-now-available-app-store_1597.html" title="Previous Post: Baby Roulette now in App Store - some insights...">&laquo; Baby Roulette now in App Store - some insights...</a>
+      
+      
+        <a class="basic-alignment right" href="/happy-easter_1626.html" title="Next Post: Happy Easter!">Happy Easter! &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"></div>
+    <div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'pavingways-blog'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+  </section>
+
+</div>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2014 - PavingWays Limited -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'pavingways-blog';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://pavingways.github.io/nodejs-node-is-important-introduction_1618.html';
+        var disqus_url = 'http://pavingways.github.io/nodejs-node-is-important-introduction_1618.html';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

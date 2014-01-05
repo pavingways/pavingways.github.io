@@ -1,0 +1,185 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Debugging Ajax on Windows Mobile - PavingWays JavaScript Applications</title>
+  <meta name="author" content="PavingWays Limited">
+
+  
+  <meta name="description" content="I just found an interesting article about Ajax development for Windows Mobile. It looks like the Microsoft crowd is really into Ajax on their mobile &hellip;">
+  
+
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://pavingways.github.io/debugging-ajax-on-windows-mobile_129.html">
+  <!--<link href="/favicon.png" rel="icon">-->
+  <link href="http://gravatar.com/userimage/336259/af37eb31524b5d5bee5e0f902fdb42fe.png
+?s=16" rel="shortcut icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="PavingWays" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+</head>
+
+<body   class="no-sidebar"  >
+  <header role="banner"><hgroup>
+  <h1><a href="/">PavingWays</a></h1>
+  
+    <h2>We build JavaScript applications</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<ul class="main-navigation">
+  <li><a href="/">About</a></li>
+  <li><a href="/projects/">Projects</a></li>
+  <li><a href="/blog/">Blog</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Debugging Ajax on Windows Mobile</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2007-09-05T00:00:00+02:00" pubdate data-updated="true"></time>
+        
+           | <a href="#disqus_thread"
+             data-disqus-identifier="http://pavingways.github.io">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content">I just found an <a href="http://www.pluralsight.com/blogs/jimw/archive/2007/08/29/48322.aspx">interesting article about Ajax development for Windows Mobile</a>. It looks like the Microsoft crowd is really into Ajax on their mobile platform, which makes sense&#8230;after all makeing a platform appealing to developers is a good thing for the platform. The approach is however different from ours - Microsofties (can you call them like this?) tend to rely on their own tools, namely ASP.net, not open source based tools and libraries.
+
+The article mentions a nice hint for debugging directly on the device: turning on the display of script errors in IE mobile. This is achieved by editing a registry entry, which can be done e.g. with the <a href="http://www.freewareppc.com/utilities/phmregistryeditor.shtml">PHM Registry Editor, a freeware tool</a>. The registry key to change should be this:
+
+<em>HKCU\Software\Microsoft\Internet Explorer\Main</em>
+
+There you need to add a DWORD value called <em>ShowScriptErrors </em>and set its value to 1.
+
+The Article also describes how to enable cross-site access for XMLHttpRequest, which might be useful for development purposes, not so much for end-user apps. And there&#8217;s also a workaround for a JSON relates quirk in IE mobile, which does not allow cross-site JSON scripts to be executed if the browser is in &#8220;One Column&#8221; view mode - I decided not to think about the &#8220;why ?&#8221; in this case, probably it&#8217;s a weird bug.
+
+So make sure you check out <a href="http://www.pluralsight.com/blogs/jimw/archive/2007/08/29/48322.aspx">the article</a> if you&#8217;re interested!
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">PavingWays Limited</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2007-09-05T00:00:00+02:00" pubdate data-updated="true"></time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/categories/mobile-ajax/'>Mobile Ajax</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/mobile-ajax-post-answered_127.html" title="Previous Post: Mobile Ajax post answered">&laquo; Mobile Ajax post answered</a>
+      
+      
+        <a class="basic-alignment right" href="/mobile-ajax-workshop-in-mountain-view_102.html" title="Next Post: Mobile Ajax Workshop in Mountain View">Mobile Ajax Workshop in Mountain View &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2014 - PavingWays Limited -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'pavingways-blog';
+      
+        
+        var disqus_script = 'count.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
