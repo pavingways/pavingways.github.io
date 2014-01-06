@@ -4,7 +4,7 @@
   <title><![CDATA[PavingWays]]></title>
   <link href="http://pavingways.github.io/atom.xml" rel="self"/>
   <link href="http://pavingways.github.io/"/>
-  <updated>2014-01-06T14:24:00+01:00</updated>
+  <updated>2014-01-06T14:24:41+01:00</updated>
   <id>http://pavingways.github.io/</id>
   <author>
     <name><![CDATA[PavingWays Limited]]></name>
@@ -80,7 +80,7 @@ The import worked alright, however I did not see any comments in the Disqus box 
 <p>Apparently Disqus and CloudFlare don&rsquo;t just work together as planned and so I followed <a href="http://www.elizaibeth.com/disqus-comments-not-showing-correctly/">this post</a> and It worked &ndash; unfortunately only partly&hellip;</p>
 
 <p>As it turns out I had to do a <em>domain migration</em> in Disqus (Discussions &ndash;> Tools) in order to see all my old comments.
-Strangely this required me to migrate from my (unchanged) domain <code>pavingways.com</code> to <code>pavingways.github.io</code> so they now appear as e.g.</p>
+Strangely this required me to migrate from my (unchanged) domain <code>pavingways.com</code> to <code>pavingways.github.io</code> so they now appear in Disqus like this:</p>
 
 <pre><code>http://pavingways.github.io/new-year-new-blog.html
 </code></pre>
