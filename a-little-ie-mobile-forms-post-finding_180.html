@@ -72,26 +72,22 @@
   
 
 
-<time datetime="2008-05-03T00:00:00+02:00" pubdate data-updated="true"></time>
-        
-           | <a href="#disqus_thread"
-             data-disqus-identifier="http://pavingways.github.io">Comments</a>
+<time datetime="2008-05-03T00:00:00+02:00" pubdate data-updated="true">May 3<span>rd</span>, 2008</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content">While working on a couple of things we realized strange behavior in IE Mobile on a Windows 5.0 phone. It&#8217;s not really a big issue but it could lead to tiny hiccups for developers, so I felt like posting it here.
-
-The issue occurs then POSTing a form (multipart/form-data) to the server (running PHP 5.x) which contains an input field of type &#8220;file&#8221; and you leave this file empty.
-
-What you on the server side normally do is to read the form values submitted by the user through the $_POST and the $_FILES array (in PHP) and then do whatever you like with it. These arrays are populated by PHP with the values of the various input fields on your form, and inputs of type=&#8221;file&#8221; don&#8217;t appear in $_POST, but in the $_FILES array, any other input type&#8217;s value goes to $_POST.
-
-<!--more-->Now as long as you fill in all field on your form everything is fine, and IE Mobile works as described.
-
-BUT: While any other browser seems to not send empty inputs of type=&#8221;file&#8221; to the server at all, IE Mobile does just that AND it goes to $_POST causing you to have a key with the name of your input=&#8221;file&#8221; field with en empty value in the $_POST array after sending the form. This doesn&#8217;t hurt at all, but it is weird, especially because this ONLY happens if you leave the input=&#8221;file&#8221; form element empty.
-
+<div class="entry-content">While working on a couple of things we realized strange behavior in IE Mobile on a Windows 5.0 phone. It&#8217;s not really a big issue but it could lead to tiny hiccups for developers, so I felt like posting it here.<br>
+<br>
+The issue occurs then POSTing a form (multipart/form-data) to the server (running PHP 5.x) which contains an input field of type &#8220;file&#8221; and you leave this file empty.<br>
+<br>
+What you on the server side normally do is to read the form values submitted by the user through the $_POST and the $_FILES array (in PHP) and then do whatever you like with it. These arrays are populated by PHP with the values of the various input fields on your form, and inputs of type=&#8221;file&#8221; don&#8217;t appear in $_POST, but in the $_FILES array, any other input type&#8217;s value goes to $_POST.<br>
+<!--more-->Now as long as you fill in all field on your form everything is fine, and IE Mobile works as described.<br>
+<br>
+BUT: While any other browser seems to not send empty inputs of type=&#8221;file&#8221; to the server at all, IE Mobile does just that AND it goes to $_POST causing you to have a key with the name of your input=&#8221;file&#8221; field with en empty value in the $_POST array after sending the form. This doesn&#8217;t hurt at all, but it is weird, especially because this ONLY happens if you leave the input=&#8221;file&#8221; form element empty.<br>
+<br>
 While this is a bit strange, it&#8217;s not really a problem, maybe not even a bug, maybe not even against the standard (I didn&#8217;t look it up). After all, uploading files through a form on a mobile browser does not seem to be what many people do (although it works pretty well&#8230;mostly).
 </div>
 
@@ -115,7 +111,7 @@ While this is a bit strange, it&#8217;s not really a problem, maybe not even a b
   
 
 
-<time datetime="2008-05-03T00:00:00+02:00" pubdate data-updated="true"></time>
+<time datetime="2008-05-03T00:00:00+02:00" pubdate data-updated="true">May 3<span>rd</span>, 2008</time>
       
 
 <span class="categories">

@@ -72,52 +72,33 @@
   
 
 
-<time datetime="2006-10-27T00:00:00+02:00" pubdate data-updated="true"></time>
-        
-           | <a href="#disqus_thread"
-             data-disqus-identifier="http://pavingways.github.io">Comments</a>
+<time datetime="2006-10-27T00:00:00+02:00" pubdate data-updated="true">Oct 27<span>th</span>, 2006</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content">A little while ago <a title="Team IEMobile" href="http://blogs.msdn.com/iemobile/default.aspx">Team IEMobile</a> posted an interesting article on <a title="Team IEMobile Blog" href="http://blogs.msdn.com/iemobile/default.aspx">their blog</a> about changes in the <a href="http://en.wikipedia.org/wiki/User_agent#Browsers">User-Agent string</a> that is sent to the web server when the browser requests a document.
-The browser of the Windows Mobile OS will undergo a rather radical change concerning this browser identification string that is often used by web developers to detect the browser in order to take advantage of it&#8217;s unique features. Unfortunately the schema of the User-Agent string was not clear to many website creators in the past. Even the MSN website had problems of detecting the mobile IE correctly.
-
-The browser of current and older Windows Mobile versions sends two different User-Agent strings, depending on what platform the OS runs on:
-<ul>
-	<li>Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC; 240x320)</li>
-	<li>Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; Smartphone; 176x220)</li>
-</ul>
-Unfortunately the User-Agent string may or may not contain certain parts, for example the resolution information or even the &#8220;MSIE 4.01&#8221;. Therefore the only sure shot you can have at detecting the older and current Mobile Internet Explorers correctly is by detecting both &#8221;<strong>Smartphone</strong>&#8221; or &#8221;<strong>PPC</strong>&#8221; and &#8221;<strong>Windows CE</strong>&#8221;.
-
-However this will change with the new version of the browser that comes out on new devices sporting the Windows Mobile 5.0 OS.
-For new devices the IE Mobile User-Agent string will look like this:
-
-<!--more-->
-<ul>
-	<li>Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile m.n) XYZ</li>
-</ul>
-The &#8220;m.n&#8221; is a version number and it can differ from release to release. Thus it can also be used to take advantage of new features of every release. &#8220;XYZ&#8221; can be added by OEMs and it can basically include anything the OEM wants it to contain.
-Team IEMobile recommends to look for &#8221;<strong>IEMobile</strong>&#8221; in the User-Agent string to be sure to detect the browser correctly, since this part will never change. It is also not necessary to make a distinction between smartphone and ppc versions anymore - both browsers are built from the same code base and have identical features.
-
-So how do you get info about e.g the resolution of the device? That&#8217;s what additional headers are there for - and not the User-Agent string! The browser sends additional UA headers to the server upon requesting  document that contain information screen size, color depth, operating system, CPU type (not always on smartphones) and VoIP features (new) of the device. Those headers - that by the way are there at least since Windows Mobile 2002 - look like this:
-<ul>
-	<li>UA-pixels: {i.e. 240x320}</li>
-	<li>UA-color: {mono2 | mono4 | color8 | color16 | color24 | color32}</li>
-	<li>UA-OS: {Windows CE (POCKET PC) - Version 3.0}</li>
-	<li>UA-CPU = {i.e. ARM SA1110}</li>
-	<li>UA-Voice = {TRUE | FALSE}</li>
-</ul>
-(<a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/wcepie/html/ceconidentifyingpocketinternetexplorertowebserver.asp">here is some more info about UA headers and IIS</a>)
-
-Another nice feature of the new IEMobile is a special meta tag that can be used to tell the browser to ignore the user display setting, turn off all layout optimizations and force the browser to render a page in &#8220;desktop&#8221; mode:
-<div align="center">&lt;meta name=&#8221;MobileOptimized&#8221; content=&#8221;width&#8221;&gt;</div>
-(<a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/mobilesdk5/html/wce51conLayoutMetaTag.asp">read more about this here&#8230;</a>)
-
-Unfortunately Team IEMobile did not mention what new features we can expect from new browser versions. Especially CSS and JavaScript/XHR support would have been very interesting topics. But the post provides some very important information about how to be sure to detect the right browser version and even how to get additional information about the device the browser runs on.
-
+<div class="entry-content">A little while ago <a title="Team IEMobile" href="http://blogs.msdn.com/iemobile/default.aspx">Team IEMobile</a> posted an interesting article on <a title="Team IEMobile Blog" href="http://blogs.msdn.com/iemobile/default.aspx">their blog</a> about changes in the <a href="http://en.wikipedia.org/wiki/User_agent#Browsers">User-Agent string</a> that is sent to the web server when the browser requests a document.<br>
+The browser of the Windows Mobile OS will undergo a rather radical change concerning this browser identification string that is often used by web developers to detect the browser in order to take advantage of it&#8217;s unique features. Unfortunately the schema of the User-Agent string was not clear to many website creators in the past. Even the MSN website had problems of detecting the mobile IE correctly.<br>
+<br>
+The browser of current and older Windows Mobile versions sends two different User-Agent strings, depending on what platform the OS runs on:<ul>	<li>Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC; 240x320)</li>	<li>Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; Smartphone; 176x220)</li></ul><br>
+Unfortunately the User-Agent string may or may not contain certain parts, for example the resolution information or even the &#8220;MSIE 4.01&#8221;. Therefore the only sure shot you can have at detecting the older and current Mobile Internet Explorers correctly is by detecting both &#8221;<strong>Smartphone</strong>&#8221; or &#8221;<strong>PPC</strong>&#8221; and &#8221;<strong>Windows CE</strong>&#8221;.<br>
+<br>
+However this will change with the new version of the browser that comes out on new devices sporting the Windows Mobile 5.0 OS.<br>
+For new devices the IE Mobile User-Agent string will look like this:<br>
+<!--more--><ul>	<li>Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile m.n) XYZ</li></ul><br>
+The &#8220;m.n&#8221; is a version number and it can differ from release to release. Thus it can also be used to take advantage of new features of every release. &#8220;XYZ&#8221; can be added by OEMs and it can basically include anything the OEM wants it to contain.<br>
+Team IEMobile recommends to look for &#8221;<strong>IEMobile</strong>&#8221; in the User-Agent string to be sure to detect the browser correctly, since this part will never change. It is also not necessary to make a distinction between smartphone and ppc versions anymore - both browsers are built from the same code base and have identical features.<br>
+<br>
+So how do you get info about e.g the resolution of the device? That&#8217;s what additional headers are there for - and not the User-Agent string! The browser sends additional UA headers to the server upon requesting  document that contain information screen size, color depth, operating system, CPU type (not always on smartphones) and VoIP features (new) of the device. Those headers - that by the way are there at least since Windows Mobile 2002 - look like this:<ul>	<li>UA-pixels: {i.e. 240x320}</li>	<li>UA-color: {mono2 | mono4 | color8 | color16 | color24 | color32}</li>	<li>UA-OS: {Windows CE (POCKET PC) - Version 3.0}</li>	<li>UA-CPU = {i.e. ARM SA1110}</li>	<li>UA-Voice = {TRUE | FALSE}</li></ul><br>
+(<a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/wcepie/html/ceconidentifyingpocketinternetexplorertowebserver.asp">here is some more info about UA headers and IIS</a>)<br>
+<br>
+Another nice feature of the new IEMobile is a special meta tag that can be used to tell the browser to ignore the user display setting, turn off all layout optimizations and force the browser to render a page in &#8220;desktop&#8221; mode:<div align="center">&lt;meta name=&#8221;MobileOptimized&#8221; content=&#8221;width&#8221;&gt;</div><br>
+(<a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/mobilesdk5/html/wce51conLayoutMetaTag.asp">read more about this here&#8230;</a>)<br>
+<br>
+Unfortunately Team IEMobile did not mention what new features we can expect from new browser versions. Especially CSS and JavaScript/XHR support would have been very interesting topics. But the post provides some very important information about how to be sure to detect the right browser version and even how to get additional information about the device the browser runs on.<br>
+<br>
 Here&#8217;s another related link: <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/mobilesdk5/html/mob5oriMobileWebSiteDesignOverview.asp">Microsoft&#8217;s Mobile Web Site Design Overview</a> - a list of recommended techniques
 </div>
 
@@ -141,7 +122,7 @@ Here&#8217;s another related link: <a href="http://msdn.microsoft.com/library/de
   
 
 
-<time datetime="2006-10-27T00:00:00+02:00" pubdate data-updated="true"></time>
+<time datetime="2006-10-27T00:00:00+02:00" pubdate data-updated="true">Oct 27<span>th</span>, 2006</time>
       
 
 <span class="categories">
