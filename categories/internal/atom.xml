@@ -4,7 +4,7 @@
   <title><![CDATA[Category: internal | PavingWays]]></title>
   <link href="http://pavingways.github.io/categories/internal/atom.xml" rel="self"/>
   <link href="http://pavingways.github.io/"/>
-  <updated>2014-01-06T14:24:41+01:00</updated>
+  <updated>2014-01-06T14:25:10+01:00</updated>
   <id>http://pavingways.github.io/</id>
   <author>
     <name><![CDATA[PavingWays Limited]]></name>
@@ -85,7 +85,7 @@ Strangely this required me to migrate from my (unchanged) domain <code>pavingway
 <pre><code>http://pavingways.github.io/new-year-new-blog.html
 </code></pre>
 
-<p>in Disqus. I had no time digging deeper but apparetly disqus realizes that my page is hosted on GitHub.
+<p>I had no time digging deeper but apparetly disqus realizes that my page is hosted on GitHub.
 Finally all comments show up and we have a working blog again.</p>
 
 <p>Octopress' rake commands make it now simple and easy to write/debug posts and deploy them to GitHub.</p>
