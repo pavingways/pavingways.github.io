@@ -9,7 +9,7 @@
   <meta name="author" content="PavingWays Limited">
 
   
-  <meta name="description" content="Vergangenen Mittwoch hatten wir nun unser zweites PhoneGap und HTML5 Meetup. Auf der Agenda standen zwei Präsentationen: PhoneGap 1.0 und Remote &hellip;">
+  <meta name="description" content="Happy 2014 and welcome to our new blog! It has been very quiet around here for a while &ndash; over two years have passed since our last blog entry. &hellip;">
   
 
   <meta name="HandheldFriendly" content="True">
@@ -53,6 +53,114 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/new-year-new-blog.html">New Year, New Blog</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-01-06T00:00:00+01:00" pubdate data-updated="true">Jan 6<span>th</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Happy 2014 and welcome to our new blog!</p>
+
+<p>It has been very quiet around here for a while &ndash; <strong>over two years</strong> have passed since our last blog entry.
+Now we&rsquo;re redefining, tightening and updating PavingWays and we made some changes to our blog too.</p>
+
+<h2>New Blog</h2>
+
+<p>We transferred the old pavingways.com from a self-hosted and heavily modified WordPress installation to a <a href="http://jekyllrb.com/">Jekyll</a>/<a href="http://octopress.org/">Octopress</a> blog on <a href="http://pages.github.com/">GitHub Pages</a>.
+The page is additionally delivered through <a href="https://www.cloudflare.com/">CloudFlare</a> as we had CF set up before and it had proven to be reliable and fast.</p>
+
+<p>The whole migration process went relatively smooth however I had to make some adjustments here and there.</p>
+
+<h3>Migrate old WordPress Posts to Markdown</h3>
+
+<p>Before we settled with <a href="http://octopress.org/">Octopress</a> I tried <a href="https://ghost.org/">Ghost</a> and <a href="http://jekyllrb.com/">Jekyll</a> directly, so it was clear I would need to have our old posts as Markdown files or HTML if everything else would fail.</p>
+
+<p>So I wrote a PHP script that exported all of our old WordPress posts to Markdown files using an old PHP class called <a href="http://milianw.de/projects/markdownify/">Markdownify</a>.
+Trouble was that this class needed way too many adjustments and I never was satisfied with the results, so I discarded wanting to have ALL posts in Markdown and decided to go with the <a href="http://import.jekyllrb.com/">Jekyll importer</a> which produces HTML files.
+The process looked simple and roughly goes like this:</p>
+
+<ul>
+<li>export a WXR file from your WordPress &ldquo;Tools&rdquo; section</li>
+<li>follow a few simple steps on the <a href="http://import.jekyllrb.com/">Jekyll importer</a> page</li>
+<li>have your old blog posts in _posts (as .html files)</li>
+</ul>
+
+
+<p>Guess what &hellip; this did not work and I got this:</p>
+
+<pre><code>$ jekyll import wordpress --source pavingways.wordpress.2014-01-05.xml
+
+Could not require 'htmlentities', so the :clean_entities option is now disabled.
+error: LoadError: cannot load such file -- mysql2. Use --trace to view backtrace
+</code></pre>
+
+<p>I found a <a href="http://hadihariri.com/2013/12/24/migrating-from-wordpress-to-jekyll/">blog post</a> on the matter and tried another command line that worked:</p>
+
+<pre><code>$ruby -rubygems -e 'require "jekyll-import"; JekyllImport::Importers::WordpressDotCom.run({ "source" =&gt; "pavingways.wordpress.2014-01-05.xml" })'
+</code></pre>
+
+<p>Now I had all my files in _posts as I wanted. Now the remaining issues were as follows:</p>
+
+<ul>
+<li>filenames did not match my old URL scheme <code>/{post_name}_{ID}.html</code> .</li>
+<li>files do not contain a <code>date</code> field in their head section</li>
+<li>files do not contain a <code>comments</code> field in their head section</li>
+<li>HTML in WordPress is apparently outputted using PHP&rsquo;s <a href="http://php.net/manual/en/function.nl2br.php">nl2br()</a> function, so the HTML files did not contain the necessary <code>&lt;br&gt;</code>s</li>
+</ul>
+
+
+<p>In my first stab at Ruby source code ever since I read <a href="http://pragprog.com/book/rails1/agile-web-development-with-rails">this Rails book</a> in 2005 I changed the jekyll-import Gem (the file is called <code>wordpressdotcom.rb</code>) so it did all of the above and finally I was happy with my old post files.</p>
+
+<p>Some changes to the default Octopress theme and (S)CSS I had a working site and especially all of our old blog posts on GitHub.</p>
+
+<h3>Hosted Comments and Migration</h3>
+
+<p>The same WXR file I used for importing our old post can be used to import all comments to <a href="http://disqus.com/">Disqus</a>. Details see <a href="http://hadihariri.com/2013/12/24/migrating-from-wordpress-to-jekyll/">this blog post</a> again.
+The import went smooth, however I did not see any comments in the Disqus box below our posts.</p>
+
+<p>Apparently Disqus and CloudFlare don&rsquo;t just work together as planned and so I followed <a href="http://www.elizaibeth.com/disqus-comments-not-showing-correctly/">this post</a> and It worked &ndash; unfortunately only partly&hellip;</p>
+
+<p>As it turns out I had to do a <em>domain migration</em> in Disqus (Discussions &ndash;> Tools) in order to see all my old comments.
+Strangely this required me to migrate from my (unchanged) domain <code>pavingways.com</code> to <code>pavingways.github.io</code> so they now appear as e.g.</p>
+
+<pre><code>http://pavingways.github.io/new-year-new-blog.html
+</code></pre>
+
+<p>in Disqus. I had no time digging deeper but apparetly disqus realizes that my page is hosted on GitHub.
+Finally all comments show up and we have a working blog again.</p>
+
+<p>Octopress&#8217; rake commands make it now simple and easy to write/debug posts and deploy them to GitHub.</p>
+
+<p><strong>Happy New Year!</strong></p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -483,53 +591,6 @@ If you wanna join us on Thursday (May 26th), please sign up here:<br>
 
 
   <div class="entry-content">Dies ist der erste deutsche Blog-Post &#8230; und eigentlich nur ein Test ;)
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/mobile-apps-building-deployment-jsugfra1_2221.html">Mobile Apps Building and Deployments at jsugfra[1]</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2011-03-30T00:00:00+02:00" pubdate data-updated="true">Mar 30<span>th</span>, 2011</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content">This Monday we held the second iteration of our JavaScript User Group here in Frankfurt: <a href="http://twitter.com/#!/search/%23jsugfra">#jsugfra</a> (thanks <a href="http://twitter.com/bjoernwibben">Björn</a>!)<br>
-<br>
-There were only around 12 attendees there, although signups ranged around 20 - so shame on you if you didn&#8217;t show up! ;)<br>
-<br>
-But it&#8217;s your loss, because aside from <a href="http://twitter.com/EugeneTerehov">Evgenij</a>&#8217;s <a href="http://bit.ly/hstyMP">talk</a> you missed my &#8220;little&#8221; (1hr) hands-on session showing how you can deploy the same JS-based app - build upon <a href="http://unify.github.com/unify/">Unify</a> - to several platforms, namely those:<ul>	<li>the browser,</li>	<li>homescreen (appcache on iOS) - this is different from the browser,</li>	<li>iOS (iPhone and iPad with PhoneGap),</li>	<li>Android (PhoneGap too),</li>	<li>BlackBerry PlayBook (WebWorks on TabletOS),</li>	<li>Samsung Bada (JS-App-Package),</li>	<li>WAC (sort of),</li>	<li>and Samsung Internet@TV</li></ul><br>
-Unify makes this easy in many regards (JS-build process, appcache context detection etc.). My goal was to show the difficulties and differences in SDKs and build/deployment tools - this became pretty clear I think, especially talking about the difficulties. The main message I wanted to bring across this evening was:<br>
-<strong>If you want people to write apps for your platform, then given them some decent development tools!</strong><br>
-<br>
-This means preferably CLI build/deploy tools (helps with automating builds) and a well working Simulator/Emulator plus simple device deployments. If you consider these points and look at the app numbers in different stores you see what I mean:<ul>	<li>Apple got this one right (Xcode and iOS Simulator just work, simple device deployments),</li>	<li>Android is behind in this (Eclipse and especially the Emulator is unusably slow, device deployment easy),</li>	<li>Blackberry is not bad (CLI tools, fast Emulator, simple deployment to devices),</li>	<li>Samsung does a separate thing for different platforms and both are Eclipse-based (only Windows! WTF?, Emulators work well tho)</li>	<li>WAC uses the Android Emulator (cf. above) with a Widget Runtime on it and an Eclipse-based SDK (translation: slow)</li></ul><br>
-Bottom line is: Many Edit-&gt;Build-&gt;Deployment chains are just so unbearably slow and/or unusable that it takes all the fun out of coding for these platforms. If you add the Appstore(tm)-submission overhead to the calculation, pure development work becomes a much smaller part in the total effort.<br>
-<a href="http://twitter.com/fastner">Sebastian</a> also wrote <a href="http://tumblr.com/x4g1x6el9f">in detail about the JSUG meeting itself</a> - thanks for that!<br>
-Looking forward to jsugfra[2]
 </div>
   
   
