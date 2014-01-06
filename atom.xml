@@ -4,10 +4,10 @@
   <title><![CDATA[PavingWays]]></title>
   <link href="http://pavingways.github.io/atom.xml" rel="self"/>
   <link href="http://pavingways.github.io/"/>
-  <updated>2014-01-06T14:25:10+01:00</updated>
+  <updated>2014-01-06T14:43:33+01:00</updated>
   <id>http://pavingways.github.io/</id>
   <author>
-    <name><![CDATA[PavingWays Limited]]></name>
+    <name><![CDATA[]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
@@ -40,7 +40,7 @@ The process looked simple and roughly goes like this:</p>
 
 <ul>
 <li>export a WXR file from your WordPress &ldquo;Tools&rdquo; section</li>
-<li>follow a few simple steps on the <a href="http://import.jekyllrb.com/">Jekyll importer</a> page</li>
+<li>follow a few simple steps on the <a href="http://import.jekyllrb.com/">Jekyll importer page</a></li>
 <li>have your old blog posts in _posts (as .html files)</li>
 </ul>
 
