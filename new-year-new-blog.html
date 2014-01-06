@@ -89,7 +89,7 @@ Now we&rsquo;re redefining, tightening and updating PavingWays and we made some 
 <p>We transferred the old pavingways.com from a self-hosted and heavily modified WordPress installation to a <a href="http://jekyllrb.com/">Jekyll</a>/<a href="http://octopress.org/">Octopress</a> blog on <a href="http://pages.github.com/">GitHub Pages</a>.
 The page is additionally delivered through <a href="https://www.cloudflare.com/">CloudFlare</a> as we had CF set up before and it had proven to be reliable and fast.</p>
 
-<p>The whole migration process went relatively smooth however I had to make some adjustments here and there.</p>
+<p>The whole migration process went relatively smoothly however I had to make some adjustments here and there.</p>
 
 <h3>Migrate old WordPress Posts to Markdown</h3>
 
@@ -119,7 +119,7 @@ error: LoadError: cannot load such file -- mysql2. Use --trace to view backtrace
 <pre><code>$ruby -rubygems -e 'require "jekyll-import"; JekyllImport::Importers::WordpressDotCom.run({ "source" =&gt; "pavingways.wordpress.2014-01-05.xml" })'
 </code></pre>
 
-<p>Now I had all my files in _posts as I wanted. Now the remaining issues were as follows:</p>
+<p>Now I had all my files in _posts as I wanted. My remaining issues were as follows:</p>
 
 <ul>
 <li>filenames did not match my old URL scheme <code>/{post_name}_{ID}.html</code> .</li>
@@ -136,7 +136,7 @@ error: LoadError: cannot load such file -- mysql2. Use --trace to view backtrace
 <h3>Hosted Comments and Migration</h3>
 
 <p>The same WXR file I used for importing our old post can be used to import all comments to <a href="http://disqus.com/">Disqus</a>. Details see <a href="http://hadihariri.com/2013/12/24/migrating-from-wordpress-to-jekyll/">this blog post</a> again.
-The import went smooth, however I did not see any comments in the Disqus box below our posts.</p>
+The import worked alright, however I did not see any comments in the Disqus box below our posts.</p>
 
 <p>Apparently Disqus and CloudFlare don&rsquo;t just work together as planned and so I followed <a href="http://www.elizaibeth.com/disqus-comments-not-showing-correctly/">this post</a> and It worked &ndash; unfortunately only partly&hellip;</p>
 
