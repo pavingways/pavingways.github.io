@@ -106,7 +106,7 @@ The process looked simple and roughly goes like this:</p>
 </ul>
 
 
-<p>Guess what &hellip; this did not work and I got this:</p>
+<p>Guess what &hellip; this did not work and first I got this:</p>
 
 <pre><code>$ jekyll import wordpress --source pavingways.wordpress.2014-01-05.xml
 
@@ -114,12 +114,23 @@ Could not require 'htmlentities', so the :clean_entities option is now disabled.
 error: LoadError: cannot load such file -- mysql2. Use --trace to view backtrace
 </code></pre>
 
-<p>I found a <a href="http://hadihariri.com/2013/12/24/migrating-from-wordpress-to-jekyll/">blog post</a> on the matter and tried another command line that worked:</p>
+<p>This is caused by some missing gems and you should &ldquo;gem install&rdquo; <code>htmlentities</code>, <code>sequel</code>, <code>mysql</code> and <code>mysql2</code> just to be sure.</p>
+
+<p>Some more playing around with this revealed that apparently the command line suggested on the <a href="http://import.jekyllrb.com/">Jekyll importer page</a> is/was simply wrong <a href="https://github.com/jekyll/jekyll-import/issues/119">see my bug report</a>:
+The importer consists of several sub-importers for various systems and for wordpress there are two &ndash; one for self-hosted blogs and one for blogs on wordpress.com.</p>
+
+<p>I had no local DB of my old blog at hand &ndash; unfortunately the wordpress importer requires one in contrast to above command line example. That was initially not clear to me and I already had my WXR file &hellip;<br/>
+And so I went with the <code>wordpressdotcom</code> importer, also because I found a <a href="http://hadihariri.com/2013/12/24/migrating-from-wordpress-to-jekyll/">blog post</a> on the matter and tried another command line (also contained in the <a href="http://import.jekyllrb.com/docs/wordpressdotcom/">Jekyll importer docs</a>) which works:</p>
 
 <pre><code>$ruby -rubygems -e 'require "jekyll-import"; JekyllImport::Importers::WordpressDotCom.run({ "source" =&gt; "pavingways.wordpress.2014-01-05.xml" })'
 </code></pre>
 
-<p>Now I had all my files in _posts as I wanted. My remaining issues were as follows:</p>
+<p>Basically I could also have done this and had saved some time, oh well:</p>
+
+<pre><code>$ jekyll import wordpressdotcom --source pavingways.wordpress.2014-01-05.xml
+</code></pre>
+
+<p>Now I had all my files in <em>_posts</em> as I wanted. My remaining issues with the wordpressdotcom importer were as follows:</p>
 
 <ul>
 <li>filenames did not match my old URL scheme <code>/{post_name}_{ID}.html</code> .</li>
