@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "Web 2point2 Event review"
+date:   2006-11-13 15:40:03
+categories: imported
+---
+Last Thurdsday we attended an interesting "unconference" in San Francisco, called "<a target="_blank" href="http://www.web2point2.org/"><strong>Web 2point2 - the point is still the people</strong></a>". It was organized by Chris Heuer and the other folks from the <a target="_blank" href="http://www.socialmediaclub.org">Social Media Club</a>. Taking place in the Microsoft Building on 1 Market St. the event, being an unconference, did not follow the usual scheme and it was more like a workshop than a conference. We started with going around the room introducing ourselves one after the other. There was another [German company][1] there - interesting! After that everybody from a startup company (about 50% of all the people there) sat on chairs arranged in a circle, everybody else in another circle around the former one. Then every couple facing each other had 5 minutes to talk about what everybody does. Although it felt a little weird at first, we soon realized that this was a good training for telling other people quickly what we are trying to do. Therefore this method of networking was a good success and we met many interesting people. <!--more-->The rest of the day featured discussions about abundance and web 2.0 methods to enable customers to better choose products they want to buy, marketing methods in the web 2.0 field, tags and tag beacons and one about favorite tools and websites everybody uses. All the discussions were very open and the audience was able to join in and even show own stuff during the discussions. It was interesting to see what people contributed to the discussions even though they were not listed as speakers from the beginning. In another room, the demo room, everybody was able to show around his applications or whatever they wanted to demonstrate and the schedule was set during the day, similar to a barcamp. All in all we met many interesting people, learned a lot about social media, and we have to say this was the most "social" event we have ever been to - in every regard. Too bad we didn't make it either to the party afterwards or the second day of the unconference, maybe next time. 
+
+[<img border="0" src="http://static.flickr.com/109/296399149_02cc0e6b59_m.jpg" />][2][<img border="0" src="http://static.flickr.com/119/296398476_6e4a3c4c5d_m.jpg" />][3][<img border="0" src="http://static.flickr.com/116/296398860_6cde29dfcd_m.jpg" />][4][<img border="0" src="http://static.flickr.com/122/296397789_0bd0a3962f_m.jpg" />][5][<img border="0" src="http://static.flickr.com/109/296397990_a5c771a810_m.jpg" />][6][<img border="0" src="http://static.flickr.com/104/296397670_f54d178021_m.jpg" />][7]
+
+[1]: http://www.deutschedaten.de
+[2]: http://flickr.com/photos/29071212@N00/296399149 "CIMG4093.JPG"
+[3]: http://flickr.com/photos/29071212@N00/296398476 "CIMG4101.JPG"
+[4]: http://flickr.com/photos/29071212@N00/296398860 "CIMG4096.JPG"
+[5]: http://flickr.com/photos/29071212@N00/296397789 "CIMG4102.JPG"
+[6]: http://flickr.com/photos/29071212@N00/296397990 "CIMG4092.JPG"
+[7]: http://flickr.com/photos/29071212@N00/296397670 "CIMG4106.JPG"

@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "Updated: iPhone 4 Gets NO Dashboard Widgets!?"
+date:   2010-06-07 16:45:51
+categories: imported
+---
+Update: now that Steve Jobs' keynote is over we can confirm that our hopes from below have not been fulfilled (again) and the new iPhone 4 will not feature a dashboard or home screen widgets. This rumor has actually been [around for quite a while][1] - we'll not stop hoping though and we all should not forget that there are **tons of other great devices out there** that are well worth looking into developing for (see below)! What else is new with the iPhone 4? Not much actually, except yet another screen size AND resolution we have to keep in mind when developing apps: 960 x 640 at 326 dpi. Original: Apple has supposedly started to pull applications from the app store that implement Dashboards or interactive home screens ([see here][2] ([same here][3], [here too, at first][4]). These apps enable their users to put several Widgets on one screen, same as in Apple's own [Dashboard Application for Mac OSX.][5] With these the lack of multitasking can be overcome, at least to some extend, and users get an interactive overview for different applications. [MyFrame from Groundhog Software][6] or [DashPad from PXL Creations][7] are examples for these. . Ever since we saw the first iPhone and its non-interactive idle screen / home screen we thought it would be great to have really interactive widgets on there. Wouldn't it be nice to see the actual weather forecast for the next 8 hours in the icon itself without having to open the actual application? Meanwhile the [Nokia N97][8], N900 and Android phones have this feature and I would assume Apple needs to improve in this direction as well. So, you realize this is a question mark up there in the header, right? We just speculate, but it might well be possible that the iPhone 4G, already featuring multitasking, might also feature an interactive home screen or at least some kind of dashboard for widgets. It would be a logical step and Apple would probably do this in their own manner and most probably do it right (from a user and Apple's perspective at least). Still, the big question, at least for us as web technology fanatics would be if such a dashboard would be filled with web-based widgets (just like Nokia) or native applications (as in the case of Android). It's hard to foresee, because Apple tends to go both ways from time to time, Mac OSX Dashboard widgets rely on web technology. However iPhone Applications are strictly native by design. Let's wait and see, [within the next 3-5 hours][9] we will probably know more.
+
+[1]: http://gizmodo.com/310345/iphone-dashboard-widgets-imminent
+[2]: http://blog.mobilegamesblog.com/?p=4898&utm_source=MGB+News&utm_medium=facebook&utm_campaign=Feed:+MobileGamesBlog+(Mobile+Games+Blog.com)&utm_content=FaceBook
+[3]: http://www.tipb.com/2010/06/02/apple-removing-desktopdashboardwidget-apps-app-store/
+[4]: http://shiftyjelly.wordpress.com/2010/06/01/sentence-first-verdict-afterwards/
+[5]: http://en.wikipedia.org/wiki/Dashboard_(software)
+[6]: http://www.groundhog.com.au/myframe/
+[7]: http://www.pxlcreations.com/dashpad/
+[8]: http://conversations.nokia.com/2009/06/29/nokia-n97-home-screen-widgets/
+[9]: http://developer.apple.com/wwdc/

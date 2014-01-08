@@ -1,0 +1,143 @@
+---
+layout: post
+title: dotMobi Switch On! Web Browsing Guides
+date: '2006-06-28'
+categories:
+- Mobile Web
+tags: []
+status: publish
+type: post
+published: true
+meta: {}
+comments: true
+---
+Following <a href="dotmobi-top-level-domain-for-mobile-devices_11.html">our post about the dotMobi TLD</a>, here are the rules of the dotMobi Switch On! Web Browsing Guides:<br>
+<strong>1. Mandatory Registrant Rules</strong><br>
+<strong>- XHTML Mobile Profile</strong><br>
+When a dotMobi web site is accessed using a URI consisting only of the second-level domain name or second and third level domain name (e.g. example.mobi, www.example.mobi, de.example.mobi) the response must be encoded in <a href="http://member.openmobilealliance.org/ftp/public_documents/bac/MAE/Permanent_documents/OMA-XHTMLMP-V1_2-20041222-D.zip" title="Download the XHTML-MP specification">XHTML-MP (zipped .doc)</a> unless the device accessing it is known to support an alternative choice of markup.<!--more--><br>
+If the site provides its home page by redirection then all intermediate pages that are delivered in the course of the redirection must comply with this rule.<br>
+<strong>- Second-Level Domain Site</strong><br>
+Sites must implement a page at the second level domain i.e. a web server must respond to HTTP requests to example.mobi (if necessary in addition to www.example.mobi.)<br>
+<strong>- Use of Frames</strong><br>
+Do not use frames under any circumstances. i.e. in HTML, XHTML or other mark-up languages that support similar constructs, frames must not be present.<br>
+<strong>2. Highly Recommended Best Practices</strong><br>
+<strong>- URIs for Country Specific Sites</strong><br>
+Identify national variations of dotMobi sites by using the corresponding country code top level domain identifier (ccTLD) as the third level domain identifier.<br>
+<strong>- General Best Practice</strong><br>
+Take all reasonable steps to find out about the device/browser (client) capabilities, adaptation and other transformation that takes place for any instance of an access to a resource.<br>
+<br>
+Exploit device capabilities. Do not take a least common denominator approach.<br>
+<br>
+Take reasonable steps to work around deficient implementations.<br>
+<br>
+Carry out testing on actual devices as well as emulators.<br>
+<strong>- Navigation</strong><br>
+Keep the URIs of site entry points short.<br>
+<br>
+Provide minimal navigation at the top of the page.<br>
+<br>
+Design the service with a broadly balanced navigation tree where numbers of links on pages is balanced against depth of navigation.<br>
+<br>
+Use navigation mechanisms in a consistent manner.<br>
+<br>
+Assign access keys to links in navigational menus and frequently accessed functionality.<br>
+<br>
+Clearly identify the target of each link. Use clear, concise, descriptive link text to help users decide whether to follow a link. Identify the implications of following a link if the target is notably large and the user might not anticipate this from the context.<br>
+<br>
+Note the target file's format unless you know the device supports it.<br>
+<br>
+Do not use image maps unless you know the target client supports them and has sufficient screen area and an appropriate means of selection, such as a stylus or navigation keys. When using image maps under these circumstances, use client side image maps unless the regions required cannot be described with an available geometric shape.<br>
+<br>
+Do not use a server side image map unless you know that the client provides a means of selection within the image map.<br>
+<br>
+Do not cause pop-ups or other windows to appear and do not change the current window without informing the user.<br>
+<br>
+Do not create periodically auto-refreshing pages, unless you have informed the user and provided a means of stopping it.<br>
+<br>
+Do not use markup to redirect pages automatically. Instead, configure the server to perform redirects by means of HTTP 3XX codes.<br>
+<strong>- Page Content and Layout</strong><br>
+Limit content to what the user has requested.<br>
+<br>
+Divide pages into usable but limited size portions.<br>
+<br>
+Ensure that the overall size of page is appropriate to bandwidth, the memory limitations of the device and other device and delivery channel characteristics if they can be determined.<br>
+<br>
+Limit scrolling to one direction, unless secondary scrolling cannot be avoided.<br>
+<br>
+Limit secondary scrolling to objects that require it, where it cannot be avoided.<br>
+<br>
+Do not use graphics for spacing.<br>
+<br>
+Do not use images that cannot be rendered by the device. Avoid large or high resolution images except where critical information would otherwise be lost.<br>
+<br>
+Ensure that information conveyed with color is also available without color.<br>
+<strong>- Page Definition</strong><br>
+Provide a short but descriptive page title.<br>
+<br>
+Ensure that perceivable structures within the content can be programmatically determined.<br>
+<br>
+Do not use tables unless the client is known to support them. Do not use multi-layer tables.<br>
+<br>
+Do not use tables for layout.<br>
+<br>
+Where possible, use an alternative to tabular presentation.<br>
+<br>
+Provide textual alternatives for non-text elements.<br>
+<br>
+Do not embed objects or script in pages unless you know the device supports them.<br>
+<br>
+Always specify the size of images in markup.<br>
+<br>
+Resize images at the server.<br>
+<br>
+Create documents that validate to published formal grammars.<br>
+<br>
+Use style sheets to control layout and presentation, unless the device is known not to support them.<br>
+<br>
+Organize documents so that they may be read without style sheets.<br>
+<br>
+Keep style sheets as small as possible.<br>
+<br>
+Use terse efficient markup.<br>
+<br>
+Send content in a format that is known to be supported by the device.<br>
+<br>
+Where possible send content in a client's preferred format.<br>
+<br>
+Ensure that content is encoded using a character encoding that is known to be supported by the target device.<br>
+<br>
+Indicate in the response the character encoding being used.<br>
+<br>
+Provide informative error messages, and a means of navigating away from an error message back to useful information.<br>
+<br>
+Do not use cookies unless you know the device supports them.<br>
+<br>
+Attach caching information to the content.<br>
+<br>
+Avoid free text entry where possible.<br>
+<br>
+Specify a default text entry mode, language and/or input format, if the target device is known to support it.<br>
+<br>
+Create a logical tab order through links, form controls and objects.<br>
+<br>
+Label all controls appropriately. Explicitly associate labels with controls where the device supports this. Position labels relative to controls appropriately.<br>
+<strong>3. Other Best Practices</strong><br>
+<br>
+Ensure that links provide a thematically coherent experience when accessed from a device other than the one on which they were captured.<br>
+<br>
+Ensure that content is suitable for use in a mobile context.<br>
+<br>
+Use clear and simple language.<br>
+<br>
+Ensure that material that is central to the meaning of the page precedes material that is not.<br>
+<br>
+Ensure that foreground and background color combinations provide sufficient contrast.<br>
+<br>
+When using background images make sure that content remains readable on the device.<br>
+<br>
+Do not use pixel measures and do not use absolute units in markup language attribute values and style sheet property values.<br>
+<br>
+Keep the number of keystrokes to a minimum.<br>
+<br>
+Provide pre-selected default values where possible.<br>
+<strong>The complete dotMobi Switch On! Web Browsing Guides: </strong><a target="_blank" href="http://pc.mtld.mobi/documents/dotmobi-Switch-On!-Web-Browsing-Guide.html">http://pc.mtld.mobi</a>

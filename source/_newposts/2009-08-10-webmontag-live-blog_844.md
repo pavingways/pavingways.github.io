@@ -1,0 +1,34 @@
+---
+layout: post
+title:  "Webmontag Live-Blogging"
+date:   2009-08-10 19:46:41
+categories: imported
+---
+I am at the [Brotfabrik][1] in Frankfurt am Main right now attending the [Webmontag][2] (webmonday) listening to the first talk by [Chris Heilmann][3] and I am trying to live-blog this, so here it goes... Chris is talking about [developer evangelism][4] and best practices in web development. He wanted to write a book called "Harry Potter and the Order of the DOM" but the title was refused by the publisher, [the book][5] came out anyways though ;) He got to APIs and especially [YQL][6], Yahoo's SQL-like query language for web APIs. Interesting stuff actually, there's a console and all..."alle ducken, hier kommt code..." - funny. Here's a YQL example: "SELECT * FROM HTML WHERE URL="http://faz.de" AND xpath="//h2" - this all sounds like a console version of [Yahoo Pipes][7]. The xpath comes in very handy indeed. YQL also makes data available that cannot be accesses via the source API directly - for example twitter posts of a user in a specific time window. It also takes care of oAuth and other authentication systems for you and provides you mechanisms to filter and distill the output data down to the necessary stuff you need. End of presentation one, [here it is][8].<!--more--> Next up is 
+
+[Axel Dunkel][9] speaking about web servers under load. He wants top point out only two major things as this topic is just too huge. His company managed to save 60 servers out of 70 once by applying the learning he wants to speak about - we al are eager to hear how this works. Some of the major thinks to monitor on a web server: hits, bandwidth, cpu, memory, i/o, backend-intensity...sounds like everything for now ;) All these are connected to each other of course - more page hits mean more i/o and more memory usage - these are so-called linear connections, but there are non-linear ones. Now there's a huge calculation on - 8000 users per hour can mean 5 CPUs are needed. Monitoring is essential to make good decisions about your sever system, so here we go with the tools. For example you can put load on your server (for testing) using appliances like [Spirent Avalanche][10] but you can also use external services that hammer your server...we are thinking if you might use Amazon's [Mechanical Turk][11] for that too ;) There were two tips about what to do, but I was distracted by an SMS about my car standing under water because of heavy rain...we'll see about that later. Third speaker today is <a class="urlextern" title="http://www.web-arts.com/andre-morys.html" rel="nofollow" href="http://www.web-arts.com/andre-morys.html">André Morys</a> speaking about conversion rates and how to increase them. E-commerce people usually are all about numbers , click-paths and other quantitative measures. The problem is: you never know WHY people are clicking somewhere. [Web Arts][12] (the company Andre works for) found out: people do actually find the "Order Here" button - so this is usually not the reason why people do not order stuff on your website. They set up [a blog about this topic][13]. Shops usualls also spend way too much on Google, usually Adwords. The main figure there is CPO (cost-per-order). Value-per-customer is a very important thing to know about. ... Interesting observation: eye-tracking studies (websites are analyzed by the way test-people are looking at it) never do personality studies about the people actually looking at the website - so it is very important to know about what the personality profile of your website visitor looks like. We are approaching the end of the talk - the [Johari-Window][14] is presented - it's about things you know and don't know about things, it is used in self-help groups and apparently now also in analyzing conversion rates of e-commerce websites and portals. Q/A: "Arousal is a medicine you take to buy more on websites" :O. The next speaker should be <a class="urlextern" title="http://www.madeinhappygermany.de" rel="nofollow" href="http://www.madeinhappygermany.de/">Jan Philip Johl</a> speaking about stuff made in [Happy Germany][15] ... actually [Wolfram Kriesing][16] from [uxebu][17] is talking about Mobile Apps Cross Platform - now this is a topic I wanna hear more about! Wolfram's topics will be native apps vs. widgets - yeah. W3C widgets is what he seems to be very fond of...they enable you to access to device capabilities such as the camera and they are built using standard web technologies. They built a widget to access event information for iphone, S60 (Opera) and as a browser version: <http://eventninja.net>. [PhoneGap][18] is mentioned - a very interesting project - it's basically a framework to develop once and deploy W3C conforming widgets to a lot of compatible platforms. There have been disputes between Apple and PhoneGap that seem to have been settled and there are a few PhoneGap powered iPhone Apps online now. Oh and now there's the final speaker: ah it's the [Happy Germany][15] guy - talk starts funny. Jan is handing out small artificial flowers and a brochure. He basically started a trademark "Happy Germany" bringing together companies that produce sustainable goods, provide good service and are customer focussed. We went straight into Q/A now. Oh Friendfeed was bought by Facebook apparently. Final words of the organizer, thanks to [O'Reilly][19], [Mayflower PHP][20], PHPuser mag, [Netz98][21]. Other mentions: [Google Technology User Group Frankfurt][22], [Dev Dusk][23], Webmontag Rhein-Neckar, [F-LOG-GE][24], the next Webmontag will be right here on September 14! There will also be a barcamp in the end of November in Frankfurt. Thanks very much to all the organizers and speakers, this was one of the best Webmontage I have been to! See you next time, probably at the [GTUG][22] also here at the Brotfabrik on 03. September.
+
+[1]: http://www.brotfabrik.info/
+[2]: http://www.webmontag.de/location/frankfurt/index?DokuWiki=c3cp4csev721k752782spovni1
+[3]: http://www.wait-till-i.com/
+[4]: http://developer-evangelism.com/
+[5]: http://icant.co.uk/#books
+[6]: http://developer.yahoo.com/yql/
+[7]: http://pipes.yahoo.com/pipes/
+[8]: http://www.slideshare.net/cheilmann/die-reise-ins-datennetz
+[9]: http://www.dunkel.de/
+[10]: http://www.spirentfederal.com/IP/Products/Avalanche/Overview/
+[11]: https://www.mturk.com/mturk/welcome
+[12]: http://www.web-arts.com/
+[13]: http://www.konversionskraft.de/
+[14]: http://en.wikipedia.org/wiki/Johari_window
+[15]: http://www.madeinhappygermany.de/
+[16]: https://www.xing.com/profile/Wolfram_Kriesing
+[17]: http://uxebu.com/
+[18]: http://phonegap.com/
+[19]: http://www.oreillynet.com
+[20]: http://www.mayflower.de/
+[21]: http://www.netz98.de/
+[22]: http://sites.google.com/site/gtugfra/home
+[23]: http://www.devdusk.de
+[24]: http://grochtdreis.de/weblog/

@@ -14,6 +14,7 @@ $sidebar-width-wide: 300px !default;
 
 $indented-lists: true !default;
 
+$text-font-size: 1.2em !default;
 $header-font-size: 1em !default;
 $header-padding-top: 1.5em !default;
 $header-padding-bottom: 1.5em !default;
@@ -91,11 +92,16 @@ body {
 
 #content {
   overflow: hidden;
-  > div, > article { width: 100%; }
+  > div, 
+  > article {
+    width: 100%;
+  }
+  > div > article {
+    font-size: $text-font-size;
+  }
 }
 
 aside.sidebar {
-  display: none;
   float: none;
   padding: 0 $pad-min 1px;
   background-color: lighten($sidebar-bg, 2);

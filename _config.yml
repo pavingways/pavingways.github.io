@@ -3,9 +3,24 @@
 # ----------------------- #
 
 url: http://pavingways.github.io
-title: PavingWays Limited
-subtitle: We build JavaScript applications for various platforms
-author: PavingWays Limited
+title: PavingWays
+titleadd: JavaScript Applications
+subtitle: We build JavaScript applications
+authors:
+  pavingways:
+    name: PavingWays Limited
+    display_name: PavingWays
+    email: info@pavingways.com
+  rocco:
+    name: Rocco Georgi
+    display_name: Rocco
+    email: rocco@pavingways.com
+  diana:
+    name: Diana georgi
+    display_name: Diana
+    email: diana@pavingways.com
+mainauthor: pavingways
+
 simple_search: false
 description: PavingWays Limited is a company building JavaScript applications.
 
@@ -40,6 +55,8 @@ rdiscount:
     - footnotes
     - smart
 pygments: false # default python pygments have been replaced by pygments.rb
+
+future: false   # This will tell jekyll to not display future posts
 
 paginate: 10          # Posts per page on the blog index
 #pagination_dir: blog  # Directory base for pagination URLs eg. /blog/page/2/
@@ -93,7 +110,7 @@ delicious_user:
 delicious_count: 3
 
 # Disqus Comments
-disqus_short_name:
+disqus_short_name: pavingways-blog
 disqus_show_comment_count: false
 
 # Google Analytics
