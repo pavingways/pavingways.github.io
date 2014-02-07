@@ -12,179 +12,7 @@
 
 	<link href="reset.css" media="screen, projection" rel="stylesheet" type="text/css">
 	<link href='http://fonts.googleapis.com/css?family=Raleway+Dots|Raleway:100,200,300,400,500,600,700,800,900' rel='stylesheet' type='text/css'>
-
-	<style>
-		body {
-			font-family: 'Raleway', Helvetica, sans-serif;
-			font-weight: 100;
-			font-size: 17px;
-			line-height: 27px;
-			color: black;
-			box-sizing: border-box;
-			padding: 17px;
-		}
-		a {
-			color: black;
-			text-decoration: none;
-			transition: all 0.017s linear;
-			-webkit-transition: all 0.17s linear;
-		}
-		a:hover {
-			color: #277760;
-		}
-		b {
-			font-weight: 600;
-		}
-		p {
-			margin: 17px 0;
-		}
-		
-		h1, h2, h3, h4, h5 {
-			font-weight: 100;
-			line-height: 2em;
-		}
-		#banner {
-			text-align: center;
-		}
-		#banner h1 {
-			font-size: 2.2em;
-			line-height: 1.3em;
-		}
-		#banner h2 {
-			font-size: 1.2em;
-			line-height: 1.3em;
-			font-weight: 400;
-		}
-		.meta {
-			margin: 0;
-		}
-		.notimportant,
-		.notimportant a {
-			font-weight: 100;
-			color: #999;
-		}
-		.caps {
-			text-transform: uppercase;
-		}
-		nav {
-			margin-bottom: 20px;
-		}
-		nav::after {
-			content: ' ';
-			margin: 0 -17px;
-			display: block;
-			height: 30px;
-			background-image: url('rocco_cam.jpg');
-			background-size: 100%;
-		}
-		ul.main-navigation {
-			text-align: center;
-			margin: 27px 0;
-		}
-		ul.main-navigation li {
-			display: inline-block;
-			font-size: 1.2em;
-			font-weight: 400;
-			margin: 0 10px 10px 0;
-		}
-		ul.main-navigation li:last-child {
-			margin: 0;
-		}
-		ul.main-navigation li a {
-			display: inline-block;
-			border: 1px solid #f7f7f7;
-			padding: 6px;
-		}
-		ul.main-navigation li a:hover,
-		ul.main-navigation li a.current {
-			color: black;
-			border-color: #77b7a0;
-		}
-		ul.main-navigation li a.current {
-			border-color: #fff;
-			color: black;
-		}
-		ul.main-navigation li a.current:hover {
-			color: #277760;
-		}
-		article {
-			font-weight: 200;
-		}
-		article h1 {
-			font-size: 1.4em;
-			font-weight: 400;
-		}
-		footer {
-			margin-top: 27px;
-		}
-		@media screen and (min-width: 260px) {
-			nav::after {
-				height: 40px;
-			}
-		}
-		@media screen and (min-width: 310px) {
-			nav::after {
-				height: 50px;
-			}
-		}
-		@media screen and (min-width: 380px) {
-			nav::after {
-				height: 60px;
-			}
-		}
-		@media screen and (min-width: 490px) {
-			nav::after {
-				height: 80px;
-			}
-		}
-
-		@media screen and (min-width: 600px) {
-			#banner {
-				text-align: left;
-			}
-			nav {
-				text-align: right;
-				margin-top: -60px;
-			}
-			nav::after {
-				height: 90px;
-			}
-			ul.main-navigation {
-				text-align: right;
-			}
-		}
-
-		@media screen and (min-width: 750px) {
-			body {
-				padding: 27px 81px;
-			}
-			nav::after {
-				margin: 0 -81px;
-				height: 120px;
-			}
-			ul.main-navigation {
-				margin-right: 5%;
-			}
-		}
-		@media screen and (min-width: 950px) {
-			nav::after {
-				height: 140px;
-			}
-			ul.main-navigation {
-				margin-right: 25%;
-			}
-		}
-		@media screen and (min-width: 1100px) {
-			nav::after {
-				height: 160px;
-			}
-		}
-		@media screen and (min-width: 1250px) {
-			nav::after {
-				height: 190px;
-			}
-		}
-	</style>
+	<link href="rocco.css" media="screen, projection" rel="stylesheet" type="text/css">
 </head>
 	<body>
 
@@ -195,8 +23,8 @@
 			</hgroup>
 		</header>
 
-		<nav role="navigation">
-			<ul class="main-navigation">
+		<nav role="navigation" class="main">
+			<ul>
 				<li><a href="about/" class="-current">About</a></li>
 				<li><a href="projects/">Projects</a></li>
 				<li><a href="events/">Events</a></li>
@@ -204,6 +32,7 @@
 		</nav>
 
 		<article role="article">
+
 			<header>
 				<h1 class="entry-title">It's all about JavaScript</h1>
 				<p class="meta notimportant">
@@ -213,11 +42,12 @@
 
 			<p>In a world of <i>single page web applications</i>, Cordova, node.js, x86 virtualization in JavaScript and Espruino it appears the world of web and mobile apps, the world of microprocessors and <b>subsequently the real world</b> rely more and more on a technology that a few years ago nobody would even care to mention on their resumes.</p>
 			<p>With a completely new version about to go mainstream <a href="http://www.2ality.com/2011/06/ecmascript.html">(ECMAScript.next)</a>, nowadays JavaScript is not only the most popular programming language, but it has in fact become the main language for state-of-the-art web- ans software development projects.</p>
+
 		</article>
 
 		<footer role="contentinfo" class="notimportant">
 			<p>
-				Copyright &copy; 2014 - Rocco Georgi, PavingWays Limited - <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+				Copyright &#x00A9; 2014 PavingWays Limited, <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
 			</p>
 		</footer>
 
