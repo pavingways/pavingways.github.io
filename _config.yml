@@ -1,5 +1,8 @@
 url: http://127.0.0.1:4000/
 baseurl:
+permalink: /:categories/:title.html
+markdown: redcarpet
+
 
 # Site settings
 title: Paving Ways Consulting
