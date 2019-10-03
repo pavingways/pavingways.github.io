@@ -1,0 +1,57 @@
+url: http://127.0.0.1:4000/
+baseurl:
+permalink: /:categories/:title.html
+markdown: redcarpet
+
+
+# Site settings
+title: Paving Ways Consulting
+email: info@pavingways.com
+description: "SAP mobile apps at Paving Ways: We provide our expertise in SAP Fiori development to your IT department through workshops and other consulting services."
+
+
+# Team names, titles and social links
+people:
+- name: Rocco Georgi
+  pic: 1
+  position: Hybrid Apps Expert
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: stack-overflow
+      url: #
+
+- name: Merih Gürlek
+  pic: 2
+  position: SAP Fiori Expert
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: linkedin
+      url: #
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: http://twitter.com/jekyllrb
+  - title: facebook
+    url:
+  - title: stack-overflow
+    url: http://stackoverflow.com/questions/tagged/jekyll
+  - title: bitbucket
+    url: http://bitbucket.org/jekyll
+  - title: github
+    url: http://github.com/jekyll
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: 3481 Melrose Place
+  - line: Beverly Hills, CA 90210
+
+# Build settings
+markdown: kramdown
+permalink: pretty
