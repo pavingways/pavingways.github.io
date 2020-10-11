@@ -1,25 +1,20 @@
-<html>
-<head>
-  <title>PavingWays - Hybrid App Development</title>
-  <meta name="description" content="Welcome Welcome to PavingWays. We develop hybrid applications for iOS, Android and Windows using JavaScript and web technologies.">
-  <style>
-    body {
-      padding: 27px;
-    }
-  </style>
-</head>
-<body>
-  <h1>PavingWays - Hybrid App Development</h1>
-  <h2>Building cross-platform mobile applications since 2006.</h2>
+---
+layout: default
+---
 
-  <p>We develop applications for iOS, Android and Windows using JavaScript and <a href="/blog">we sometimes blog</a> about it.</p>
-  <p>We  offer <a href="http://roccogeorgi.com">hybrid app development services to clients in Frankfurt</a>, <em>paving ways</em> for them to get their hybrid app projects started and done.</p>
-  <p>Contact us at: info <em>at</em> pavingways.com</p>
+<div class="home">
 
-  <footer>
-    <p><a href="https://www.roccogeorgi.com/imprint/">Imprint</a></p>
-    <p><a href="https://www.roccogeorgi.com/privacy/">Privacy</a></p>
-  </footer>
+  <h1>Posts</h1>
 
-</body>
-</html>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>
