@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Frost Ajax Library | PavingWays]]></title>
+  <link href="http://pavingways.github.io/categories/frost-ajax-library/atom.xml" rel="self"/>
+  <link href="http://pavingways.github.io/"/>
+  <updated>2014-02-07T22:42:46+01:00</updated>
+  <id>http://pavingways.github.io/</id>
+  <author>
+    <name><![CDATA[]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Frost mentioned in c't magazine]]></title>
+    <link href="http://pavingways.github.io/frost-mentioned-in-ct-magazine_178.html"/>
+    <updated>2008-04-16T00:00:00+02:00</updated>
+    <id>http://pavingways.github.io/frost-mentioned-in-ct-magazine_178</id>
+    <content type="html"><![CDATA[<p>As I was reading an <a href="http://www.heise.de/ct/08/07/006/">older issue (#7 in 2008 from 17.03.2008, current one is 9) of Germany&rsquo;s premier computer magazine c&rsquo;t</a> I spotted a mentioning of <a href="http://frostlib.org" title="Frost, an open source Ajax library for mobile browsers">Frost, our open source Ajax library for mobile browsers</a>.<br></p>
+
+<br>
+
+
+<p>The issue&rsquo;s title topic was &ldquo;The web in your hand&rdquo; and the article starting on page 112 was about &ldquo;Webdesign for Mobile Devices&rdquo;. On page 114 Frost is mentioned in one sentence. Yay!<br></p>
+
+<br>
+
+
+<p>&ldquo;Event the first JavaScript library for mobile browsers, that are getting increasingly mightier, has been released; Frost is supposed to make simple Ajax manipulations possible.&rdquo; the article reads (translated from German).<br></p>
+
+<br>
+
+
+<p>Just a small clarification here: we&rsquo;re still trying to get the first real release out of the door, shame especially on myself for not bringing up enough time to get this thing done. Anyways good to know we&rsquo;re on the radar, stuff like this certainly encourages further developments, but time always is an enemy.<br></p>
+
+<br>
+
+
+<p>If you wanna know more, check out <a href="http://frostlib.org" title="Frost, an open source Ajax library for mobile browsers">Frost here</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Google Android Developer Day Munich]]></title>
+    <link href="http://pavingways.github.io/google-android-developer-day-munich_167.html"/>
+    <updated>2008-03-12T00:00:00+01:00</updated>
+    <id>http://pavingways.github.io/google-android-developer-day-munich_167</id>
+    <content type="html"><![CDATA[<p>I totally forgot blogging about that and more or less for completeness reasons I want to mention that I have been attending the Google Android developer day in Munich (actually in Aschheim/Dornach) on January 29, 2008. I met Jason Chen, one of the presenters at the event, the day before at the Mobile Monday in Munich.<br></p>
+
+<br>
+
+
+<p>The people attending, at least most people I have been talking to, were mobile developers sent by their companies, pretty big ones. There were some start-up people there too, but not many. Comments and questions in general were pretty critical, detailed and practical. Interesting was the big interest of taking part in the <a href="http://code.google.com/android/adc.html">Google Android development competition</a> from the audience. Apparently mentioning 10 mio USD in price-money creates some interest ;)<br></p>
+
+<br>
+
+
+<p>I was of course mostly interested in the WebKit-based web browser in Android and I have to say it worked pretty well in the SDK emulator, it even has <a href="http://tech.groups.yahoo.com/group/wurflajax/message/73">the same &ldquo;bug&rdquo;</a> that I had experienced while testing the <a href="http://frostlib.org">Frost library</a> on the iPhone when it came out. So no surprises there too and one more browser to look at when developing mobile web apps, even though it&rsquo;s almost the same browser as on the iPhone or Nokia&rsquo;s S60 3rd edition phones (also exhibiting the &ldquo;bug&rdquo; mentioned above &ndash; so it&rsquo;s apparently a WebKit issue after all).<br></p>
+
+<br>
+
+
+<p>Bottom line is: no surprises after all, Google leaves no event without mentioning that they&rsquo;re looking for developers and if you&rsquo;re interested in Android development, <a href="http://code.google.com/android/download.html">get the SDK</a> and <a href="http://code.google.com/android/intro/index.html">read the docs</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Article on dev.opera.com]]></title>
+    <link href="http://pavingways.github.io/article-on-devoperacom_155.html"/>
+    <updated>2008-01-18T00:00:00+01:00</updated>
+    <id>http://pavingways.github.io/article-on-devoperacom_155</id>
+    <content type="html"><![CDATA[<p>I recently wrote an <a href="http://dev.opera.com/articles/view/mobile-ajax-and-the-frost-ajax-library/">article for dev.opera.com</a> about Mobile Ajax and how the Frost Library can deal with that. There is a lot of introductory stuff in there and it might will be the longest and most comprehensive article I have been writing on the topic, there&rsquo;s even code snippets in there. So it might be a good read for anybody interested in the topic of Mobile Ajax.Thanks to David and Chris from Opera for making that happen and giving me the opportunity.You can read the <a href="http://dev.opera.com/articles/view/mobile-ajax-and-the-frost-ajax-library/">article at dev.opera.com</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Happy (belated) New Year!]]></title>
+    <link href="http://pavingways.github.io/happy-belated-new-year_154.html"/>
+    <updated>2008-01-17T00:00:00+01:00</updated>
+    <id>http://pavingways.github.io/happy-belated-new-year_154</id>
+    <content type="html"><![CDATA[<p>In the first post this year we wish all of you a happy and successful year 2008!<br></p>
+
+<br>
+
+
+<p>We have not blogged in a while. The good thing about this is that we were busy working on our first product, Groupile. <a title="Groupile Homepage" href="http://groupile.com">Groupile</a> will be a productive networking tool for groups. It is going to be ubiquitous, mobile-focused and web based. There will be a beta test soon, so make sure you sign up for that at <a title="Groupile Homepage" href="http://groupile.com">groupile.com</a>!<br></p>
+
+<br>
+
+
+<p>Another thing that we&rsquo;ve been working on was <a href="http://www.pavingways.com/products/frost-ajax-library">our Mobile Ajax Library, Frost</a>. We booked a domain for the project and installed a very basic homepage. <a title="Official Homepage of the Frost Mobile Ajax Library" href="http://frostlib.org"><a href="http://frostlib.org">http://frostlib.org</a></a> will from now on be the <a title="Official Homepage of the Frost Mobile Ajax Library" href="http://frostlib.org">official home of the Frost library</a> providing all the available information about the project. A pre-release version of the library is available for download there too.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Mobile Ajax Workshop in Mountain View]]></title>
+    <link href="http://pavingways.github.io/mobile-ajax-workshop-in-mountain-view_102.html"/>
+    <updated>2007-09-05T00:00:00+02:00</updated>
+    <id>http://pavingways.github.io/mobile-ajax-workshop-in-mountain-view_102</id>
+    <content type="html"><![CDATA[<p>After submitting a position paper, today I got my invite to the <a href="http://www.w3.org/2007/06/mobile-ajax/">Mobile Ajax workshop in Mountain View</a> in late September (28th). I am really looking forward to this since it is one of the rare events that focus exclusively on Ajax on mobile devices and many important and interesting people that are involved in this topic are likely to be present. It&rsquo;s also the first workshop (= not conference) on this topic. So I am very excited and happy to have the chance to attend this event and meet everybody.<br></p>
+
+<br>
+
+
+<p>My <a href="http://www.pavingways.com/wp-content/uploads/positionpaper_moa_workshop_public.pdf" title="Mobile Ajax Workshop Position Paper Rocco Georgi">position paper is about the Frost Ajax library</a>. The only <a href="http://www.coactus.com/blog/2007/08/mobile-ajax-workshop-position-paper/">other position paper I have come accross</a> is the one from Mark Baker of <a href="http://www.coactus.com/" title="Coactus Consulting">Coactus Consulting</a>. It&rsquo;s entitled &ldquo;<a href="http://www.coactus.com/blog/2007/08/mobile-ajax-workshop-position-paper/">The best mobile Ajax application is the one that&rsquo;s never written</a>&rdquo;, so there&rsquo;s probably gonna be some interesting discussions.</p>
+]]></content>
+  </entry>
+  
+</feed>

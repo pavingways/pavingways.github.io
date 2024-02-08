@@ -1,0 +1,655 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title> - PavingWays JavaScript Applications</title>
+  <meta name="author" content="">
+
+  
+  <meta name="description" content="Happy 2014 and welcome to our new blog! It has been very quiet around here for a while &ndash; over two years have passed since our last blog entry. &hellip;">
+  
+
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://pavingways.github.io/archives/index.html">
+  <!--<link href="/favicon.png" rel="icon">-->
+  <link href="http://gravatar.com/userimage/336259/af37eb31524b5d5bee5e0f902fdb42fe.png
+?s=16" rel="shortcut icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="PavingWays" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+</head>
+
+<body   class="no-sidebar"  >
+  <header role="banner"><hgroup>
+  <h1><a href="/">PavingWays</a></h1>
+  
+    <h2>We build JavaScript applications</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<ul class="main-navigation">
+  <li><a href="/">About</a></li>
+  <li><a href="/projects/">Projects</a></li>
+  <li><a href="/blog/">Blog</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div class="blog-index">
+  
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/new-year-new-blog.html">New Year, New Blog</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-01-06T00:00:00+01:00" pubdate data-updated="true">Jan 6<span>th</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Happy 2014 and welcome to our new blog!</p>
+
+<p>It has been very quiet around here for a while &ndash; <strong>over two years</strong> have passed since our last blog entry.
+Now we&rsquo;re redefining, tightening and updating PavingWays and we made some changes to our blog too.</p>
+
+<h2>New Blog</h2>
+
+<p>We transferred the old pavingways.com from a self-hosted and heavily modified WordPress installation to a <a href="http://jekyllrb.com/">Jekyll</a>/<a href="http://octopress.org/">Octopress</a> blog on <a href="http://pages.github.com/">GitHub Pages</a>.
+The page is additionally delivered through <a href="https://www.cloudflare.com/">CloudFlare</a> as we had CF set up before and it had proven to be reliable and fast.</p>
+
+<p>The whole migration process went relatively smoothly however I had to make some adjustments here and there.</p>
+
+<h3>Migrate old WordPress Posts to Markdown</h3>
+
+<p>Before we settled with <a href="http://octopress.org/">Octopress</a> I tried <a href="https://ghost.org/">Ghost</a> and <a href="http://jekyllrb.com/">Jekyll</a> directly, so it was clear I would need to have our old posts as Markdown files or HTML if everything else would fail.</p>
+
+<p>So I wrote a PHP script that exported all of our old WordPress posts to Markdown files using an old PHP class called <a href="http://milianw.de/projects/markdownify/">Markdownify</a>.
+Trouble was that this class needed way too many adjustments and I never was satisfied with the results, so I discarded wanting to have ALL posts in Markdown and decided to go with the <a href="http://import.jekyllrb.com/">Jekyll importer</a> which produces HTML files.
+The process looked simple and roughly goes like this:</p>
+
+<ul>
+<li>export a WXR file from your WordPress &ldquo;Tools&rdquo; section</li>
+<li>follow a few simple steps on the <a href="http://import.jekyllrb.com/">Jekyll importer page</a></li>
+<li>have your old blog posts in _posts (as .html files)</li>
+</ul>
+
+
+<p>Guess what &hellip; this did not work and first I got this:</p>
+
+<pre><code>$ jekyll import wordpress --source pavingways.wordpress.2014-01-05.xml
+
+Could not require 'htmlentities', so the :clean_entities option is now disabled.
+error: LoadError: cannot load such file -- mysql2. Use --trace to view backtrace
+</code></pre>
+
+<p>This is caused by some missing gems and you should &ldquo;gem install&rdquo; <code>htmlentities</code>, <code>sequel</code>, <code>mysql</code> and <code>mysql2</code> just to be sure.</p>
+
+<p>Some more playing around with this revealed that apparently the command line suggested on the <a href="http://import.jekyllrb.com/">Jekyll importer page</a> is/was simply wrong <a href="https://github.com/jekyll/jekyll-import/issues/119">see my bug report</a>:
+The importer consists of several sub-importers for various systems and for wordpress there are two &ndash; one for self-hosted blogs and one for blogs on wordpress.com.</p>
+
+<p>I had no local DB of my old blog at hand &ndash; unfortunately the wordpress importer requires one in contrast to above command line example. That was initially not clear to me and I already had my WXR file &hellip;<br/>
+And so I went with the <code>wordpressdotcom</code> importer, also because I found a <a href="http://hadihariri.com/2013/12/24/migrating-from-wordpress-to-jekyll/">blog post</a> on the matter and tried another command line (also contained in the <a href="http://import.jekyllrb.com/docs/wordpressdotcom/">Jekyll importer docs</a>) which works:</p>
+
+<pre><code>$ruby -rubygems -e 'require "jekyll-import"; JekyllImport::Importers::WordpressDotCom.run({ "source" =&gt; "pavingways.wordpress.2014-01-05.xml" })'
+</code></pre>
+
+<p>Basically I could also have done this and had saved some time, oh well:</p>
+
+<pre><code>$ jekyll import wordpressdotcom --source pavingways.wordpress.2014-01-05.xml
+</code></pre>
+
+<p>Now I had all my files in <em>_posts</em> as I wanted. My remaining issues with the wordpressdotcom importer were as follows:</p>
+
+<ul>
+<li>filenames did not match my old URL scheme <code>/{post_name}_{ID}.html</code> .</li>
+<li>files do not contain a <code>date</code> field in their head section</li>
+<li>files do not contain a <code>comments</code> field in their head section</li>
+<li>HTML in WordPress is apparently outputted using PHP&rsquo;s <a href="http://php.net/manual/en/function.nl2br.php">nl2br()</a> function, so the HTML files did not contain the necessary <code>&lt;br&gt;</code>s</li>
+</ul>
+
+
+<p>In my first stab at Ruby source code ever since I read <a href="http://pragprog.com/book/rails1/agile-web-development-with-rails">this Rails book</a> in 2005 I changed the jekyll-import Gem (the file is called <code>wordpressdotcom.rb</code>) so it did all of the above and finally I was happy with my old post files.</p>
+
+<p>Some changes to the default Octopress theme and (S)CSS I had a working site and especially all of our old blog posts on GitHub.</p>
+
+<h3>Hosted Comments and Migration</h3>
+
+<p>The same WXR file I used for importing our old post can be used to import all comments to <a href="http://disqus.com/">Disqus</a>. Details see <a href="http://hadihariri.com/2013/12/24/migrating-from-wordpress-to-jekyll/">this blog post</a> again.
+The import worked alright, however I did not see any comments in the Disqus box below our posts.</p>
+
+<p>Apparently Disqus and CloudFlare don&rsquo;t just work together as planned and so I followed <a href="http://www.elizaibeth.com/disqus-comments-not-showing-correctly/">this post</a> and It worked &ndash; unfortunately only partly&hellip;</p>
+
+<p>As it turns out I had to do a <em>domain migration</em> in Disqus (Discussions &ndash;> Tools) in order to see all my old comments.
+Strangely this required me to migrate from my (unchanged) domain <code>pavingways.com</code> to <code>pavingways.github.io</code> so they now appear in Disqus like this:</p>
+
+<pre><code>http://pavingways.github.io/new-year-new-blog.html
+</code></pre>
+
+<p>I had no time digging deeper but apparetly disqus realizes that my page is hosted on GitHub.
+Finally all comments show up and we have a working blog again.</p>
+
+<p>Octopress&#8217; rake commands make it now simple and easy to write/debug posts and deploy them to GitHub.</p>
+
+<p><strong>Happy New Year!</strong></p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/phonegap-meetup-2-retrospektive_2431.html">PhoneGap Meetup #2 Retrospektive</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-08-12T00:00:00+02:00" pubdate data-updated="true">Aug 12<span>th</span>, 2011</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content">Vergangenen Mittwoch hatten wir nun unser zweites <a href="http://www.phonegap.com/" title="PhoneGap">PhoneGap</a> und HTML5 Meetup. Auf der Agenda standen zwei Präsentationen: <a href="http://www.meetup.com/PhoneGap-HTML5-Meetup-Rhein-Main/"></a>PhoneGap 1.0 und Remote Debugging, außerdem hat sich <a href="https://twitter.com/#!/wpbasti" title="@wpbasti">@wpbasti</a> spontan zu einem Intro zu <a href="http://en.wikipedia.org/wiki/Programming_tool" title="Tooling">Tooling</a> im allgemeinen und <a href="https://github.com/wpbasti/jasy" title="Jasy">Jasy</a> im speziellen entschlossen. <br>
+<br>
+Nachdem ich mein Intro zu PhoneGap 1.0 mit Ausblick auf 2.0 und eine kurze XCode Demo mit dem <a href="http://joapp.com/" title="Jo App-Framework">Jo App-Framework</a> beendet hatte, hat uns Martin <a href="http://phonegap.github.com/weinre/">Weinre</a> und Remote Debugging gezeigt. Er hat uns außerdem die Idee zu seiner anstehenden Bachelor-Arbeit präsentiert. Dabei geht es um die Entwicklung eines PhoneGap-Polyfills um die Entwicklung von Apps im Browser zu erleichtern. Die Idee kam gut an und mögliche Parallelen zum <a href="http://ripple.tinyhippos.com/">Ripple Emulator</a> wurden kurz besprochen. Martin hat außerdem vor, ein Meetup für Mobile-Entwickler in Mannheim zu starten.<br>
+<br>
+Unser kleiner Bereich im <a href="http://www.sternstunde-ffm.de/">Sternstunde</a> war mit den 9 Teilnehmern, davon einige neue, ganz gut ausgelastet und es gab leckere arabische Tapas. Leider war es etwas lauter als erhofft, da parallel das Spiel Deutschland : Brasilien lief. Wir haben uns dennoch gut unterhalten und ich denke, es war für jeden etwas interessantes dabei.<br>
+<br>
+Unser Teilnehmer <a href="https://twitter.com/#!/wltrd">Walter</a> hat uns noch darauf hingewiesen, dass er mit <a href="https://twitter.com/#!/ppk">@ppk</a> im September einen Mobilism-Workshop in Frankfurt organisiert. Der geplante Termin ist der 28. und 29. September 2011. Mehr Infos dazu gibt&#8217;s auf der <a href="http://mobilism.nl/workshops/frankfurt-sept-2011">Mobilism Website</a>.<br>
+<br>
+Das nächste Meetup folgt in ein paar Wochen und wird natürlich auch auf <a href="http://www.meetup.com/PhoneGap-HTML5-Meetup-Rhein-Main/">unserer Meetup.com Seite</a> bekannt gegeben - ich freue mich schon drauf!
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/phonegaphtml5-meetup-2_2418.html">PhoneGap/HTML5 Meetup #2</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-08-04T00:00:00+02:00" pubdate data-updated="true">Aug 4<span>th</span>, 2011</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content">Unser <strong>2. Phonegap/HTML5 Meetup</strong> findet am 10. August im <a href="http://www.sternstunde-ffm.de/">Café Sternstunde</a>, Färberstraße 65 in Frankfurt/Main statt.<br>
+Themen: PhoneGap 1.0 und Remote Debugging.<br>
+<br>
+Wir haben ein Séparée mit genug Platz und großem Fernseher für die Präsentationen. WLAN sollte es auch geben.<br>
+<br>
+Außerdem kann man auch was trinken und essen (Arabische Tapas z.B.) - gute Mischung aus Präsentationen und dem Casual-Teil ist also möglich!<br>
+<br>
+Anmeldung bitte über <a href="http://www.meetup.com/PhoneGap-HTML5-Meetup-Rhein-Main/events/27928361/" target="_blank">Meetup</a> oder <a href="https://www.xing.com/events/phonegap-html5-meetup-2-797984" target="_blank">Xing</a> oder <a href="http://www.facebook.com/event.php?eid=257455647599484" target="_blank">Facebook</a>!<br>
+Bis nächste Woche!
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/apple-startet-b2b-app-store-in-den-usa_2413.html">Apple startet B2B App Store in den USA</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-07-26T00:00:00+02:00" pubdate data-updated="true">Jul 26<span>th</span>, 2011</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content">Mit seinem <strong><a href="http://www.apple.com/business/vpp/">Volume Purchase Program</a></strong> bietet Apple Geschäftskunden die Möglichkeit an, Volumenlizenzen für Apps zu erwerben. Unternehmen können nun <a href="http://images.apple.com/business/docs/ASVPP_Business_Guide_US.pdf">über ein zentrales Konto</a> einzelne Apps in großer Stückzahl über eine einzelne Rechnung kaufen. Anschließend erhält der Käufer Gutscheine, die er  an seine Mitarbeiter verteilen kann, so dass diese die App wie gewohnt über den App Store herunterladen können.<h3>Maßgeschneiderte B2B Apps</h3><br>
+Ausserdem können Entwickler über das Volume Purchase Program maßgeschneiderte B2B Apps anbieten und verteilen. Unternehmen können die speziell für sie entwickelten Apps über den App Store an Mitarbeiter oder Partner verteilen, ohne dass diese Apps öffentlich angeboten werden. Der Mindestpreis für diese Apps beträgt $9.99.<br>
+<br>
+Allerdings steht das <a href="https://developer.apple.com/appstore/resources/volume/">Volume Purchase Program</a> bisher ausschließlich US Kunden zur Verfügung.<br>
+<br>
+Auf unserem englischsprachigen Blog finden Sie einen etwas umfangreicheren Artikel zu diesem Thema. <a href="http://www.pavingways.com/apple-launches-volume-purchasing-for-business-customers_2396.html">Hier geht’s zum Artikel</a>.
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/apple-launches-volume-purchasing-for-business-customers_2396.html">Apple Launches Volume Purchasing for Business Customers</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-07-26T00:00:00+02:00" pubdate data-updated="true">Jul 26<span>th</span>, 2011</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><a href="http://www.apple.com/business/vpp/">Apple has announced</a> that it allows businesses to purchase apps in volume. With the <a href="https://developer.apple.com/appstore/resources/volume/">Volume Purchase Program</a> the buyer can choose an app, determine the needed quantity and complete the purchase with the corporate credit card. The buyer then receives redemption codes which he can send out.<br>
+<br>
+The Volume Purchase Program is only available in the US. Every paid app in the App Store is available for businesses to buy in volume. Free apps are excluded.<br>
+<br>
+Businesses need first to <a href="http://images.apple.com/business/docs/ASVPP_Business_Guide_US.pdf">create a volume purchasing account</a>. Once enrolled, they can purchase apps on the program&#8217;s website - they aren&#8217;t using the App Store in iTunes.<h3>Custom B2B Apps</h3><br>
+The Volume Purchase Program also provides businesses the opportunity to purchase custom B2B apps built by third-party developers. These apps have been developed in collaboration with third-party developers to address a unique business need. Therefore they are not available to the general public for purchase. The minimum price for a custom B2B app is $9.99.<h3>What we think</h3><br>
+It is interesting to see that Apple is now courting enterprises with this B2B App Store. Apple has recognized that employees are using iPhones and iPads also at work. It is much more easier now for businesses to distribute custom apps within their company or to specific partners. Companies are more flexible now to create and distribute apps for enterprise customers that have custom data and process needs.<br>
+<strong>More info:</strong><a href="http://www.apple.com/business/vpp/">apple.com</a><a href="http://images.apple.com/business/docs/ASVPP_Business_Guide_US.pdf">Volume Purchase Program - Guide (PDF)</a><a href="https://developer.apple.com/appstore/resources/volume/">Volume Purchase Program - FAQ</a>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/qr-codes-as-marketing-tool_2323.html">QR-Codes As Marketing Tool</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-07-05T00:00:00+02:00" pubdate data-updated="true">Jul 5<span>th</span>, 2011</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content">I came across an interesting report from <a href="http://www.i-nigma.com/pr26.html">3GVision</a>, the creator of the <a href="http://www.i-nigma.com/i-nigmahp.html">i-nigma barcode scanner</a>. The numbers show a worldwide growth in mobile barcode usage. The US is leading the growth, but the popularity of barcodes is also increasing in Europe with Germany, the UK and Italy leading this trend. So maybe this is finally catching up outside of Japan?<br>
+<strong>Top 10 users of mobile barcodes during May 2011:</strong><p style="padding-left: 30px;">(1)   1. United States<br>
+(2)   2. Germany<br>
+(4)   3. United Kingdom<br>
+(3)   4. Italy<br>
+(5)   5. Canada<br>
+(6)   6. Netherlands<br>
+(7)   7. France<br>
+(8)   8. Hong Kong<br>
+(9)   9. Spain<br>
+(13) 10. Australia</p><p style="padding-left: 30px;">Position in () was in April/2011</p><strong>Top 5 growing countries for May 2011:</strong><p style="padding-left: 30px;">1. Australia (74.1% Growth over April/2011)<br>
+2. Hong Kong (43.3%)<br>
+3. United States (39.0%)<br>
+4. France (32.2%)<br>
+5. United Kingdom (31.5%)</p><strong>Global growth in mobile barcode usage Q4/09–Q1/11:</strong><p style="padding-left: 30px;"><a href="http://www.pavingways.com/wp-content/uploads/chart.jpg"><img class="alignnone size-medium wp-image-2325" title="chart" src="http://www.pavingways.com/wp-content/uploads/chart-300x264.jpg" alt="" width="300" height="264" /></a></p><br>
+* see below for notes on reporting methodology<h3>QR-Codes and Marketing</h3><br>
+As mentioned in the report the mobile barcode usage is increasing in Germany. On <a href="http://www.mobilemarketingwelt.com/2011/06/30/top-5-mobile-marketing-kampagnen-juni-2011/">mobilemarketingwelt.com</a> I found some interesting mobile marketing campaigns using QR codes (&#8220;Quick Response Codes&#8221;). Here are some examples how companies already using QR-Codes in their advertisment.<br>
+<strong>1. Bausch + Lomb - QR-Code, SMS, Mobile Couponing</strong><br>
+<br>
+The pharmaceutical company Bausch+Lomb uses QR-Codes and SMS shortcode in his <a href="http://www.mobilemarketingwelt.com/2011/06/24/bauschlomb-nutzt-mobile-couponing/">print ads</a>. By scanning the QR code the user will be forwarded to a mobile landing page where he receives more information about Biotrue, a care product for contact lenses. He also gets a coupon there for a free product sample.<br>
+In case the user has no QR-Code reader on his mobile phone he can request a link to the mobile portal via SMS shortcode.<br>
+<a href="http://www.pavingways.com/wp-content/uploads/Bausch+Lomb_QR-Code.jpg"><img class="alignnone size-medium wp-image-2340" title="Bausch+Lomb_QR-Code" src="http://www.pavingways.com/wp-content/uploads/Bausch+Lomb_QR-Code-82x300.jpg" alt="" width="82" height="300" /></a><br>
+<strong>2. Globetrotter – QR-Codes</strong><br>
+<br>
+The equipment manufacturer Globetrotter used QR-Codes <a href="http://www.mobilemarketingwelt.com/2011/06/06/globetrotter-setzt-auf-qr-codes-2/">in his latest print campaign</a>. By scanning the QR code on the advertisement the user will get to a mobile landing page where he receives more information about the reforestation project &#8220;Globetrotter VisionsWald&#8221;.<br>
+<a href="http://www.pavingways.com/wp-content/uploads/Globetrotter_QR-Code4.jpg"><img class="alignnone size-medium wp-image-2337" title="Globetrotter_QR-Code4" src="http://www.pavingways.com/wp-content/uploads/Globetrotter_QR-Code4-218x300.jpg" alt="" width="218" height="300" /></a> <a href="http://www.pavingways.com/wp-content/uploads/Globetrotter_Mobile-Portal.jpg"><img class="alignnone size-medium wp-image-2338" title="Globetrotter_Mobile-Portal" src="http://www.pavingways.com/wp-content/uploads/Globetrotter_Mobile-Portal-250x300.jpg" alt="" width="250" height="300" /></a><br>
+<strong>3. Universal Music – image recognition</strong><br>
+<br>
+In his latest <a href="http://www.mobilemarketingwelt.com/2011/06/22/universal-music-bewirbt-lady-gaga-album-mit-u-snap-plakatkampagne/">poster advertising campaign</a> for the new Lady Gaga Album Universal Music uses the <a href="http://www.wall.de/en/press/news/walldecaux_launcht_u_snap_in_deutschland">U snap App from Wall AG</a>, a value-added app for smartphones, on the German market. The user has to download the free U snap App for iPhone or Android smartphones from the App Store. When starting the app the user can take a picture of the print ad and gets samples from the new Lady Gaga album, can view music videos or win concert tickets, fan packages and CDs.<br>
+About 15,000 City Light Posters with the slogan &#8220;Fly to Lady Gaga with U snap&#8221; accompany the release of the new album &#8220;Born This Way&#8221;.<br>
+<a href="http://www.pavingways.com/wp-content/uploads/U-snap_Lady-Gaga.jpg"><img class="alignnone size-medium wp-image-2358" title="U-snap_Lady-Gaga" src="http://www.pavingways.com/wp-content/uploads/U-snap_Lady-Gaga-225x300.jpg" alt="" width="225" height="300" /></a><h3>Our Opinion:</h3><br>
+Many brands and retailers already started using QR-Codes in their marketing campaigns. For example <a href="http://mobile-tagging.blogspot.com/2011/07/mein-burger-von-mcdonalds-mit-qr-codes.html">McDonalds</a>, <a href="http://mobile-tagging.blogspot.com/2011/03/vichy-mit-qr-code-branding.html">Vichy</a>, <a href="http://mobile-tagging.blogspot.com/2011/02/extended-packaging-frischfleisch-bei.html">Aldi Süd</a>, <a href="http://www.tagmotion.de/2011/06/28/qr-code-supermarkt/">Tesco</a> etc. The biggest advantage of QR-Codes is that customers get further information about a product fast and easy. They just need a mobile phone with a camera, web access and a QR-Code reader software (e.g. <a href="http://reader.kaywa.com/">Kaywa Reader</a>, <a href="http://www.quickmark.com.tw/En/basic/download.asp">QuickMark Barcode Reader</a>, <a href="http://www.i-nigma.com/Downloadi-nigmaReader.html">i-nigma Reader</a>).<br>
+<br>
+There are various opportunities of using QR-Codes. Companies can use them as a direct response marketing tool for print campaigns (call-to-action) or even to sell virtual goods like games, music or ringtones. I think the usage of QR Codes will be increasing in the future and we will see a wide range of usage of QR-Codes in marketing.<br>
+<strong>Sources:</strong><a href="http://www.i-nigma.com/pr26.html">i-nigma</a><a href="http://www.mobilemarketingwelt.com/2011/06/30/top-5-mobile-marketing-kampagnen-juni-2011/">mobilemarketingwelt.com</a><a href="http://www.wall.de/en/press/news/walldecaux_launcht_u_snap_in_deutschland">U snap Wall AG</a><br>
+<strong>* Notes on reporting methodology:</strong><ul>	<li>These reports are based on the total number of QRcode, Datamatrix and UPC/EAN scans recorded by the i-nigma system during the relevant periods. Because of i‑nigma’s prominence in many markets worldwide, 3GVision believes that these numbers are likely to be indicative of global mobile barcode activity.</li>	<li>The reports do not include activity in Japan, which is known to be well ahead in popularity and usage of mobile barcodes.</li>	<li>For better representation of global open market trends, the reports specifically exclude the activity of i‑nigma-based solutions that are used by our vertical customers.</li>	<li>Top 5 growing countries are from the top 20 countries in mobile barcodes usage during May/2011.</li></ul><br>
+&nbsp;
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/qr-codes-als-marketinginstrument_2379.html">QR-Codes als Marketinginstrument</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-07-05T00:00:00+02:00" pubdate data-updated="true">Jul 5<span>th</span>, 2011</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content">Eine Studie von <a href="http://www.i-nigma.com/pr26.html">3GVision</a> zeigt, dass die Nutzung von mobilen Barcodes weltweit ansteigt. Neben den USA führen auch europäische Länder wie Deutschland, Italien und England den Trend an.<br>
+<br>
+Mittlerweile haben viele Firmen damit begonnen, QR-Codes (&#8220;Quick Response Codes&#8221;) in ihre Marketingkampagnen zu integrieren. Meist werden diese auf Produktverpackungen, in Magazinen oder auf Plakaten eingesetzt. Nachdem der QR-Code eingescannt wurde, erhält der Konsument weiterführende Produktinformationen, Coupons oder auch virtuelle Güter wie Musik, Videos und Spiele.<br>
+<br>
+In Japan, dem Mutterland der QR-Codes, ist man schon einen Schritt weiter und verbindet <a href="http://vimeo.com/8468513">QR-Codes mit Augmented Reality Applikationen</a>:<br>
+<object width="400" height="225"><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=8468513&amp;server=vimeo.com&amp;show_title=0&amp;show_byline=0&amp;show_portrait=0&amp;color=00adef&amp;fullscreen=1&amp;autoplay=0&amp;loop=0" /><embed type="application/x-shockwave-flash" width="400" height="225" src="http://vimeo.com/moogaloop.swf?clip_id=8468513&amp;server=vimeo.com&amp;show_title=0&amp;show_byline=0&amp;show_portrait=0&amp;color=00adef&amp;fullscreen=1&amp;autoplay=0&amp;loop=0" allowfullscreen="true" allowscriptaccess="always"></embed></object><br>
+<a href="http://vimeo.com/8468513">N Building</a> from <a href="http://vimeo.com/user1859070">Alexander Reeder</a> on <a href="http://vimeo.com">Vimeo</a>.<br>
+<br>
+Auf unserem <a href="http://www.pavingways.com/qr-codes-as-marketing-tool_2323.html">englischsprachigen Blog</a> finden Sie einen etwas umfangreicheren Artikel zu diesem Thema sowie Beispiele für gelungene Printkampagnen und einigen Statistiken. <a href="http://www.pavingways.com/qr-codes-as-marketing-tool_2323.html">Hier geht&#8217;s zum Artikel</a>.
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/phonegaphtml5-meetup-1-kick-off_2308.html">UPDATE: PhoneGap/HTML5 Meetup #1 / Kick-Off</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-05-23T00:00:00+02:00" pubdate data-updated="true">May 23<span>rd</span>, 2011</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><strong>UPDATE:</strong><br>
+<br>
+Wir treffen uns am Do, den 26. Mai um 19:00 Uhr in der<br>
+<br>
+Affentor-Schänke<br>
+Neuer Wall 9<br>
+60594 Frankfurt<a href="http://www.affentor-schaenke.de/">www.affentor-schaenke.de</a><br>
+<br>
+&#8212;&#8212;&#8212;&#8212;&#8212;&#8211;<br>
+<br>
+Dies ist eine kurze Erinnerung an das erste Treffen der PhoneGap und HTML5 Meetup Gruppe diesen Donnerstag in Frankfurt am Main.<br>
+<br>
+Wir wollen die Meetup-Gruppe, die früher mal nur die HTML5 Meetup-Gruppe war, neu starten und einen großen Fokus auf PhoneGap und mobile Entwicklung legen. Wir werden bei der Organisation von Nitobi unterstützt und bekommen auf die Art hoffentlich auch ein paar top-aktuelle Insights in das PhoneGap Projekt.<br>
+<br>
+Kommen kann jeder, der an den Themen interessiert ist - Präsentationen und Demos jeglicher Art sind auch immer gern gesehen. Zu Bedenken ist, dass wir das Ganze in Form eines formlosen Stammtisches durchführen und es keinen Beamer gibt ;), dafür gibt&#8217;s Bier bzw. Ebbelwoi - angepeilt wird diesmal eine Ebbelwoi-Wirtschaft (genaue Location folgt morgen).<br>
+<br>
+Falls Du noch teilnehmen willst, dann Trage Dich bitte auf einer der folgenden Seiten ein:<br>
+<a href="http://www.meetup.com/PhoneGap-HTML5-Meetup-Rhein-Main/events/17122119/">Meetup.com</a><br>
+<a href="https://www.xing.com/events/phonegap-html5-meetup-1-767564">Xing.com</a><br>
+<a href="http://www.facebook.com/event.php?eid=154019697996436">Facebook</a><br>
+<br>
+&nbsp;
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/phonegaphtml5-meetup-1-kick-off-2_2311.html">UPDATE: PhoneGap/HTML5 Meetup #1 / Kick-Off</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-05-23T00:00:00+02:00" pubdate data-updated="true">May 23<span>rd</span>, 2011</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><strong>UPDATE:</strong><br>
+<br>
+We will meet on Thursday (05/26) at 7 pm at<br>
+<br>
+Affentor-Schänke<br>
+Neuer Wall 9<br>
+60594 Frankfurt<a href="http://www.affentor-schaenke.de/">www.affentor-schaenke.de</a><br>
+<br>
+&#8212;&#8212;&#8212;&#8212;&#8212;&#8211;<br>
+<br>
+Just a quick reminder: we are holding our first PhoneGap &amp; HTML5 Meetup this Thursday in Frankfurt/Main.<br>
+<br>
+Last year we already held a couple of HTML5 Meetups. This year we want to focus more on the mobile part: mobile development and <a href="http://www.phonegap.com/">PhoneGap</a>. <a href="http://www.nitobi.com/">Nitobi</a>, the guys from PhoneGap, will support our Meetup group and hopefully we get some cutting-edge insights from the PhoneGap project.<br>
+<br>
+Anyone is invited to join our informal group. We are holding our next Meetup in a Ebbelwoi restaurant in a relaxed atmosphere. Demos or small presentations are welcome. The final location will be announced soon.<br>
+<br>
+If you wanna join us on Thursday (May 26th), please sign up here:<br>
+<a href="http://www.meetup.com/PhoneGap-HTML5-Meetup-Rhein-Main/events/17122119/">Meetup.com</a><br>
+<a href="https://www.xing.com/events/phonegap-html5-meetup-1-767564">Xing</a><br>
+<a href="http://www.facebook.com/event.php?eid=154019697996436">Facebook</a>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/unser-blog-ist-nun-auch-in-deutsch-verfugbar_2258.html">Unser Blog ist nun auch in deutsch verfügbar</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-04-10T00:00:00+02:00" pubdate data-updated="true">Apr 10<span>th</span>, 2011</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content">Dies ist der erste deutsche Blog-Post &#8230; und eigentlich nur ein Test ;)
+</div>
+  
+  
+
+
+    </article>
+  
+  <div class="pagination">
+    
+      <a class="prev" href="/archives/page/2/">&larr; Older</a>
+    
+    <a href="/blog/archives">Blog Archives</a>
+    
+  </div>
+</div>
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2014 - PavingWays Limited -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'pavingways-blog';
+      
+        
+        var disqus_script = 'count.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

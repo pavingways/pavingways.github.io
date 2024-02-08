@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Mobile Technologies | PavingWays]]></title>
+  <link href="http://pavingways.github.io/categories/mobile-technologies/atom.xml" rel="self"/>
+  <link href="http://pavingways.github.io/"/>
+  <updated>2014-02-07T22:42:46+01:00</updated>
+  <id>http://pavingways.github.io/</id>
+  <author>
+    <name><![CDATA[]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Attend 3 Exciting Mobile Events on 1 Day!]]></title>
+    <link href="http://pavingways.github.io/attend-3-exciting-mobile-events-on-1-day_1872.html"/>
+    <updated>2010-11-11T00:00:00+01:00</updated>
+    <id>http://pavingways.github.io/attend-3-exciting-mobile-events-on-1-day_1872</id>
+    <content type="html"><![CDATA[<p>Mark the date: <strong>15. November 2010</strong>! This Monday will be packed with <strong>3 exciting mobile events</strong> all taking place at the same location at <a href="http://maps.google.nl/maps?f=q&amp;q=Platz+der+Ideen%2C+40476+Düsseldorf">Grey&rsquo;s in Düsseldorf</a>:<ol>    <li>Mobile Unconference</li>    <li>Vodafone Developer Day</li> <li>MobileMonday</li></ol><br>
+This is a great opportunity to learn more about many mobile development topics and get in touch with mobile enthusiasts from all over the world. <strong>So join us for an exciting and informative day!</strong><br>
+ <strong>1. Mobile Unconference</strong><br>
+ <strong><a href="http://www.mobileunconference.com"><img class="size-full wp-image-1556 alignright" title="Mobile Unconference" src="http://www.pavingways.com/wp-content/uploads/mobunc_small1.png" alt="" width="292" height="133" /></a></strong><br>
+ <br>
+The day starts with the <a href="http://www.pavingways.com/mobile-unconference-coming-to-germany_1489.html">Mobile Unconference</a>. Meet other developers, entrepreneurs, startups and technology companies to discuss the latest trends in mobile software. No frills, no strings attached, no<br>
+marketing-speak, only regular folks who make the mobile world more interesting every day. This is an UNconference and it&rsquo;s all about its participants &ndash; anybody can grab the microphone and talk about something interesting there!<br>
+ <br>
+Sign up here: <a href="http://www.mobileunconference.com"><a href="http://www.mobileunconference.com">http://www.mobileunconference.com</a></a><br>
+ <strong>2. Vodafone Developer Day</strong><br>
+ <br>
+Parallel to the Mobile Unconference and at the same location our developer friends over at <a href="http://developer.vodafone.com/">Vodafone</a> and <a href="http://www.appseleration.com/">Appseleration</a> organize a developer day covering the following topics:<ul>  <li>Introduction to Vodafone developer</li> <li>Developing with JIL/WAC</li>    <li>Cross Platform development and live demo</li>   <li>Debugging tips and tricks with Ripple Emulator</li> <li>Testing on real devices with the Perfecto Mobile Cloud</li> <li>Bringing your apps to market</li></ul><div>More details here: <a href="http://vodafonedevdaysgermany.eventbrite.com/?ref=pavingways"><a href="http://vodafonedevdaysgermany.eventbrite.com">http://vodafonedevdaysgermany.eventbrite.com</a></a></div><strong>3. MobileMonday</strong><br>
+ <br>
+The day ends with the Düsseldorf edition of MobileMonday. This time the topic will be <strong>Mobile Health</strong>. Learn more about the global mobile healthcare market and meet interesting people &ndash; networking till the ambulance arrives ;)<br>
+ <br>
+Find more details at the <a href="http://www.mobile-monday.de/events/mobile-health">MobileMonday Website</a> and please make sure you <strong>sign up there separately</strong>!<br>
+ <strong>Get ready for the mobilest day this year!<br>
+We hope to see you on Monday in Düsseldorf!</strong><br>
+ <br>
+PS: Please repost and <a href="http://twitter.com/pavingways/statuses/24962379968">retweet this!</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Webinos: New Project to enable Cross-Platform Apps]]></title>
+    <link href="http://pavingways.github.io/webinos-new-project-to-enable-cross-platform-apps_1822.html"/>
+    <updated>2010-09-29T00:00:00+02:00</updated>
+    <id>http://pavingways.github.io/webinos-new-project-to-enable-cross-platform-apps_1822</id>
+    <content type="html"><![CDATA[<p><strong><a href="http://www.webinos.org"><img class="alignright size-full wp-image-1512" title="webinos logo" src="http://www.pavingways.com/wp-content/uploads/webinos1.png" alt="" width="150" height="48" /></a><a href="http://webinos.org/">Webinos</a></strong> is a pan-European initiative trying to build a &ldquo;<strong>Secure WebOS Application Delivery Environment</strong>&rdquo;. It aims to create an open source platform that will &ldquo;enable web applications and services to be used and shared consistently and securely over a broad spectrum of converged and connected devices, including mobile, PC, home media (TV) and in-car units&rdquo;.<br>
+ <br>
+The consortium is led by the <a href="http://www.fokus.fraunhofer.de/en/fokus/index.html">Frauenhofer Institute for Open Communication Systems</a> and has already <a href="http://webinos.org/members">22 partners</a> including W3C, Samsung, Sony Ericsson, Telefonica, docomo, Deutsche Telekom, BMW and the University of Oxford. It has received a €10m funding from the EU and will run over three years.<br>
+ <strong>Will webinos solve the fragmentation problem?</strong><br>
+ <br>
+As many developers know there are a lot of different application platforms out there already (Android, iPhone, Symbian, Web &hellip; you name it). Fragmentation and porting applications are huge issues for developers and expensive in regards to development cost and time.<br>
+ <br>
+The new consortium wants to solve this problem by creating an open source, web-based platform that would allow the same application to run across a very wide variety of device types. The platform can be used on any handset regardless of the OEM or carrier. Basically a universal OS or runtime environment to write once, run anywhere.<br>
+ <strong>A very ambitious goal! </strong>Especially considering that maximum compatibility usually comes in a <em>least common denominator</em> package.<br>
+ <br>
+For us this project first and foremost raises some questions:<ul>   <li>How do other projects like JIL/the <a href="http://www.pavingways.com/the-holy-wholesale-applications-community-wac_1225.html"><strong>Wholesale Applications Community</strong></a> (WAC) fit into the picture? They also aim to create open platforms for mobile apps and solve the fragmentation problem.</li>   <li>Is this gonna be a corporate-driven <a href="http://www.phonegap.com/">PhoneGap</a>?</li>   <li>Comparable to other approaches like <a href="http://www.mobileopenlaszlo.org">Mobile OpenLaszlo</a>?</li>   <li>Will HTML5 have a big part in this? (probably it will)</li> <li>How small will the least common denominator really be?</li> <li>No matter how web-based you are you need to deal with browser issues and fragmentation &ndash; how is this solved?</li>   <li>Are there too many cooks in the kitchen?</li>   <li>Where do Google, Apple and Nokia (and many others) fit into this?</li>  <li>Where are the developers? It is a tough task to convince developers to develop for your platform, no matter how great it might be. Other companies are already spending millions on this (some more successful than others).</li>   <li>Is someone of webinos going to present the project at the <a href="http://www.pavingways.com/mobile-unconference-coming-to-germany_1489.html">Mobile Unconference in November</a>?</li></ul><strong>What we think:</strong><br>
+ <br>
+A well funded project with a noble goal. Lots of players involved, many obstacles to take, many people to convince. The goal is very, very ambitious and the resulting platform will depend on making compromises. The Web is the platform of the future &ndash; this is another proof.<br>
+ <strong>Sources and References:</strong><br>
+ <a href="http://webinos.org/">webinos.org</a><a href="http://www.wholesaleappcommunity.com/">wholesaleappcommunity.com</a><a href="http://www.geek.com/articles/mobile/webinos-aims-for-one-app-to-work-on-all-mobile-devices-20100923/">geek.com</a><a href="http://www.heise.de/developer/meldung/Webinos-Neues-Konsortium-fuer-geraeteuebergreifende-Anwendungsplattform-1095060.html">heise.de</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[HTML5/CSS3 Meetup March Recap]]></title>
+    <link href="http://pavingways.github.io/html5css3-meetup-march-recap_1572.html"/>
+    <updated>2010-03-15T00:00:00+01:00</updated>
+    <id>http://pavingways.github.io/html5css3-meetup-march-recap_1572</id>
+    <content type="html"><![CDATA[<p>We have been planning to organize a local meetup group around the topics of HTML5 and CSS3 for a few months. These topics are necessary to get into for any serious developer in the area of web development. Also mobile developers need to know what&rsquo;s up with it, especially if they are planning to develop for the iPhone, Android phones or basically any other web-based platform. On top of this talking about experiences and learning from each other is a good way to get into any topic.<br>
+ <br>
+Some people were contacted and this past Tuesday the first HTML5 and CSS3 meetup in Frankfurt took place. We managed to gather a small bunch and met at the <a href="http://lokalbahnhof.info/">Lokalbahnhof</a>, a pretty nice restaurant / bar in Sachsenhausen. It turned out to become a very fun evening with good food and a couple of drinks.<br>
+ <br>
+HTML5 action was based around an introductory presentation that I was showing:<br>
+ <div style="width:425px" id="__ss_3431337"><object width="425" height="355"><param name="movie" value="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=html5-100314184324-phpapp02&stripped_title=html5-intro" /><param name="allowFullScreen" value="true"/><param name="allowScriptAccess" value="always"/><embed src="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=html5-100314184324-phpapp02&stripped_title=html5-intro" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="425" height="355"></embed></object></div><br>
+ <br>
+I was also showing a canvas demo intended to be used for the iPhone &ndash; after all we ended up replacing this part of the application with an old-school CSS sprite background animation for performance reasons, which was a learning on its own. Another Demo shown was a GameQuery-based shooter game that uses CSS3 animations to blow up enemy ships &ndash; amazing to look at and play &ndash; thanks for that Jesse!<br>
+ <br>
+There were various discussions about the two technologies. The concept of just sitting together without a real agenda, talking about a wide topic seems to work &ndash; I could learn some new things and I am sure the other attendees did too. Thanks to everyone who was there, it was a great evening!<br>
+ <br>
+We are now planning to do this monthly (roughly), so we are looking forward to April! If you want to come make sure you are filling out the <a href="http://www.doodle.com/fqvm94ruwivdabay">Doodle poll</a> so we can pick the best date!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Even More Mobile Applications Hit Cars]]></title>
+    <link href="http://pavingways.github.io/even-more-mobile-applications-hit-cars-2_1514.html"/>
+    <updated>2010-02-09T00:00:00+01:00</updated>
+    <id>http://pavingways.github.io/even-more-mobile-applications-hit-cars-2_1514</id>
+    <content type="html"><![CDATA[<p><a href="http://www.pavingways.com/wp-content/uploads/autolinq1.png"><img class="alignleft size-full wp-image-1164" style="margin: 1px 5px;" title="autolinq" src="http://www.pavingways.com/wp-content/uploads/autolinq1.png" alt="" width="212" height="133" /></a>Last year in October I wrote in a <a href="http://www.pavingways.com/mobile-applications-hit-cars_1031.html">blog post</a> about smart phone applications coming to cars. Today I read an article about <a href="http://www.telekom.com/">Deutsche Telekom</a> and tyre maker <a href="http://www.conti-online.com/">Continental</a> joining this market as well.<br>
+ <br>
+They plan to put apps into all vehicles via an Android-based on-board computer. The prototype called <a href="http://www.autolinq.de/"><strong>AutoLinQ</strong></a> will be demonstrated at this year&rsquo;s <a href="http://www.cebit.de/homepage_e">Cebit show</a>. Inspired by the iPhone drivers can search for apps, download music, pick up news, check emails and answer them by using voice recording technology. The promise is: <strong>all without taking hands off the wheel or eyes off the road!</strong><br>
+ <br>
+Deutsche Telekom said in a statement that the core functions of AutoLinQ include an online address book linked to the navigation system. Drivers can type in journey destinations on the computer at home or work before getting in the car, or via their mobile phone when out and about. As the vehicle is connected to Deutsche Telekom&rsquo;s mobile network, drivers can call up information that tells them where the car is parked, or check whether the sunroof is open and close it remotely using their phone.<br>
+ <!--more-->According to the website of AutoLinQ, Continental plans to work with Android developers and automakers to certify a core set of applications. An <strong>AutoLinQ SDK</strong> is scheduled to be released already <strong>by the end of the first quarter this year</strong> &ndash; probably due to its closeness to the regular Android SDK.<br>
+ <br>
+In the <strong>second half of 2010</strong> Continental plans to demonstrate first applications and of course the new app store to automotive customers (yes another app store&hellip;).<strong></strong><br>
+ <strong>Sources:</strong><a href="http://www.autolinq.de/">AutoLinQ</a><a href="http://www.conti-online.com/generator/www/de/en/continental/automotive/themes/passenger_cars/interior/connectivity/autolinq/pi_autolinq_en.html">AutoLinQ</a> (Continental Website)<a href="http://www.computerweekly.com/Articles/2010/02/01/240139/deutsche-telekom-picks-android-for-in-car-apps.htm">computerweekly.com</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Nokia Developer Summit 2009 Wrap up - Day 1]]></title>
+    <link href="http://pavingways.github.io/nokia-developer-summit-2009-wrap-up-day-1_517.html"/>
+    <updated>2009-05-01T00:00:00+02:00</updated>
+    <id>http://pavingways.github.io/nokia-developer-summit-2009-wrap-up-day-1_517</id>
+    <content type="html"><![CDATA[<p>On Tuesday the <strong><a href="http://events.nokia.com/developersummit/">Nokia Developer Summit</a></strong> started. The conference was opened by <a href="http://events.nokia.com/developersummit/speakers.htm#taylor">Rob Taylor</a>, Head of Forum Nokia. At the beginning he showed us a demo of a coming service (powered by <a href="http://qik.com/">qik</a>) where consumers will be able to share videos live from their mobile devices.<br></p>
+
+<br>
+
+
+<p>The topic of this conference was mainly Nokia&rsquo;s <strong><a href="http://store.ovi.com/">Ovi Store</a>,</strong> which will launch this month. 500 people were at the event, mainly developers from all over the world, but also bloggers, press, analysts, students etc.<br>
+<a href="http://www.pavingways.com/wp-content/uploads/nokia1.png"><img class="alignnone size-medium wp-image-520" title="nokia1" src="http://www.pavingways.com/wp-content/uploads/nokia1-300x251.png" alt="" width="300" height="251" /></a><br></p>
+
+<!--more-->
+
+
+<p>A very important topic was the WRT (Web Runtime) technology. Why? Because with WRT web developers can now start developing applications for Nokia devices by using CSS, HTML, AJAX or JavaScript. That way developers can dramatically reduce their development costs &ndash; according to Nokia by 75% compared to native apps. However you have to keep in mind that WRT applications by design have limited access to device capabilities and are targeting more widget-like applications than full featured ones.<br>
+<a href="http://www.pavingways.com/wp-content/uploads/nokia21.jpg"><img class="alignleft size-medium wp-image-524" style="margin-left: 4px; margin-right: 4px;" title="nokia21" src="http://www.pavingways.com/wp-content/uploads/nokia21-166x300.jpg" alt="" width="133" height="240" /></a>The keynote about &ldquo;<a href="http://events.nokia.com/developersummit/assets/pdf/NDS09_2804_presentation_Ojanpera.pdf">Developing for the Era of Social Location</a>&rdquo; was held by <a href="http://events.nokia.com/developersummit/speakers.htm#ojanpera">Tero Ojanpera</a> (Executive Vice President, Services, Nokia). He underlined the importance of the relationship between Nokia and the developers. Nowadays consumers are demanding lots of applications for their mobile devices. For Nokia, who wants to provide the channel to those consumers, it is important that many developers create applications in order to offer a wide variety. WRT should greatly help in that regard &ndash; it sure did for us.<br></p>
+
+<br>
+
+
+<p>Tero Ojanpera also talked about the Ovi Store where services like <a href="http://maps.ovi.com">maps</a>, music, messages, games and media will be connected. The Ovi Store can be seen as a platform where all those services are combined and connected together and they will be enhanced with location and people-related information, also called <strong>social location</strong>. Basically you will get access to different content and services depending on your network and on your current location.<br></p>
+
+<br>
+
+
+<p>Talking about maps Nokia is currently holding a competition called &ldquo;Apps on Maps&rdquo;. If you are interested in participating by creating an application for Nokia maps, please visit <a href="http://www.callingallinnovators.com/apps_on_maps.aspx">callingallinnovators.com/apps_on_maps.aspx</a>.<br></p>
+
+<br>
+
+
+<p>On Tuesday Nokia also released their<strong> <a href="http://forum.nokia.com/N97_SDK">N97 Beta SDK</a></strong>, which will be shipped next month. Since we were attending the Hackathon, we had a chance to work with the still unreleased  <a href="http://www.forum.nokia.com/devices/N97">Nokia N97</a>. It is a great phone and a very important and useful feature of it is the <strong>Home Screen View</strong>. Applications can use it to show  live information on your phone screen even if the phone idles. The data is updated automatically on your phone screen, which is a great feature and it works pretty well (especially for our <a href="http://www.pavingways.com/successful-at-nokia-hackathon-in-monaco_479.html">&ldquo;Panda Route&rdquo; Travel Planner widget</a>). Imagine, now you can get immediately informed by having breaking news, latest twitter feeds, etc. on your mobile without having to interact with it.<br></p>
+
+<br>
+
+
+<p>Very impressive demos were shown by Itay Katz (CEO of <a href="http://www.eyesight-tech.com/default.aspx">eyeSight</a>). He introduced EyePlay and showed us a demo of an mp3 player. Just by waving your hand from left to right above the phone (without touching it) you can switch from one music track to the next. By placing your hand above the phone you can start the player:<br></p>
+
+<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="560" height="340" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="allowFullScreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="src" value="http://www.youtube.com/v/Itrhk2klYqg&amp;hl=de&amp;fs=1" /><param name="allowfullscreen" value="true" /><embed type="application/x-shockwave-flash" width="560" height="340" src="http://www.youtube.com/v/Itrhk2klYqg&amp;hl=de&amp;fs=1" allowscriptaccess="always" allowfullscreen="true"></embed></object>
+
+
+<br>
+
+
+<br>
+
+
+<p>EyeCall &ndash;   a mobile phone call control application:<br></p>
+
+<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="560" height="340" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="allowFullScreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="src" value="http://www.youtube.com/v/VyABX2M73y8&amp;hl=de&amp;fs=1" /><param name="allowfullscreen" value="true" /><embed type="application/x-shockwave-flash" width="560" height="340" src="http://www.youtube.com/v/VyABX2M73y8&amp;hl=de&amp;fs=1" allowscriptaccess="always" allowfullscreen="true"></embed></object>
+
+
+<br>
+
+
+<br>
+
+
+<p>Nokia also announced that mobile billing (through credit card or the operators) will be available from the beginning in the Ovi store and they try to enable as many payment ways as possible.<br></p>
+
+<br>
+
+
+<p>After a short coffee break <a href="http://events.nokia.com/developersummit/speakers.htm#williams">Lee Williams</a>, Executive Director of <a href="http://www.symbian.org/">Symbian Foundation</a>, a non-profit organisation that is building an open source software platform based on Symbian OS, today&rsquo;s most widely used open operating system for mobile phones, talked about the &ldquo;<strong>Evolution of Open Mobile Platforms</strong>&rdquo;. He gave an interesting overview about the <a href="http://blog.symbian.org/">Symbian foundation</a>. You can find his whole presentation <a href="http://events.nokia.com/developersummit/assets/pdf/NDS09_2804_presentation_Williams.pdf">here</a>.<br>
+<a href="http://www.pavingways.com/wp-content/uploads/nokia31.jpg"><img class="alignnone size-full wp-image-533" title="nokia31" src="http://www.pavingways.com/wp-content/uploads/nokia31.jpg" alt="" width="500" height="378" /></a><br></p>
+
+<br>
+
+
+<p>After Lee Williams' presentation it was <a href="http://events.nokia.com/developersummit/speakers.htm#faith">John Faith</a>&rsquo;s turn (Vice President &amp; General Manager of Mobile Operations) from <a href="http://www.myspace.com/">MySpace</a> to talk about &ldquo;<a href="http://events.nokia.com/developersummit/assets/pdf/NDS09_2804_presentation_Faith.pdf">Mobile Internet Futures</a>&rdquo;. He showed us the first mobile version of Myspace:<br>
+<a href="http://www.pavingways.com/wp-content/uploads/nokia41.jpg"><img class="alignnone size-full wp-image-537" title="nokia41" src="http://www.pavingways.com/wp-content/uploads/nokia41.jpg" alt="" width="499" height="281" /></a><br></p>
+
+<br>
+
+
+<p>In 2008, MySpace had a 450% growth in mobile usage and their mobile web traffic has passed 7 billion page views/month. What are the users doing on MySpace mobile:<br>
+<a href="http://www.pavingways.com/wp-content/uploads/nokia5.jpg"><img class="alignnone size-full wp-image-538" title="nokia5" src="http://www.pavingways.com/wp-content/uploads/nokia5.jpg" alt="" width="500" height="248" /></a><br></p>
+
+<br>
+
+
+<p>An interesting fact is the trend towards smart phones. MySpace' statistics show that many users visiting MySpace mobile use smart phones.<br></p>
+
+<br>
+
+
+<p>After a lunch break and a short visit in the <a href="http://events.nokia.com/developersummit/experience_lounge.htm">Experience Lounge</a>, where you could discover services from Nokia and Forum Nokia developers, I decided to attend the &ldquo;Business Stream: Ready, Set, Sell!&rdquo; sessions (instead of the &ldquo;Technology Stream: Mobilizing the Internet&rdquo; sessions). The first <a href="http://events.nokia.com/developersummit/assets/pdf/NDS09_2804_presentation_John.pdf">presentations</a> were mostly about the Ovi Store and that mobile media is going/becoming mainstream.<br>
+<a href="http://www.pavingways.com/wp-content/uploads/ovi11.png"><img class="alignnone size-full wp-image-544" title="ovi11" src="http://www.pavingways.com/wp-content/uploads/ovi11.png" alt="" width="500" height="303" /></a><br>
+<a href="http://www.pavingways.com/wp-content/uploads/ovi2.png"><img class="alignnone size-full wp-image-545" title="ovi2" src="http://www.pavingways.com/wp-content/uploads/ovi2.png" alt="" width="500" height="306" /></a><br>
+<a href="http://www.pavingways.com/wp-content/uploads/ovi3.png"><img class="alignnone size-full wp-image-546" title="ovi3" src="http://www.pavingways.com/wp-content/uploads/ovi3.png" alt="" width="500" height="276" /></a><br></p>
+
+<br>
+
+
+<p>Please check out <a href="http://events.nokia.com/developersummit/assets/pdf/NDS09_2804_presentation_John.pdf">Eric John&rsquo;s presentation</a> for more information about the Ovi Store.<br></p>
+
+<br>
+
+
+<p>Also worth mentioning is Nokia&rsquo;s Developer Program:<br>
+<a href="http://www.pavingways.com/wp-content/uploads/nokia7.png"><img class="alignnone size-full wp-image-548" title="nokia7" src="http://www.pavingways.com/wp-content/uploads/nokia7.png" alt="" width="499" height="277" /></a><br></p>
+
+<br>
+
+
+<p>Another interesting presentation was held by <a href="http://events.nokia.com/developersummit/speakers.htm#brittain">David Brittain</a>, Vice President, Technology, <a href="http://www.glu.com/">glu Mobile</a>. The topic was &ldquo;<strong>glu mobile: Driving Mobile Gaming</strong>&rdquo;. David talked about the obstacles for mobile development a couple of years ago and what have changed today:<br>
+<a href="http://www.pavingways.com/wp-content/uploads/glu1.jpg"><img class="alignnone size-full wp-image-549" title="glu1" src="http://www.pavingways.com/wp-content/uploads/glu1.jpg" alt="" width="500" height="276" /></a><br>
+<a href="http://www.pavingways.com/wp-content/uploads/glu21.jpg"><img class="alignnone size-full wp-image-551" title="glu21" src="http://www.pavingways.com/wp-content/uploads/glu21.jpg" alt="" width="500" height="217" /></a><br></p>
+
+<br>
+
+
+<p>The last presentation held by <a href="http://events.nokia.com/developersummit/speakers.htm#glagow">Steve Glagow</a>, Vice President and Head of Orange Partner, Orange, was about &ldquo;<strong>Developer Benefits of Operators</strong>&rdquo;. Orange Partner is a program for 3rd party developers. Orange helps them to create and distribute their products and services. There are many ways of support from Orange, such as through online &amp; physical events, newsletters, one-to-one contact, developer centers worldwide, forums, blogs etc. Orange is offering three free membership levels:<ul>    <li><strong>member:</strong> general information and support with no NDA</li>   <li><strong>premium member:</strong> one-to-one support with an NDA</li>    <li><strong>contracted partner:</strong> for suppliers of Orange</li></ul><br>
+In 2009 Orange is mainly focusing on<ul>    <li><strong><a href="http://www.orangepartner.com/site/enuk/access_orange_apis/what_others_have_done/p_what_others_have_done.jsp">API initiative</a> </strong>to integrate Orange API&rsquo;s into developers applications</li>   <li><strong><a href="http://www.orangepartner.com/site/enuk/innovation/p_innovation.jsp">Open Innovation</a>:</strong> to identify and qualify innovative business opportunities and &ldquo;connect&rdquo; them inside Orange</li>  <li><strong><a href="http://www.orangepartner.com/site/enuk/mobile/application_shop/p_application_shop.jsp">Application Shop</a></strong> to distribute downloadable mobile applications</li></ul><br>
+More information about the whole Orange Partner program for 3rd party developers can be found on <a href="http://www.orangepartner.com/">Orange&rsquo;s website</a>.<br></p>
+
+<br>
+
+
+<p>After all the presentations the fun part started. Nokia had organized a dinner party at the Mone Carlo Beach Club. It was a great event at a great place with good music, delicious food and drinks. I am very glad that we didn&rsquo;t miss it, especially because of the Synchronous Swimming show.<br>
+<img class="reflect" src="http://farm4.static.flickr.com/3356/3504825989_f6805a5414.jpg?v=0" alt="Pool by you." width="450" height="299" /><img class="reflect" src="http://farm4.static.flickr.com/3400/3505634448_1e70626126.jpg?v=0" alt="Band by you." width="450" height="299" /><img class="reflect" src="http://farm4.static.flickr.com/3409/3505635106_d84e30f088.jpg?v=0" alt="OVI Pool by you." width="450" height="299" /><br></p>
+
+<br>
+
+
+<p>Great party, thanks Nokia!<br>
+<strong>Sources:</strong><a href="http://store.ovi.com/">Ovi Store</a><a href="http://www.forum.nokia.com/devices/N97">Nokia N97</a><a href="http://www.callingallinnovators.com/">Calling All Innovators</a><a href="http://www.eyesight-tech.com/default.aspx">eyeSight</a><a href="http://www.symbian.org/">Symbian Foundation</a><a href="http://www.myspace.com/">MySpace</a><a href="http://www.glu.com/">glu Mobile</a><a href="http://www.orangepartner.com/site/enuk/home/p_home.jsp">Orange Partner</a></p>
+]]></content>
+  </entry>
+  
+</feed>

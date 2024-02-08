@@ -1,0 +1,198 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Mobile AJAX application to test and demo - PavingWays JavaScript Applications</title>
+  <meta name="author" content="">
+
+  
+  <meta name="description" content="In my presentation at the XML 2006 conference in Boston I tried to show that AJAX - as a technology in part based on XML - is a useful and promising &hellip;">
+  
+
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://pavingways.github.io/mobile-ajax-application-test-and-demo_69.html">
+  <!--<link href="/favicon.png" rel="icon">-->
+  <link href="http://gravatar.com/userimage/336259/af37eb31524b5d5bee5e0f902fdb42fe.png
+?s=16" rel="shortcut icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="PavingWays" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+</head>
+
+<body   class="no-sidebar"  >
+  <header role="banner"><hgroup>
+  <h1><a href="/">PavingWays</a></h1>
+  
+    <h2>We build JavaScript applications</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<ul class="main-navigation">
+  <li><a href="/">About</a></li>
+  <li><a href="/projects/">Projects</a></li>
+  <li><a href="/blog/">Blog</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Mobile AJAX application to test and demo</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2007-01-04T00:00:00+01:00" pubdate data-updated="true">Jan 4<span>th</span>, 2007</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content">In <a href="http://www.pavingways.com/xml-2006-conference-boston-co-speaking_68.html">my presentation</a> at the <a href="http://2006.xmlconference.org/">XML 2006 conference in Boston </a>I tried to show that AJAX - as a technology in part based on XML - is a useful and promising tool to create web applications on mobile devices.<br>
+<br>
+To emphasize this, I updated our <a href="http://pwmwa.com/gc/">event finder application</a> that we had used on this year&#8217;s <a href="http://www.gc-germany.com/">Games Convention</a> in Leipzig, Germany. The application basically is a website for mobile phones that shows the currently running events of a trade show or conference. In the <a href="http://www.pwmwa.com/xml06/">updated version for the XML 2006 conference</a> I added some AJAX stuff to show and test it&#8217;s usefulness:<br>
+<!--more--> If you open the URL (<a href="http://www.pwmwa.com/xml06/">http://www.pwmwa.com/xml06/</a>) you will get a list of all events currently running and those coming up during the next 24 hours. Every event in this list contains a link that points to a page with detailed information about the event. Using JavaScript this link is captured and an XHR call is made to retrieve the details of the event ad show them directly on the list, saving a lot of unnecessary page reloads and making the page (theoretically) work on different devices.<br>
+Below the details of the event users can leave comments, which are also added to the list using XHR.<br>
+<br>
+Summarized, users load a list of events once and then load additional information to some events and post information to some others - always only loading the necessary parts of the page.<br>
+<br>
+One main point in my presentation was that cross-platform Mobile AJAX really is possible, because already many mobile web browsers support the XMLHttpRequest. For those that do not support it, the application needs to provide fall-backs, so it works without XHR as well. The event finder demo accordingly works on different mobile browsers: Pocket IE (IE Mobile), Opera Mobile (not Mini) and even Minimo make use of the AJAX capabilities, while other browsers, such as Opera Mini still work and just reload the whole page everytime you click somewhere.<br>
+<br>
+Speaking of support it became pretty clear that the phone at least needs to support XHTML ad CSS (WAP 2.0) correctly in order to use the application (which is XHTML-MP). A short test on a Nokia N80 quickly assured me that this phone&#8217;s integrated browser has it&#8217;s difficulties with the table-less CSS layout.<br>
+<br>
+The event finder really does AJAH, not AJAX - loading HTML parts instead of pure XML data - out of reasons I also explained in my presentation: with mobile AJAX you have to deal with a trade-off between small traffic and device capabilities. This means if you transfer pure XML with an XHR call, the traffic might be smaller compared to transferring HTML, but if you only receive XML data on the client you need to do a lot more post-processing (DOM scripting) in order to produce the desired output, which equals the HTML. To do this, the client (mobile phone browser) needs capabilities to do that (JavaScript implementation). Also the client uses more CPU and thus battery power, resulting in a shorter and probably slower overall experience. Therefore I currently see AJAH as the best solution for this type of problem.<br>
+<br>
+If you want, check out the mobile <a href="http://www.pwmwa.com/xml06/">event finder application for the XML 2006 conference</a> right <a href="http://www.pwmwa.com/xml06/">here</a> (best using your phone) - and tell me about it! Does XHR work on your device? Does the page show correctly (compare to mozilla output)? etc&#8230;<br>
+<br>
+Thanks to Dave for putting the link to the application on the XML 2006 conference website!
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2007-01-04T00:00:00+01:00" pubdate data-updated="true">Jan 4<span>th</span>, 2007</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/categories/conferences-slash-events/'>Conferences/Events</a>, <a class='category' href='/categories/mobile-ajax/'>Mobile Ajax</a>, <a class='category' href='/categories/mobile-technologies/'>Mobile Technologies</a>, <a class='category' href='/categories/mobile-web/'>Mobile Web</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/xml-2006-conference-boston-pecha-kucha-pechakucha_67.html" title="Previous Post: XML 2006 Conference Boston - Pecha Kucha">&laquo; XML 2006 Conference Boston - Pecha Kucha</a>
+      
+      
+        <a class="basic-alignment right" href="/apple-iphone-safari-on-a-mobile-phone_71.html" title="Next Post: Apple unveils iPhone - Safari on a mobile phone!">Apple unveils iPhone - Safari on a mobile phone! &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"></div>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+  </section>
+
+</div>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2014 - PavingWays Limited -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'pavingways-blog';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://pavingways.github.io/mobile-ajax-application-test-and-demo_69.html';
+        var disqus_url = 'http://pavingways.github.io/mobile-ajax-application-test-and-demo_69.html';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
