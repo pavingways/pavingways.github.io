@@ -1,10 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="97eea473-ac12-49dd-a834-174f89561a0c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/datenschutz.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imprint.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adobe-air-goes-mobile-joins-limo-2_1534.html" beforeDir="false" afterPath="$PROJECT_DIR$/adobe-air-goes-mobile-joins-limo-2_1534.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apple-startet-b2b-app-store-in-den-usa_2413.html" beforeDir="false" afterPath="$PROJECT_DIR$/apple-startet-b2b-app-store-in-den-usa_2413.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archives/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/archives/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archives/page/10/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/archives/page/10/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archives/page/16/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/archives/page/16/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archives/page/2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/archives/page/2/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archives/page/3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/archives/page/3/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archives/page/4/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/archives/page/4/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archives/page/5/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/archives/page/5/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archives/page/6/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/archives/page/6/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archives/page/7/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/archives/page/7/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atmedia-conference-2006-summary-day-1_13.html" beforeDir="false" afterPath="$PROJECT_DIR$/atmedia-conference-2006-summary-day-1_13.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atmedia-conference-2006-summary-day-2_15.html" beforeDir="false" afterPath="$PROJECT_DIR$/atmedia-conference-2006-summary-day-2_15.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/atom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/attend-3-exciting-mobile-events-on-1-day_1872.html" beforeDir="false" afterPath="$PROJECT_DIR$/attend-3-exciting-mobile-events-on-1-day_1872.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baby-roulette-now-available-app-store_1597.html" beforeDir="false" afterPath="$PROJECT_DIR$/baby-roulette-now-available-app-store_1597.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blackberry-app-world_825.html" beforeDir="false" afterPath="$PROJECT_DIR$/blackberry-app-world_825.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/categories/mobile-applications/atom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/categories/mobile-applications/atom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/categories/mobile-browsers/atom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/categories/mobile-browsers/atom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/categories/mobile-technologies/atom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/categories/mobile-technologies/atom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/categories/mobile-trends/atom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/categories/mobile-trends/atom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/categories/mobile-web/atom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/categories/mobile-web/atom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/categories/mobile-widgets/atom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/categories/mobile-widgets/atom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/categories/statistics/atom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/categories/statistics/atom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/even-more-mobile-applications-hit-cars-2_1514.html" beforeDir="false" afterPath="$PROJECT_DIR$/even-more-mobile-applications-hit-cars-2_1514.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/happy-new-year-2011_1920.html" beforeDir="false" afterPath="$PROJECT_DIR$/happy-new-year-2011_1920.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/have-you-heard-of-mywaves_137.html" beforeDir="false" afterPath="$PROJECT_DIR$/have-you-heard-of-mywaves_137.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html5css3-meetup-april-recap_1647.html" beforeDir="false" afterPath="$PROJECT_DIR$/html5css3-meetup-april-recap_1647.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html5css3-meetup-june-recap_1711.html" beforeDir="false" afterPath="$PROJECT_DIR$/html5css3-meetup-june-recap_1711.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html5css3-meetup-march-recap_1572.html" beforeDir="false" afterPath="$PROJECT_DIR$/html5css3-meetup-march-recap_1572.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leveling-the-mobile-playing-field-mobile-startups-microsoft-motorola-verizon_64.html" beforeDir="false" afterPath="$PROJECT_DIR$/leveling-the-mobile-playing-field-mobile-startups-microsoft-motorola-verizon_64.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meeting-jajah-web2-and-poland_66.html" beforeDir="false" afterPath="$PROJECT_DIR$/meeting-jajah-web2-and-poland_66.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobi-time-frame_32.html" beforeDir="false" afterPath="$PROJECT_DIR$/mobi-time-frame_32.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-ajax-post-answered_127.html" beforeDir="false" afterPath="$PROJECT_DIR$/mobile-ajax-post-answered_127.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-applications-hit-cars_1031.html" beforeDir="false" afterPath="$PROJECT_DIR$/mobile-applications-hit-cars_1031.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-devices-market-mobile-messaging-adaption-2_1388.html" beforeDir="false" afterPath="$PROJECT_DIR$/mobile-devices-market-mobile-messaging-adaption-2_1388.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-unconference-coming-to-germany_1799.html" beforeDir="false" afterPath="$PROJECT_DIR$/mobile-unconference-coming-to-germany_1799.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/more-mwc-news-symbian-nokia-ericsson-2_1199.html" beforeDir="false" afterPath="$PROJECT_DIR$/more-mwc-news-symbian-nokia-ericsson-2_1199.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mwc-news-googles-strategy-and-android-windows-marketplace_1565.html" beforeDir="false" afterPath="$PROJECT_DIR$/mwc-news-googles-strategy-and-android-windows-marketplace_1565.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nintendo-ds-opera-browser-available-in-europe-soon_35.html" beforeDir="false" afterPath="$PROJECT_DIR$/nintendo-ds-opera-browser-available-in-europe-soon_35.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodejs-node-is-important-introduction_1618.html" beforeDir="false" afterPath="$PROJECT_DIR$/nodejs-node-is-important-introduction_1618.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nokia-developer-summit-2009-wrap-up-day-1_517.html" beforeDir="false" afterPath="$PROJECT_DIR$/nokia-developer-summit-2009-wrap-up-day-1_517.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/panel-discussion-at-frankfurt-book-fair-2009_957.html" beforeDir="false" afterPath="$PROJECT_DIR$/panel-discussion-at-frankfurt-book-fair-2009_957.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phonegap-meetup-2-retrospektive_2431.html" beforeDir="false" afterPath="$PROJECT_DIR$/phonegap-meetup-2-retrospektive_2431.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phonegaphtml5-meetup-1-kick-off_2308.html" beforeDir="false" afterPath="$PROJECT_DIR$/phonegaphtml5-meetup-1-kick-off_2308.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phonegaphtml5-meetup-2_2418.html" beforeDir="false" afterPath="$PROJECT_DIR$/phonegaphtml5-meetup-2_2418.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qr-codes-als-marketinginstrument_2379.html" beforeDir="false" afterPath="$PROJECT_DIR$/qr-codes-als-marketinginstrument_2379.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qr-codes-as-marketing-tool_2323.html" beforeDir="false" afterPath="$PROJECT_DIR$/qr-codes-as-marketing-tool_2323.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recap-of-a-successful-mobile-unconference_1897.html" beforeDir="false" afterPath="$PROJECT_DIR$/recap-of-a-successful-mobile-unconference_1897.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rim-to-launch-blackberry-application-storefront-and-blackberry-application-center_218.html" beforeDir="false" afterPath="$PROJECT_DIR$/rim-to-launch-blackberry-application-storefront-and-blackberry-application-center_218.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sf-new-tech-september-meetup-09052007_132.html" beforeDir="false" afterPath="$PROJECT_DIR$/sf-new-tech-september-meetup-09052007_132.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/the-mobile-internet-has-arrived_260.html" beforeDir="false" afterPath="$PROJECT_DIR$/the-mobile-internet-has-arrived_260.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unser-blog-ist-nun-auch-in-deutsch-verfugbar_2258.html" beforeDir="false" afterPath="$PROJECT_DIR$/unser-blog-ist-nun-auch-in-deutsch-verfugbar_2258.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upcoming-mobile-events_900.html" beforeDir="false" afterPath="$PROJECT_DIR$/upcoming-mobile-events_900.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmontag-frankfurt_980.html" beforeDir="false" afterPath="$PROJECT_DIR$/webmontag-frankfurt_980.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/widget-development-competitions_1078.html" beforeDir="false" afterPath="$PROJECT_DIR$/widget-development-competitions_1078.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +71,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;rocco&quot;
+  }
+}</component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
       <filtered-out-file-type name="LOCAL_BRANCH" />
@@ -22,26 +85,43 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:pavingways/pavingways.github.io.git&quot;,
+    &quot;accountId&quot;: &quot;7c3e93e8-18b7-44cd-9f4a-d937761edcbf&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="21NwTkzbEl0s61XoomI4kpj3SQS" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="HTML" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.CommitDialog" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/Rocco/Develop/pavingways/pavingways.github.io&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  }
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
